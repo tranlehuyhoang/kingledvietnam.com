@@ -1,0 +1,9 @@
+				@font-face {
+				    font-family: 'avo';
+				    src: url('/assets/wp-content/uploads/useanyfont/9931Avo.woff2') format('woff2'), url('/assets/wp-content/uploads/useanyfont/9931Avo.woff') format('woff');
+				    font-display: auto;
+				}
+				
+				.avo {
+				    font-family: 'avo' !important;
+				}
