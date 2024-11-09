@@ -40,14 +40,15 @@ class SettingResource extends Resource
                     ->maxLength(255)
                     ->default(null)
                     ->label('Địa chỉ'),
-                Forms\Components\TextInput::make('map')
-                    ->default(null)
-                    ->label('Link google map cửa hàng'),
 
                 Forms\Components\TextInput::make('hotline')
                     ->maxLength(255)
                     ->default(null)
                     ->label('Hotline'),
+                Forms\Components\TextInput::make('hotline2')
+                    ->maxLength(255)
+                    ->default(null)
+                    ->label('Hotline 2'),
 
                 Forms\Components\TextInput::make('email')
                     ->email()
@@ -98,25 +99,6 @@ class SettingResource extends Resource
         // Section: Mạng Xã Hội
         Forms\Components\Section::make('Mạng Xã Hội')
             ->schema([
-                Forms\Components\TextInput::make('facebook')
-                    ->label('Facebook')
-                    ->placeholder('Nhập link Facebook'),
-
-                Forms\Components\TextInput::make('youtube')
-                    ->label('YouTube')
-                    ->placeholder('Nhập link YouTube'),
-
-                Forms\Components\TextInput::make('shopee')
-                    ->label('Shopee')
-                    ->placeholder('Nhập link Shopee'),
-
-                Forms\Components\TextInput::make('zalo')
-                    ->label('Zalo')
-                    ->placeholder('Nhập link Zalo'),
-                Forms\Components\TextInput::make('ministry_of_industry_and_trade_link')
-                    ->label('Bộ Công Thương')
-                    ->placeholder('Nhập link Bộ Công Thương'),
-
                 Forms\Components\FileUpload::make('web_icon')
                     ->label('Icon Web')
                     ->placeholder('Upload  icon'),

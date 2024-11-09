@@ -1,4 +1,7 @@
 <div>
+    @php
+    $settings = App\Models\Setting::first(); // Truy vấn model Settings
+    @endphp
     <footer id="footer" class="footer-wrapper">
 
 
@@ -12,19 +15,11 @@
 
                     <div class="philips">
                         <h2 style="font-size:20px;">
-                            <span>Đèn KingLED Việt Nam</span><br />
+                            <span>{{$settings->web_name}}</span><br />
                         </h2>
-                        <p style="padding-top:10px;">Sản phẩm đèn led KingLED rất đa dạng và phong phú, phục
-                            vụ tất
-                            cả các nhu cầu thiết yếu của công trình công nghiệp dân dụng. Các loại đèn led
-                            KingLED
-                            chuyên dụng như : Đèn led âm trần, Đèn Led ốp trần, Đèn tuýp led, Đèn led búp,
-                            Đèn Led
-                            Công Nghiệp, Đèn Thả Nghệ Thuật, Đèn Trang Trí, Đèn Chùm, Đèn led dây, Đèn Rọi
-                            Ray, Đèn
-                            học, đèn bàn Đèn học, đèn led bàn, Đèn Sân Vườn ,đèn Sưởi Nhà Tắm, Máng Đèn Led
-                            , Phụ
-                            kiện <a href="https://denled.com.vn">đèn led</a>.</p>
+                        <p style="padding-top:10px;">
+                            {{$settings->company_description}}
+                        </p>
                     </div>
                 </div>
 
@@ -33,28 +28,23 @@
                     <div class="thong-tin-a">
                         <p><b>Thông Tin Liên Hệ</b></p>
                         <ul>
-                            <li><a> <img style="width: 19px; float: left; margin-right: 7px; margin-left: -11px;"
-                                        src="/assets/wp-content/uploads/2019/06/home_icon.png" />Nhà
-                                    máy sản xuất : Khu 4, Thị trấn Đông Anh, Hà Nội</a></li>
-                            <li><a> <img style="width: 19px; float: left; margin-right: 7px; margin-left: -11px;"
-                                        src="/assets/wp-content/uploads/2019/06/home_icon.png" />Trụ
-                                    sở chính : Số 31 Hoàng Quốc Việt - Nghĩa Đô - Cầu Giấy - TP.Hà Nội
-                                    Hotline :
-                                    0904.6789.22.</a></li>
+                            
                             <li><a><img style="width: 19px; float: left; margin-right: 7px; margin-left: -11px;" " src="
                                         /assets/wp-content/uploads/2019/06/icon-dia-chi.png" />
-                                    Cơ sở TP.HCM : </a><a>50/1 Quang Trung, Phường 10</a><a>, Quận Gò Vấp,
-                                    TP.Hồ Chí
-                                    Minh.</a><a> Hotline : 0909.961.962.</a></li>
+                                        {{$settings->address}}</a></li>
                             <li><a><img style="width: 19px; float: left; margin-right: 7px; margin-left: -11px;"
                                         src="/assets/wp-content/uploads/2019/06/line-clipart-transparent-2.png" />
-                                    Hotline: (0243)9352.999</a></li>
+                                    Hotline: {{$settings->hotline}}</a></li>
                             <li><a><img style="width: 19px; float: left; margin-right: 7px; margin-left: -11px;"
                                         src="/assets/wp-content/uploads/2019/06/Mail-min.png" />
-                                    Email: kingledvietnam@gmail.com</a></li>
-                            <li><a><img style="width: 19px; float: left; margin-right: 7px; margin-left: -11px;"
-                                        src="/assets/wp-content/uploads/2019/06/icon-blue-m-web-based-min.png" />
-                                    Website: https://kingledvietnam.com</a></li>
+                                    Email: {{$settings->email}}</a></li>
+                                    <li>
+                                        <a>
+                                            <img style="width: 19px; float: left; margin-right: 7px; margin-left: -11px;"
+                                                 src="/assets/wp-content/uploads/2019/06/icon-blue-m-web-based-min.png" />
+                                            Website: {{ config('app.url') }}
+                                        </a>
+                                    </li>
                         </ul>
                     </div>
                 </div>
@@ -95,8 +85,8 @@
 
                 <div class="footer-primary pull-left">
                     <div class="copyright-footer">
-                        Copyright 2019 © <strong style="color:white;">Cung cấp bởi <span
-                                style="text-transform: uppercase; color:white;">tamkimgroup.com</span></strong>
+                        Copyright 2024 © <strong style="color:white;">Cung cấp bởi <span
+                                style="text-transform: uppercase; color:white;">{{ config('app.url') }}</span></strong>
                         <p>
                             <a href="//www.dmca.com/Protection/Status.aspx?ID=1018acc3-d3fb-463f-a9a7-d52c69e68dad"
                                 title="DMCA.com Protection Status" class="dmca-badge"> <img
@@ -113,8 +103,8 @@
             aria-label="Lên đầu trang"><i class="icon-angle-up"></i></a>
 
     </footer>
-    <div class="call-mobile"> <a id="callnowbutton" href="tel:0989043239">0989.04.3239</a><i class="fa fa-phone"><a
-                id="callnowbutton" href="tel:0989043239"></a></i></div>
-    <div class="call-mobile-1"> <a id="callnowbutton" href="tel:0982051651">0982.051.651</a><i class="fa fa-phone"><a
-                id="callnowbutton" href="tel:0982051651"></a></i></div>
+    <div class="call-mobile"> <a id="callnowbutton" href="tel:{{$settings->hotline}}">{{$settings->hotline}}</a><i class="fa fa-phone"><a
+                id="callnowbutton" href="tel:{{$settings->hotline}}"></a></i></div>
+    <div class="call-mobile-1"> <a id="callnowbutton" href="tel:{{$settings->hotline2}}">{{$settings->hotline2}}</a><i class="fa fa-phone"><a
+                id="callnowbutton" href="tel:{{$settings->hotline2}}"></a></i></div>
 </div>

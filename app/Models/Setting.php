@@ -13,6 +13,7 @@ class Setting extends Model
         'address',
         'baogia',
         'hotline',
+        'hotline2',
         'email',
         'website',
         'copyright',

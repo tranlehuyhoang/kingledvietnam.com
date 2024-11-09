@@ -50,7 +50,7 @@ Route::get('/gioi-thieu', About::class);
 Route::get('/cua-hang', Shop::class);
 Route::get('/cua-hang/{slug}', Category::class);
 Route::get('/cua-hang/{slug}/{sub}', Subcategory::class);
-Route::get('/san-pham/den-led-am-tran-ruby-12w-don-sac-dl-12ss-t140-kingled/', ProductDetail::class);
+Route::get('/san-pham/{slug}/', ProductDetail::class);
 
 Route::get('/bao-gia', BaoGia::class);
 Route::get('/lien-he', Contact::class);
