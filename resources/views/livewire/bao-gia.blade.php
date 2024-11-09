@@ -1,5 +1,8 @@
 <div>
 	<div>
+        @php
+        $settings = App\Models\Setting::first(); // Truy vấn model Settings
+        @endphp
 
 		<head>
 			<meta charset="UTF-8" />
@@ -986,36 +989,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 					<div id="content" class="content-area page-wrapper" role="main">
 						<div class="row row-main">
 							<div class="large-12 col">
-								<div class="col-inner">
-
-
-
-									<p><span style="font-family: verdana, geneva, sans-serif; color: #000000;"><strong><em>Tại
-													đây,</em></strong> chúng tôi cung cấp các dòng sản phẩm<em> bóng đèn
-												led KingLED chính hãng</em> đầy đủ các hóa đơn,chứng từ và giấy chứng
-											nhận chất lượng (CQ), xuất xứ hàng hóa (CO), với chính sách đổi trả 1 đổi 1
-											trong thời gian bảo hành từ nhà sản xuất.</span></p>
-									<p><span style="font-family: verdana, geneva, sans-serif; color: #000000;">Song song
-											với đó,chúng tôi với lợi thế là công ty thuộc kênh<strong> <em>phân phối sỉ
-												</em></strong>các sản phẩm <strong><em><span style="color: #000000;"><a
-															style="color: #000000;"
-															href="https://kingledvietnam.com">bóng đèn led
-															kingled</a></span>, </em></strong>nên chúng tôi có những
-											chính sách giá cực kỳ ưu đãi và các chương trình khuyến mãi cực hấp dẫn cho
-											khách hàng.</span></p>
-									<p><span style="font-family: verdana, geneva, sans-serif; color: #000000;">Ngoài ra,
-											chúng tôi còn có những ưu đãi về giá đặc biệt cho các nhà phân phối, cửa
-											hàng, đại lý chuyên về thiết bị điện và chiếu sáng.</span></p>
-									<p><span style="font-family: verdana, geneva, sans-serif; color: #000000;">Chúng tôi
-											luôn luôn hướng đến cho khách hàng<strong><em> “Sản phẩm có chất lượng tốt
-													nhất với giá thành hợp lý nhất, thời gian giao hàng nhanh nhất và
-													Dịch vụ chăm sóc khách hàng tốt nhất”.</em></strong></span></p>
-									<p style="text-align: center;"><span
-											style="font-family: verdana, geneva, sans-serif; color: #000000;">&gt;&gt;&gt;
-											<a href="https://kingled.vn/bang-gia-den-led-kingled"><em><span
-														style="color: #3366ff;"><strong>Bảng báo giá đèn led KingLED
-															2023</strong></span></em></a> &lt;&lt;&lt;</span></p>
-
+								<div class="col-inner"> 
+									{!! $settings->baogia !!}
 
 								</div>
 							</div>

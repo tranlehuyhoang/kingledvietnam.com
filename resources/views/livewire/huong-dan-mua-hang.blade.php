@@ -1,8 +1,9 @@
 <div>
     <div>
 
-        <!DOCTYPE html>
-        <html lang="vi" class="loading-site no-js">
+        @php
+        $settings = App\Models\Setting::first(); // Truy vấn model Settings
+        @endphp
 
         <head>
             <meta charset="UTF-8" />
@@ -998,45 +999,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                         <div class="row row-main">
                             <div class="large-12 col">
                                 <div class="col-inner">
-
-
-
-                                    <p><span style="color: #000000;">Sau khi quyết định sản phẩm cần mua, quý khách lựa
-                                            chọn theo 2 hình thức dưới đây:</span></p>
-                                    <p><span style="color: #000000;"><strong>1. Đến trực tiếp xem mẫu sản phẩm và thanh
-                                                toán tại Showroom</strong></span><br />
-                                        <span style="color: #000000;"> – Với những sản phẩm nhỏ, gọn, nhẹ quý khách có
-                                            thể tự vận chuyển.</span><br />
-                                        <span style="color: #000000;"> – Với những sản phẩm có khối lượng nặng, kích cỡ
-                                            lớn chúng tôi sẽ hỗ trợ vận chuyển đến tận nhà quý khách hàng. (Miễn phí
-                                            hoặc có tính phí tùy theo nhóm hàng đã niêm yết trên website)</span>
-                                    </p>
-                                    <p><span style="color: #000000;"><strong>2. Mua hàng online, email hoặc mua hàng qua
-                                                điện thoại</strong></span></p>
-                                    <p><span style="color: #000000;">Bước 1 : Đặt hàng</span><br />
-                                        <span style="color: #000000;"> – Đặt hàng online tại hệ thống website
-                                            <strong>https://kingledvietnam.com/</strong></span><br />
-                                        <span style="color: #000000;"> – Gọi điện trực tiếp để đặt hàng</span><br />
-                                        <span style="color: #000000;"> – Gửi Email đính kèm hình ảnh hoặc mã sản phẩm
-                                            cùng với nội dung yêu cầu.</span><br />
-                                        <span style="color: #000000;">Bước 2 : Đặt cọc</span><br />
-                                        <span style="color: #000000;"> – Đặt cọc trước 30%- 50% qua tài
-                                            khoản</span><br />
-                                        <span style="color: #000000;"> – Số tài khoản: 0451000236017 Ngân hàng ngoại
-                                            thương Vietcombank &#8211; chi nhánh Thành công- Hà Nội, chủ tài khoản :
-                                            Nguyễn Vĩnh Toán</span><br />
-                                        <span style="color: #000000;">Bước 3: Xác nhận đặt cọc và hẹn thời gian giao
-                                            hàng</span><br />
-                                        <span style="color: #000000;">Bước 4: Nhận hàng và thanh toán phần còn
-                                            lại.</span><br />
-                                        <span style="color: #000000;"><em><strong>Lưu ý:</strong></em> <em>Với những sản
-                                                phẩm có bao gồm lắp đặt, khi hàng đến tại địa chỉ của khách hàng, chúng
-                                                tôi yêu cầu thanh toán 80% giá trị đơn hàng, sau khi lắp đặt nghiệm thu
-                                                quý khách hàng thanh toán nốt 20% còn lại.</em></span>
-                                    </p>
-
-
-                                </div>
+                                    {!! $settings->purchase_guide !!}
+                                 </div>
                             </div>
                         </div>
                     </div>
@@ -1665,7 +1629,6 @@ var wc_password_strength_meter_params = {"min_password_strength":"3","stop_check
 
         </body>
 
-        </html>
 
         <!-- Page cached by LiteSpeed Cache 6.5.1 on 2024-11-07 08:50:54 -->
     </div>

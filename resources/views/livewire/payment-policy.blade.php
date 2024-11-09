@@ -1,8 +1,9 @@
 <div>
     <div>
 
-        <!DOCTYPE html>
-        <html lang="vi" class="loading-site no-js">
+        @php
+        $settings = App\Models\Setting::first(); // Truy vấn model Settings
+        @endphp
 
         <head>
             <meta charset="UTF-8" />
@@ -996,30 +997,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                     <div id="content" class="content-area page-wrapper" role="main">
                         <div class="row row-main">
                             <div class="large-12 col">
-                                <div class="col-inner">
-
-
-
-                                    <p><span style="color: #000000;"><a style="color: #000000;"
-                                                href="http://denled.com.vn/">Nhà phân phối VINALIGHT</a> hiện đang hỗ
-                                            trợ khách hàng khi sử dụng dịch vụ mua hàng tại website với các hình thức
-                                            thanh toán như sau :</span></p>
-                                    <p><span style="color: #000000;">1. Thanh toán tiền mặt trực tiếp tại một trong các
-                                            địa điểm sau :</span></p>
-                                    <p><span style="color: #000000;">– Hà Nội : Số 31 Hoàng Quốc Việt – Phường Nghĩa Đô
-                                            – Quận Cầu Giấy – Hà Nội <strong>hoặc</strong> Số 5/85 Phố Hạ Đình, Phường
-                                            Thanh Xuân Trung, Quận Thanh Xuân, Hà Nội.</span></p>
-                                    <p><span style="color: #000000;">– TP Hồ Chí Minh : Số 50/1 Quang Trung – Phường 10
-                                            – Quận Gò Vấp – TP Hồ Chí Minh .</span></p>
-                                    <p><span style="color: #000000;">2. Thanh toán chuyển khoản theo thông tin sau
-                                            :</span></p>
-                                    <p><span style="color: #000000;">Công ty cổ phần thiết bị điện và chiếu sáng
-                                            Vinalight</span></p>
-                                    <p><span style="color: #000000;">Tài khoản số : <strong>26110009999666 tại Ngân hàng
-                                                BIDV Chi nhánh Tràng An – Hà Nội.</strong></span></p>
-                                    <p><span style="color: #000000;">Trân trọng cảm ơn.</span></p>
-
-
+                                <div class="col-inner"> 
+                                    {!! $settings->payment_guide !!}
                                 </div>
                             </div>
                         </div>
@@ -1648,7 +1627,6 @@ var wc_password_strength_meter_params = {"min_password_strength":"3","stop_check
 
         </body>
 
-        </html>
 
         <!-- Page cached by LiteSpeed Cache 6.5.1 on 2024-11-07 09:24:37 -->
     </div>

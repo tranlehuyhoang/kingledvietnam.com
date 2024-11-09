@@ -1,9 +1,8 @@
 <div>
     <div>
-
-        <!DOCTYPE html>
-        <html lang="vi" class="loading-site no-js">
-
+        @php
+        $settings = App\Models\Setting::first(); // Truy vấn model Settings
+        @endphp
         <head>
             <meta charset="UTF-8" />
             <meta name="viewport"
@@ -1001,73 +1000,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                     <div id="content" class="content-area page-wrapper" role="main">
                         <div class="row row-main">
                             <div class="large-12 col">
-                                <div class="col-inner">
-
-
-
-                                    <p><span style="color: #000000; font-family: verdana, geneva, sans-serif;">Quý Khách
-                                            hàng thân mến,</span></p>
-                                    <p><span style="color: #000000; font-family: verdana, geneva, sans-serif;">Cảm ơn
-                                            Quý khách đã dành thời gian ghé thăm website của KingLED Việt Nam, chúng tôi
-                                            vô cùng biết ơn khi quý vị đọc hết lời giới thiệu của chúng tôi phía dưới
-                                            đây.</span></p>
-                                    <p><span style="color: #000000; font-family: verdana, geneva, sans-serif;">KingLED
-                                            là đơn vị chuyên cung cấp các sản phẩm về thiết bị chiếu sáng, tiên phong
-                                            trong việc ứng dụng công nghệ LED vào chiếu sáng dân dụng và công nghiệp,
-                                            chúng tôi luôn xác định rõ mục tiêu và hướng đi của công ty đó là : Lấy Chất
-                                            lượng làm Gốc cho sự phát triển ! tuyệt đối không cung cấp hàng nhái, hàng
-                                            giả, hàng kém phẩm chất !</span></p>
-                                    <p><span style="color: #000000; font-family: verdana, geneva, sans-serif;">Với quan
-                                            điểm trên, thời gian ban đầu chúng tôit gặp vô vàn những khó khăn vì phải
-                                            cạnh tranh với những sản phẩm LED giá rẻ tràn ngập thị trường, có đôi lúc
-                                            tưởng chừng như muốn bỏ cuộc khi khách hàng từ chối mua vì giá chênh lệch
-                                            quá nhiều. Những câu hỏi luôn phải trả lời khách hàng : Tại sao cùng là đèn
-                                            LED, cùng công suất, sao đèn KingLED bán cao hơn hàng mua ở chợ ?</span></p>
-                                    <p><span style="color: #000000; font-family: verdana, geneva, sans-serif;">Để trả
-                                            lời câu hỏi trên, chúng tôi phải mất rất nhiều thời gian để giải thích, phân
-                                            tích, so sánh thậm chí để khách hàng dùng thử để có trải nghiệm thực tế, để
-                                            khách hàng thấy rõ một chiếc <a style="color: #000000;"
-                                                href="https://denled.com.vn">đèn LED</a></span></p>
-                                    <p><span style="color: #000000; font-family: verdana, geneva, sans-serif;">có thương
-                                            hiệu khác một sản phẩm trôi nổi như thế nào !</span></p>
-                                    <p><span style="color: #000000; font-family: verdana, geneva, sans-serif;">Trải qua
-                                            thời gian, chúng tôi có được thành công ngày hôm nay chính là nhờ vào sự
-                                            quyết tâm của toàn thể cán bộ nhân viên , hơn hết là sự ủng hộ của quý khách
-                                            hàng. Từ một cửa hàng nhỏ tại Hà Nội, đến nay chúng tôi đã có hệ thống cửa
-                                            hàng từ Bắc vào Nam.</span></p>
-                                    <p><span style="color: #000000; font-family: verdana, geneva, sans-serif;">KINGLED
-                                            hiện đang là đối tác phân phối các sản phẩm LED uy tín trên thị trường : Đèn
-                                            âm trần, đèn ốp trần, đèn led panel, pha led, đèn trang trí,&#8230;</span>
-                                    </p>
-                                    <p><span style="color: #000000; font-family: verdana, geneva, sans-serif;">Cho đến
-                                            nay, khách hàng của chúng tôi ngày càng nhiều hơn, gồm có :</span></p>
-                                    <p><span style="color: #000000; font-family: verdana, geneva, sans-serif;"><strong>Hệ
-                                                thống cửa hàng</strong> : Thời trang cao cấp IVY Moda, An Phước – Pierre
-                                            Cardin, Converse, Eva shoes, KFC, Fresh Garden, King BBQ, Paris Gateaux
-                                            …</span></p>
-                                    <p><span style="color: #000000; font-family: verdana, geneva, sans-serif;"><strong>Các
-                                                đối tác thi công</strong> : Công ty Đô Thị Long Giang, Công ty xây Dựng
-                                            Xuân Mai, Công ty Hà Thành (Bộ tư lệnh Thủ Đô), Công ty 36.72 (Tổng công ty
-                                            36), Công ty HDD (Lào), Tập đoàn Thành Đô, Sông Đà Hà Nội, Tập đoàn Hưng
-                                            Hải, Công ty ĐKD…</span></p>
-                                    <p><span style="color: #000000; font-family: verdana, geneva, sans-serif;"><strong>Khách
-                                                hàng trực tiếp</strong> : UBND Huyện Gia Lâm, Công ty Xuất Nhập Khẩu
-                                            Viettel, Ngân hàng ViettinBank, Nhà máy máy may Nam Đông – Thái Bình, Công
-                                            ty ABC Việt Nam, ngân hàng BIDV, Ngân hàng Techcombank&#8230;</span></p>
-                                    <p><span style="color: #000000; font-family: verdana, geneva, sans-serif;">Là một
-                                            doanh nghiệp trẻ, bằng nỗ lực không ngừng của đội ngũ cán bộ công nghân
-                                            viên, KINGLED đã trở thành thương hiệu uy tín trong lĩnh vực chiếu sáng,
-                                            được nhiều người biết đến.</span></p>
-                                    <p><span style="color: #000000; font-family: verdana, geneva, sans-serif;">Chúng cam
-                                            kết mang đến cho quý Khách Hàng sự hài lòng tối đa bằng các sản phẩm chất
-                                            lượng cao với giá thành hợp lý nhất.</span></p>
-                                    <p><span style="color: #000000; font-family: verdana, geneva, sans-serif;">Hy vọng
-                                            trong tương lai gần, chúng tôi rất lấy làm vinh dự được đóng góp một phần
-                                            nhỏ vào sự thành công của Quý Khách Hàng.</span></p>
-                                    <p><span style="color: #000000; font-family: verdana, geneva, sans-serif;">Trân
-                                            trọng kính chào,</span></p>
-
-
+                                <div class="col-inner">  
+                                    {!! $settings->introduction !!}    
                                 </div>
                             </div>
                         </div>
@@ -1698,7 +1632,6 @@ var wc_password_strength_meter_params = {"min_password_strength":"3","stop_check
 
         </body>
 
-        </html>
 
         <!-- Page cached by LiteSpeed Cache 6.5.1 on 2024-11-07 08:34:35 -->
     </div>

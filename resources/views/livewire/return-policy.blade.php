@@ -1,9 +1,9 @@
 <div>
     <div>
 
-        <!DOCTYPE html>
-        <html lang="vi" class="loading-site no-js">
-
+        @php
+        $settings = App\Models\Setting::first(); // Truy vấn model Settings
+        @endphp
         <head>
             <meta charset="UTF-8" />
             <meta name="viewport"
@@ -996,37 +996,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                     <div id="content" class="content-area page-wrapper" role="main">
                         <div class="row row-main">
                             <div class="large-12 col">
-                                <div class="col-inner">
-
-
-
-                                    <h2><span style="color: #000000;"><strong>CHÍNH SÁCH ĐỔI TRẢ HÀNG</strong></span>
-                                    </h2>
-                                    <h3><span style="color: #000000;">1. Đổi sang chủng loại hàng hóa khác.</span></h3>
-                                    <p><span style="color: #000000;">Trong thời gian 03 ngày, Vinalight Miễn phí cho
-                                            việc đổi sang chủng loại hàng khác tương đương với sản phẩm nguyên đai
-                                            nguyên kiện, còn vỏ hộp, chưa đấu nối điện, vì khách hàng của Vinalight
-                                            không muốn mua sản phẩm đã</span></p>
-                                    <p><span style="color: #000000;">Sản phẩm đã mua quá 03 ngày chúng tôi sẽ nhận đổi
-                                            hàng có tính phí (không quá 10 % giá trị mua ban đầu)</span></p>
-                                    <p><span style="color: #000000;">Sản phẩm đã cắt dây, mất bao bì, bị can thiệp từ
-                                            bên ngoài chúng tôi sẽ không nhận đổi vì chúng tôi cho đó là sản phẩm đã qua
-                                            sử dụng.</span></p>
-                                    <h3><span style="color: #000000;">2. Trả hàng đã mua dư thừa</span></h3>
-                                    <p><span style="color: #000000;">Trong 03 ngày, chúng tôi nhận lại miễn phí không
-                                            quá 10% hàng hóa đã mua với sản phẩm còn nguyên trạng thái ban đầu bàn giao,
-                                            chưa qua sử dụng.</span></p>
-                                    <p><span style="color: #000000;">Quá thời gian trên, quyết định việc đổi trả sẽ do
-                                            Vinalight đưa ra.</span></p>
-                                    <p><span style="color: #000000;">Địa điểm đổi trả hàng của Vinalight :</span></p>
-                                    <p><span style="color: #000000;">Hà Nội : Số 31 Hoàng Quốc Việt – Phường Nghĩa Đô –
-                                            Quận Cầu Giấy – Hà Nội <strong>hoặc</strong> Số 5/85 Phố Hạ Đình, Phường
-                                            Thanh Xuân Trung, Quận Thanh Xuân, Hà Nội.</span></p>
-                                    <p><span style="color: #000000;">– TP Hồ Chí Minh : Số <a
-                                                style="color: #000000;">50/1 Quang Trung</a> – Phường 10 – Quận Gò Vấp –
-                                            TP Hồ Chí Minh .</span></p>
-
-
+                                <div class="col-inner"> 
+                                    {!! $settings->return_policy !!}
                                 </div>
                             </div>
                         </div>
@@ -1656,7 +1627,6 @@ var wc_password_strength_meter_params = {"min_password_strength":"3","stop_check
 
         </body>
 
-        </html>
 
         <!-- Page cached by LiteSpeed Cache 6.5.1 on 2024-11-07 09:18:16 -->
     </div>

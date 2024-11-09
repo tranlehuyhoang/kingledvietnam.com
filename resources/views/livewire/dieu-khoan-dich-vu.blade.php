@@ -1,8 +1,9 @@
 <div>
     <div>
-
-        <!DOCTYPE html>
-        <html lang="vi" class="loading-site no-js">
+        @php
+        $settings = App\Models\Setting::first(); // Truy vấn model Settings
+        @endphp
+     
 
         <head>
             <meta charset="UTF-8" />
@@ -997,135 +998,9 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                     <div id="content" class="content-area page-wrapper" role="main">
                         <div class="row row-main">
                             <div class="large-12 col">
-                                <div class="col-inner">
-
-
-
-                                    <h3><strong><span style="color: #000000;">1. Giới thiệu</span></strong></h3>
-                                    <p><span style="color: #000000;">Chào mừng quý khách hàng đến với website chúng
-                                            tôi.</span></p>
-                                    <p><span style="color: #000000;">Khi quý khách hàng truy cập vào trang website của
-                                            chúng tôi có nghĩa là quý khách đồng ý với các điều khoản này. Trang web có
-                                            quyền thay đổi, chỉnh sửa, thêm hoặc lược bỏ bất kỳ phần nào trong Điều
-                                            khoản mua bán hàng hóa này, vào bất cứ lúc nào. Các thay đổi có hiệu lực
-                                            ngay khi được đăng trên trang web mà không cần thông báo trước. Và khi quý
-                                            khách tiếp tục sử dụng trang web, sau khi các thay đổi về Điều khoản này
-                                            được đăng tải, có nghĩa là quý khách chấp nhận với những thay đổi đó.</span>
-                                    </p>
-                                    <p><span style="color: #000000;">Quý khách hàng vui lòng kiểm tra thường xuyên để
-                                            cập nhật những thay đổi của chúng tôi.</span></p>
-                                    <h3><strong><span style="color: #000000;">2. Hướng dẫn sử dụng
-                                                website</span></strong></h3>
-                                    <p><span style="color: #000000;">Khi vào web của chúng tôi, khách hàng phải đảm bảo
-                                            đủ 18 tuổi, hoặc truy cập dưới sự giám sát của cha mẹ hay người giám hộ hợp
-                                            pháp. Khách hàng đảm bảo có đầy đủ hành vi dân sự để thực hiện các giao dịch
-                                            mua bán hàng hóa theo quy định hiện hành của pháp luật Việt Nam.</span></p>
-                                    <p><span style="color: #000000;">Trong suốt quá trình đăng ký, quý khách đồng ý nhận
-                                            email quảng cáo từ website. Nếu không muốn tiếp tục nhận mail, quý khách có
-                                            thể từ chối bằng cách nhấp vào đường link ở dưới cùng trong mọi email quảng
-                                            cáo.</span></p>
-                                    <h3><strong><span style="color: #000000;">3. Thanh toán an toàn và tiện
-                                                lợi</span></strong></h3>
-                                    <p><span style="color: #000000;">Người mua có thể tham khảo các phương thức thanh
-                                            toán sau đây và lựa chọn áp dụng phương thức phù hợp:</span></p>
-                                    <p><span style="color: #000000;">Cách 1: Thanh toán trực tiếp (người mua nhận hàng
-                                            tại địa chỉ người bán)</span><br />
-                                        <span style="color: #000000;">Cách 2: Thanh toán sau (COD – giao hàng và thu
-                                            tiền tận nơi). Chỉ áp dụng tại Hà Nội.</span><br />
-                                        <span style="color: #000000;">Cách 3: Thanh toán online qua thẻ tín dụng, chuyển
-                                            khoản</span>
-                                    </p>
-                                    <h3><strong><span style="color: #000000;">4. Ý kiến khách hàng</span></strong></h3>
-                                    <p><span style="color: #000000;">Chúng tôi có quyền hạn với bất kỳ nội dung nào được
-                                            đăng tải trên website. Nếu như phát hiện các sai phạm từ tài khoản của quý
-                                            khách, chúng tôi sẽ buộc phải dùng các biện pháp pháp lý theo quy định của
-                                            pháp luật Việt Nam</span></p>
-                                    <h3><strong><span style="color: #000000;">5. Chấp nhận đơn hàng và giá
-                                                cả</span></strong></h3>
-                                    <p><span style="color: #000000;">Chúng tôi có quyền từ chối hoặc hủy đơn hàng của
-                                            quý khách vì bất kỳ lý do gì vào bất kỳ lúc nào. Chúng tôi có thể hỏi thêm
-                                            về số điện thoại và địa chỉ trước khi nhận đơn hàng.</span><br />
-                                        <span style="color: #000000;">Chúng tôi cam kết giá sản phẩm tại website là
-                                            chính xác. Tuy nhiên, nếu trường hợp mà chúng tôi chưa kịp thay đổi giá thì
-                                            chúng tôi sẽ liên hệ với quý khách để hướng dẫn về việc mua hàng tiếp hay
-                                            hủy hàng.</span>
-                                    </p>
-                                    <h3><strong><span style="color: #000000;">6. Thương hiệu và bản
-                                                quyền</span></strong></h3>
-                                    <p><span style="color: #000000;">Mọi quyền sở hữu trí tuệ (đã đăng ký hoặc chưa đăng
-                                            ký), nội dung thông tin và tất cả các thiết kế, văn bản, đồ họa, phần mềm,
-                                            hình ảnh, video, âm nhạc, âm thanh, biên dịch phần mềm, mã nguồn và phần mềm
-                                            cơ bản đều là tài sản của chúng tôi. Toàn bộ nội dung của trang web được bảo
-                                            vệ bởi luật bản quyền của Việt Nam và các công ước quốc tế. Bản quyền đã
-                                            được bảo lưu.</span></p>
-                                    <h3><strong><span style="color: #000000;">7. Quyền pháp lý</span></strong></h3>
-                                    <p><span style="color: #000000;">Các điều kiện, điều khoản và nội dung của trang web
-                                            này được điều chỉnh bởi luật pháp Việt Nam và Tòa án có thẩm quyền tại Việt
-                                            Nam sẽ giải quyết bất kỳ tranh chấp nào phát sinh từ việc sử dụng trái phép
-                                            trang web này.</span></p>
-                                    <h3><strong><span style="color: #000000;">8. Quy định về bảo mật</span></strong>
-                                    </h3>
-                                    <p><span style="color: #000000;">Trang web của chúng tôi coi trọng việc bảo mật
-                                            thông tin và sử dụng các biện pháp tốt nhất bảo vệ thông tin và việc thanh
-                                            toán của quý khách. Thông tin của quý khách trong quá trình thanh toán sẽ
-                                            được mã hóa để đảm bảo an toàn. Sau khi quý khách hoàn thành quá trình đặt
-                                            hàng, quý khách sẽ thoát khỏi chế độ an toàn.</span><br />
-                                        <span style="color: #000000;">Quý khách không được sử dụng bất kỳ chương trình,
-                                            công cụ hay hình thức nào khác để can thiệp vào hệ thống hay làm thay đổi
-                                            cấu trúc dữ liệu. Trang web cũng nghiêm cấm việc phát tán, truyền bá hay cổ
-                                            vũ cho bất kỳ hoạt động nào nhằm can thiệp, phá hoại hay xâm nhập vào dữ
-                                            liệu của hệ thống. Cá nhân hay tổ chức vi phạm sẽ bị tước bỏ mọi quyền lợi
-                                            cũng như sẽ bị truy tố trước pháp luật nếu cần thiết.</span><br />
-                                        <span style="color: #000000;">Mọi thông tin giao dịch sẽ được bảo mật nhưng
-                                            trong trường hợp cơ quan pháp luật yêu cầu, chúng tôi sẽ buộc phải cung cấp
-                                            những thông tin này cho các cơ quan pháp luật.</span>
-                                    </p>
-                                    <h3><strong><span style="color: #000000;">9. Giao dịch tại website</span></strong>
-                                    </h3>
-                                    <p><span style="color: #000000;">Khách hàng khi mua sắm tại website của chúng tôi
-                                            phải thực hiện các thao tác đặt hàng và nhận hàng theo trình tự sau:</span>
-                                    </p>
-                                    <p><span style="color: #000000;">Cách 1: Thanh toán trước online qua chuyển khoản
-                                            ngân hàng..</span><br />
-                                        <span style="color: #000000;">Bước 1: Khách hàng đặt hàng, cung cấp thông tin
-                                            đầy đủ, xác thực thông tin</span><br />
-                                        <span style="color: #000000;">Bước 2: Khách hàng thanh toán trước bằng cách
-                                            chuyển khoản</span><br />
-                                        <span style="color: #000000;">Bước 3: Chúng tôi tiến hành kiểm tra, xác nhận đơn
-                                            hàng và chuyển hàng;</span><br />
-                                        <span style="color: #000000;">Bước 4: Khách hàng kiểm tra và nhận hàng;</span>
-                                    </p>
-                                    <p><span style="color: #000000;">Cách 2: Thanh toán sau (COD)- chỉ áp dụng tại Hà
-                                            Nội</span><br />
-                                        <span style="color: #000000;">Bước 1: Khách hàng đặt hàng; cung cấp thông tin
-                                            đầy đủ, xác nhận đơn hàng</span><br />
-                                        <span style="color: #000000;">Bước 2: Chúng tôi xác thực đơn hàng;</span><br />
-                                        <span style="color: #000000;">Bước 3: Chúng tôi gọi điện xác nhận thông tin
-                                            khách hàng.</span><br />
-                                        <span style="color: #000000;">Bước 4: Bắt đầu chuyển hàng;</span><br />
-                                        <span style="color: #000000;">Bước 5: Khách hàng nhận hàng và thanh toán;</span>
-                                    </p>
-                                    <h3><strong><span style="color: #000000;">10. Thay đổi, hủy bỏ giao
-                                                dịch</span></strong></h3>
-                                    <p><span style="color: #000000;">Trong mọi trường hợp, khách hàng đều có quyền chấm
-                                            dứt giao dịch nếu đã thực hiện các biện pháp sau đây:</span><br />
-                                        <span style="color: #000000;">1. Thông báo cho chúng tôi về việc hủy hàng qua
-                                            đường hotline 0989 487 999</span><br />
-                                        <span style="color: #000000;">2. Trả lại hàng hoá đã nhận nhưng chưa sử dụng
-                                            hoặc hưởng bất kỳ lợi ích nào từ hàng hóa đó (theo quy định của chính sách
-                                            đổi trả hàng tại Chính sách đổi trả)</span>
-                                    </p>
-                                    <h3><strong><span style="color: #000000;">11. Giải quyết tranh chấp</span></strong>
-                                    </h3>
-                                    <p><span style="color: #000000;">Bất kỳ tranh cãi, khiếu nại hoặc tranh chấp phát
-                                            sinh từ hoặc liên quan đến giao dịch tại kingledvietnam.com hoặc các Điều
-                                            khoản dịch vụ này đều sẽ được giải quyết bằng hình thức thương lượng, hòa
-                                            giải, trọng tài và/hoặc Tòa án theo Luật bảo vệ Người tiêu dùng Chương 4 về
-                                            Giải quyết tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh
-                                            hàng hóa, dịch vụ.</span></p>
-
-
-                                </div>
+                                <div class="col-inner"> 
+                                    {!! $settings->privacy_policy !!}
+                                 </div>
                             </div>
                         </div>
                     </div>
@@ -1754,7 +1629,6 @@ var wc_password_strength_meter_params = {"min_password_strength":"3","stop_check
 
         </body>
 
-        </html>
 
         <!-- Page cached by LiteSpeed Cache 6.5.1 on 2024-11-07 08:54:50 -->
     </div>

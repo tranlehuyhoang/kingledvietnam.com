@@ -1,9 +1,10 @@
 <div>
     <div>
 
-        <!DOCTYPE html>
-        <html lang="vi" class="loading-site no-js">
 
+        @php
+        $settings = App\Models\Setting::first(); // Truy vấn model Settings
+        @endphp
         <head>
             <meta charset="UTF-8" />
             <meta name="viewport"
@@ -1001,32 +1002,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                         <div class="row row-main">
                             <div class="large-12 col">
                                 <div class="col-inner">
-
-
-
-                                    <p><span style="font-family: verdana, geneva, sans-serif; color: #000000;">Quý khách
-                                            hàng có nhu cầu, vui lòng liên hệ với chúng tôi theo địa chỉ sau:</span></p>
-                                    <p><span style="font-family: verdana, geneva, sans-serif; color: #000000;"><u><strong>KINGLED
-                                                    HÀ NỘI:</strong></u></span></p>
-                                    <p><span style="font-family: verdana, geneva, sans-serif; color: #000000;">Số 31
-                                            Hoàng Quốc Việt, Phường Nghĩa Đô, Quận Cầu Giấy, Hà Nội</span><br />
-                                        <span style="font-family: verdana, geneva, sans-serif; color: #000000;">Hotline:
-                                            0904.6789.22</span>
-                                    </p>
-                                    <p><span style="font-family: verdana, geneva, sans-serif; color: #000000;"><u><strong>KINGLED
-                                                    TP HỒ CHÍ MINH:</strong></u></span></p>
-                                    <ul>
-                                        <li><span style="font-family: verdana, geneva, sans-serif; color: #000000;"><a
-                                                    style="color: #000000;">50/1 Quang Trung, Phường 10, Quận Gò Vấp,
-                                                    TP. Hồ Chí Minh</a></span></li>
-                                        <li><span
-                                                style="font-family: verdana, geneva, sans-serif; color: #000000;">Hotline:
-                                                0909.961.962 -028.38311888</span></li>
-                                    </ul>
-                                    <p><span style="font-family: verdana, geneva, sans-serif; color: #000000;">Email:
-                                            kingledvietnam@gmail.com</span></p>
-
-
+                                    {!! $settings->shipping_policy !!}
                                 </div>
                             </div>
                         </div>
@@ -1656,7 +1632,6 @@ var wc_password_strength_meter_params = {"min_password_strength":"3","stop_check
 
         </body>
 
-        </html>
 
         <!-- Page cached by LiteSpeed Cache 6.5.1 on 2024-11-07 08:31:22 -->
     </div>
