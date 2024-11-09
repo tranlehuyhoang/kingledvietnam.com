@@ -1,4 +1,7 @@
 <header id="header" class="header ">
+    @php
+    $settings = App\Models\Setting::first(); // Truy vấn model Settings
+    @endphp
     <div class="header-wrapper">
         <div id="top-bar" class="header-top hide-for-sticky nav-dark hide-for-medium">
             <div class="flex-row container">
@@ -9,26 +12,28 @@
                                 class="nav nav-divided nav-uppercase header-contact">
                                 <li class="">
                                     <a target="_blank" rel="noopener"
-                                        href="https://maps.google.com/?q=31 Hoàng Quốc Việt"
-                                        title="31 Hoàng Quốc Việt" class="tooltip">
+                                        href="https://maps.google.com/?q={{ $settings->address}}"
+                                        title="{{ $settings->address}}" class="tooltip">
                                         <i class="icon-map-pin-fill" style="font-size:16px;"></i> <span>
-                                            31 Hoàng Quốc Việt </span>
+                                            {{ $settings->address}} </span>
+                                            
                                     </a>
                                 </li>
 
                                 <li class="">
-                                    <a href="mailto:kingledvietnam@gmail.com" class="tooltip"
-                                        title="kingledvietnam@gmail.com">
+                                    <a href="mailto:{{ $settings->email}}" class="tooltip"
+                                        title="{{ $settings->email}}">
                                         <i class="icon-envelop" style="font-size:16px;"></i> <span>
-                                            kingledvietnam@gmail.com </span>
+                                            {{ $settings->email}} </span>
+                                            
                                     </a>
                                 </li>
 
 
                                 <li class="">
-                                    <a href="tel:0989.04.3239" class="tooltip" title="0989.04.3239">
+                                    <a href="tel:{{ $settings->hotline}}" class="tooltip" title="{{ $settings->hotline}}">
                                         <i class="icon-phone" style="font-size:16px;"></i>
-                                        <span>0989.04.3239</span>
+                                        <span>{{ $settings->hotline}}</span>
                                     </a>
                                 </li>
 
@@ -60,9 +65,9 @@
                     <a href="/"
                         title="Đèn LED KingLED - Nhà Phân Phối Đèn KingLED Việt Nam 2024" rel="home">
                         <img width="928" height="422"
-                            src="/assets/wp-content/uploads/2023/12/kingled-vinalight2.jpg"
+                            src="{{ Storage::url($settings->logo)}}"
                             class="header_logo header-logo" alt="Đèn LED KingLED" /><img width="928"
-                            height="422" src="/assets/wp-content/uploads/2023/12/kingled-vinalight2.jpg"
+                            height="422" src="{{ Storage::url($settings->logo)}}"
                             class="header-logo-dark" alt="Đèn LED KingLED" /></a>
                 </div>
 
@@ -323,857 +328,50 @@
                         <li id="menu-item-6390"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6390 menu-item-design-container-width menu-item-has-block has-dropdown nav-dropdown-toggle">
                             <a href="/cua-hang/" class="nav-top-link"
-                                aria-expanded="false" aria-haspopup="menu">Danh mục KingLED<i
+                                aria-expanded="false" aria-haspopup="menu">Danh mục Sản phẩm<i
                                     class="icon-angle-down"></i></a>
                             <div class="sub-menu nav-dropdown">
-                                <div class="row row-collapse row-solid chem-no-tong"
-                                    id="row-1054830396">
-
-
-                                    <div id="col-1621966801"
-                                        class="col chem-no medium-3 small-6 large-3">
-                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                            <a class="plain"
-                                                href="https://kingledvietnam.com/den-led-am-tran-kingled/">
-                                                <div
-                                                    class="icon-box featured-box icon-box-left text-left">
-                                                    <div class="icon-box-img" style="width: 60px">
-                                                        <div class="icon">
-                                                            <div class="icon-inner">
-                                                                <img width="100" height="100"
-                                                                    src="/assets/wp-content/uploads/2023/11/den-led-am-tran-dowlight.jpg"
-                                                                    class="attachment-medium size-medium"
-                                                                    alt="den led am tran dowlight"
-                                                                    decoding="async" />
+                                <div class="row row-collapse row-solid chem-no-tong" id="row-1054830396">
+                                    @foreach($categories as $category)
+                                        @if($category->is_active)
+                                            <div id="col-{{ $category->id }}" class="col chem-no medium-3 small-6 large-3">
+                                                <div class="col-inner text-center box-shadow-2-hover">
+                                                    <a class="plain" href="{{ url('/cua-hang/' . $category->slug) }}">
+                                                        <div class="icon-box featured-box icon-box-left text-left">
+                                                            <div class="icon-box-img" style="width: 60px">
+                                                                <div class="icon">
+                                                                    <div class="icon-inner">
+                                                                        <img width="100" height="100"
+                                                                             src="{{ Storage::url($category->image) }}"
+                                                                             class="attachment-medium size-medium"
+                                                                             alt="{{ $category->name }}"
+                                                                             decoding="async" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="icon-box-text last-reset">
+                                                                <div id="text-{{ $category->id }}" class="text text-chem-no">
+                                                                    <h3>
+                                                                        <span style="color: #000000; font-family: avo; font-size: 75%;">
+                                                                            <a style="color: #000000;" href="{{ url('/cua-hang/' . $category->slug) }}">
+                                                                                {{ $category->name }}
+                                                                            </a>
+                                                                        </span>
+                                                                    </h3>
+                                                                    <style>
+                                                                        #text-{{ $category->id }} {
+                                                                            line-height: 1.4;
+                                                                            text-align: left;
+                                                                        }
+                                                                    </style>
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="icon-box-text last-reset">
-
-
-                                                        <div id="text-3919581666"
-                                                            class="text text-chem-no">
-
-
-                                                            <h3><span
-                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                        style="color: #000000;"
-                                                                        href="https://kingledvietnam.com/den-led-am-tran-kingled/">Đèn
-                                                                        LED Âm trần KingLED</a></span>
-                                                            </h3>
-
-                                                            <style>
-                                                                #text-3919581666 {
-                                                                    line-height: 1.4;
-                                                                    text-align: left;
-                                                                }
-                                                            </style>
-                                                        </div>
-
-
-                                                    </div>
+                                                    </a>
                                                 </div>
-                                            </a>
-
-
-                                        </div>
-                                    </div>
-
-
-
-                                    <div id="col-1381969008"
-                                        class="col chem-no medium-3 small-6 large-3">
-                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                            <a class="plain"
-                                                href="https://kingledvietnam.com/den-led-spot-light/">
-                                                <div
-                                                    class="icon-box featured-box icon-box-left text-left">
-                                                    <div class="icon-box-img" style="width: 60px">
-                                                        <div class="icon">
-                                                            <div class="icon-inner">
-                                                                <img width="100" height="100"
-                                                                    src="/assets/wp-content/uploads/2023/11/802.jpg"
-                                                                    class="attachment-medium size-medium"
-                                                                    alt="802" decoding="async" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="icon-box-text last-reset">
-
-
-                                                        <div id="text-3771831835"
-                                                            class="text text-chem-no">
-
-
-                                                            <h3><span
-                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                        style="color: #000000;"
-                                                                        href="https://kingledvietnam.com/den-led-spot-light/">Đèn
-                                                                        LED Spolight KingLED</a></span>
-                                                            </h3>
-
-                                                            <style>
-                                                                #text-3771831835 {
-                                                                    line-height: 1.4;
-                                                                }
-                                                            </style>
-                                                        </div>
-
-
-                                                    </div>
-                                                </div>
-                                            </a>
-
-
-                                        </div>
-                                    </div>
-
-
-
-                                    <div id="col-450627898"
-                                        class="col chem-no medium-3 small-6 large-3">
-                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                            <a class="plain"
-                                                href="https://kingledvietnam.com/den-led-tuyp-kingled/">
-                                                <div
-                                                    class="icon-box featured-box icon-box-left text-left">
-                                                    <div class="icon-box-img" style="width: 60px">
-                                                        <div class="icon">
-                                                            <div class="icon-inner">
-                                                                <img width="100" height="100"
-                                                                    src="/assets/wp-content/uploads/2023/11/808.jpg"
-                                                                    class="attachment-medium size-medium"
-                                                                    alt="808" decoding="async" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="icon-box-text last-reset">
-
-
-                                                        <div id="text-4058671125"
-                                                            class="text text-chem-no">
-
-
-                                                            <h3><span
-                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                        style="color: #000000;"
-                                                                        href="https://kingledvietnam.com/den-led-tuyp-kingled/">Đèn
-                                                                        LED tuýp KingLED</a></span></h3>
-
-                                                            <style>
-                                                                #text-4058671125 {
-                                                                    line-height: 1.4;
-                                                                }
-                                                            </style>
-                                                        </div>
-
-
-                                                    </div>
-                                                </div>
-                                            </a>
-
-
-                                        </div>
-                                    </div>
-
-
-
-                                    <div id="col-1010941614"
-                                        class="col chem-no medium-3 small-6 large-3">
-                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                            <a class="plain"
-                                                href="https://kingledvietnam.com/den-led-roi-ray-kingled/">
-                                                <div
-                                                    class="icon-box featured-box icon-box-left text-left">
-                                                    <div class="icon-box-img" style="width: 60px">
-                                                        <div class="icon">
-                                                            <div class="icon-inner">
-                                                                <img width="100" height="100"
-                                                                    src="/assets/wp-content/uploads/2023/11/816.jpg"
-                                                                    class="attachment-medium size-medium"
-                                                                    alt="816" decoding="async" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="icon-box-text last-reset">
-
-
-                                                        <div id="text-1979413852"
-                                                            class="text text-chem-no">
-
-
-                                                            <h3><span
-                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                        style="color: #000000;"
-                                                                        href="https://kingledvietnam.com/den-led-roi-ray-kingled/">Đèn
-                                                                        LED rọi ray KingLED</a></span>
-                                                            </h3>
-
-                                                            <style>
-                                                                #text-1979413852 {
-                                                                    line-height: 1.4;
-                                                                }
-                                                            </style>
-                                                        </div>
-
-
-                                                    </div>
-                                                </div>
-                                            </a>
-
-
-                                        </div>
-                                    </div>
-
-
-
-                                    <div id="col-631172335"
-                                        class="col chem-no medium-3 small-6 large-3">
-                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                            <a class="plain"
-                                                href="https://kingledvietnam.com/den-led-day-kingled/">
-                                                <div
-                                                    class="icon-box featured-box icon-box-left text-left">
-                                                    <div class="icon-box-img" style="width: 60px">
-                                                        <div class="icon">
-                                                            <div class="icon-inner">
-                                                                <img width="100" height="100"
-                                                                    src="/assets/wp-content/uploads/2023/11/821.jpg"
-                                                                    class="attachment-medium size-medium"
-                                                                    alt="821" decoding="async" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="icon-box-text last-reset">
-
-
-                                                        <div id="text-367803728"
-                                                            class="text text-chem-no">
-
-
-                                                            <h3><span
-                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                        style="color: #000000;"
-                                                                        href="https://kingledvietnam.com/den-led-day-kingled/">Đèn
-                                                                        LED Dây KingLED</a></span></h3>
-
-                                                            <style>
-                                                                #text-367803728 {
-                                                                    line-height: 1.4;
-                                                                }
-                                                            </style>
-                                                        </div>
-
-
-                                                    </div>
-                                                </div>
-                                            </a>
-
-
-                                        </div>
-                                    </div>
-
-
-
-                                    <div id="col-788541527"
-                                        class="col chem-no medium-3 small-6 large-3">
-                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                            <a class="plain"
-                                                href="https://kingledvietnam.com/den-led-op-tran-kingled/">
-                                                <div
-                                                    class="icon-box featured-box icon-box-left text-left">
-                                                    <div class="icon-box-img" style="width: 60px">
-                                                        <div class="icon">
-                                                            <div class="icon-inner">
-                                                                <img width="100" height="100"
-                                                                    src="/assets/wp-content/uploads/2023/11/813.jpg"
-                                                                    class="attachment-medium size-medium"
-                                                                    alt="813" decoding="async" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="icon-box-text last-reset">
-
-
-                                                        <div id="text-594800250"
-                                                            class="text text-chem-no">
-
-
-                                                            <h3><span
-                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                        style="color: #000000;"
-                                                                        href="https://kingledvietnam.com/den-led-op-tran-kingled/">Đèn
-                                                                        LED ốp trần KingLED</a></span>
-                                                            </h3>
-
-                                                            <style>
-                                                                #text-594800250 {
-                                                                    line-height: 1.4;
-                                                                }
-                                                            </style>
-                                                        </div>
-
-
-                                                    </div>
-                                                </div>
-                                            </a>
-
-
-                                        </div>
-                                    </div>
-
-
-
-                                    <div id="col-1707083366"
-                                        class="col chem-no medium-3 small-6 large-3">
-                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                            <a class="plain"
-                                                href="https://kingledvietnam.com/den-led-panel-kingled/">
-                                                <div
-                                                    class="icon-box featured-box icon-box-left text-left">
-                                                    <div class="icon-box-img" style="width: 60px">
-                                                        <div class="icon">
-                                                            <div class="icon-inner">
-                                                                <img width="100" height="100"
-                                                                    src="/assets/wp-content/uploads/2023/11/827.jpg"
-                                                                    class="attachment-medium size-medium"
-                                                                    alt="827" decoding="async" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="icon-box-text last-reset">
-
-
-                                                        <div id="text-1915064366"
-                                                            class="text text-chem-no">
-
-
-                                                            <h3><span
-                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                        style="color: #000000;"
-                                                                        href="https://kingledvietnam.com/den-led-panel-kingled/">Đèn
-                                                                        LED Panel KingLED</a></span>
-                                                            </h3>
-
-                                                            <style>
-                                                                #text-1915064366 {
-                                                                    line-height: 1.4;
-                                                                }
-                                                            </style>
-                                                        </div>
-
-
-                                                    </div>
-                                                </div>
-                                            </a>
-
-
-                                        </div>
-                                    </div>
-
-
-
-                                    <div id="col-770596627"
-                                        class="col chem-no medium-3 small-6 large-3">
-                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                            <a class="plain"
-                                                href="https://kingledvietnam.com/den-led-ong-bo-kingled/">
-                                                <div
-                                                    class="icon-box featured-box icon-box-left text-left">
-                                                    <div class="icon-box-img" style="width: 60px">
-                                                        <div class="icon">
-                                                            <div class="icon-inner">
-                                                                <img width="100" height="100"
-                                                                    src="/assets/wp-content/uploads/2023/11/824.jpg"
-                                                                    class="attachment-medium size-medium"
-                                                                    alt="824" decoding="async" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="icon-box-text last-reset">
-
-
-                                                        <div id="text-1035197261"
-                                                            class="text text-chem-no">
-
-
-                                                            <h3><span
-                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                        style="color: #000000;"
-                                                                        href="https://kingledvietnam.com/den-led-ong-bo-kingled/">Đèn
-                                                                        LED ống bơ KingLED</a></span>
-                                                            </h3>
-
-                                                            <style>
-                                                                #text-1035197261 {
-                                                                    line-height: 1.4;
-                                                                }
-                                                            </style>
-                                                        </div>
-
-
-                                                    </div>
-                                                </div>
-                                            </a>
-
-
-                                        </div>
-                                    </div>
-
-
-
-                                    <div id="col-1559707477"
-                                        class="col chem-no medium-3 small-6 large-3">
-                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                            <a class="plain"
-                                                href="https://kingledvietnam.com/den-tha-trang-tri-kingled/">
-                                                <div
-                                                    class="icon-box featured-box icon-box-left text-left">
-                                                    <div class="icon-box-img" style="width: 60px">
-                                                        <div class="icon">
-                                                            <div class="icon-inner">
-                                                                <img width="100" height="100"
-                                                                    src="/assets/wp-content/uploads/2023/11/822.jpg"
-                                                                    class="attachment-medium size-medium"
-                                                                    alt="822" decoding="async" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="icon-box-text last-reset">
-
-
-                                                        <div id="text-459421488"
-                                                            class="text text-chem-no">
-
-
-                                                            <h3><span
-                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                        style="color: #000000;"
-                                                                        href="https://kingledvietnam.com/den-tha-trang-tri-kingled/">Đèn
-                                                                        thả trang trí KingLED</a></span>
-                                                            </h3>
-
-                                                            <style>
-                                                                #text-459421488 {
-                                                                    line-height: 1.4;
-                                                                }
-                                                            </style>
-                                                        </div>
-
-
-                                                    </div>
-                                                </div>
-                                            </a>
-
-
-                                        </div>
-                                    </div>
-
-
-
-                                    <div id="col-1935297270"
-                                        class="col chem-no medium-3 small-6 large-3">
-                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                            <a class="plain"
-                                                href="https://kingledvietnam.com/den-pha-led-kingled/">
-                                                <div
-                                                    class="icon-box featured-box icon-box-left text-left">
-                                                    <div class="icon-box-img" style="width: 60px">
-                                                        <div class="icon">
-                                                            <div class="icon-inner">
-                                                                <img width="100" height="100"
-                                                                    src="/assets/wp-content/uploads/2023/11/819.jpg"
-                                                                    class="attachment-medium size-medium"
-                                                                    alt="819" decoding="async" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="icon-box-text last-reset">
-
-
-                                                        <div id="text-120460165"
-                                                            class="text text-chem-no">
-
-
-                                                            <h3><span
-                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                        style="color: #000000;"
-                                                                        href="https://kingledvietnam.com/den-pha-led-kingled/">Đèn
-                                                                        pha LED KingLED</a></span></h3>
-
-                                                            <style>
-                                                                #text-120460165 {
-                                                                    line-height: 1.4;
-                                                                }
-                                                            </style>
-                                                        </div>
-
-
-                                                    </div>
-                                                </div>
-                                            </a>
-
-
-                                        </div>
-                                    </div>
-
-
-
-                                    <div id="col-1457044474"
-                                        class="col chem-no medium-3 small-6 large-3">
-                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                            <a class="plain"
-                                                href="https://kingledvietnam.com/den-cot-san-vuon/">
-                                                <div
-                                                    class="icon-box featured-box icon-box-left text-left">
-                                                    <div class="icon-box-img" style="width: 60px">
-                                                        <div class="icon">
-                                                            <div class="icon-inner">
-                                                                <img width="100" height="100"
-                                                                    src="/assets/wp-content/uploads/2023/11/812.jpg"
-                                                                    class="attachment-medium size-medium"
-                                                                    alt="812" decoding="async" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="icon-box-text last-reset">
-
-
-                                                        <div id="text-4135508866"
-                                                            class="text text-chem-no">
-
-
-                                                            <h3><span
-                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                        style="color: #000000;"
-                                                                        href="https://kingledvietnam.com/den-cot-san-vuon/">Đèn
-                                                                        LED sân vườn KingLED</a></span>
-                                                            </h3>
-
-                                                            <style>
-                                                                #text-4135508866 {
-                                                                    line-height: 1.4;
-                                                                }
-                                                            </style>
-                                                        </div>
-
-
-                                                    </div>
-                                                </div>
-                                            </a>
-
-
-                                        </div>
-                                    </div>
-
-
-
-                                    <div id="col-552528498"
-                                        class="col chem-no medium-3 small-6 large-3">
-                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                            <a class="plain"
-                                                href="https://kingledvietnam.com/den-khan-cap-kingled/">
-                                                <div
-                                                    class="icon-box featured-box icon-box-left text-left">
-                                                    <div class="icon-box-img" style="width: 60px">
-                                                        <div class="icon">
-                                                            <div class="icon-inner">
-                                                                <img width="100" height="100"
-                                                                    src="/assets/wp-content/uploads/2023/11/832.jpg"
-                                                                    class="attachment-medium size-medium"
-                                                                    alt="832" decoding="async" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="icon-box-text last-reset">
-
-
-                                                        <div id="text-1660283317"
-                                                            class="text text-chem-no">
-
-
-                                                            <h3><span
-                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                        style="color: #000000;"
-                                                                        href="https://kingledvietnam.com/den-khan-cap-kingled/">Đèn
-                                                                        khẩn cấp KingLED</a></span></h3>
-
-                                                            <style>
-                                                                #text-1660283317 {
-                                                                    line-height: 1.4;
-                                                                }
-                                                            </style>
-                                                        </div>
-
-
-                                                    </div>
-                                                </div>
-                                            </a>
-
-
-                                        </div>
-                                    </div>
-
-
-
-                                    <div id="col-1994947812"
-                                        class="col chem-no medium-3 small-6 large-3">
-                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                            <a class="plain"
-                                                href="https://kingledvietnam.com/den-exit-chi-huong/">
-                                                <div
-                                                    class="icon-box featured-box icon-box-left text-left">
-                                                    <div class="icon-box-img" style="width: 60px">
-                                                        <div class="icon">
-                                                            <div class="icon-inner">
-                                                                <img width="100" height="100"
-                                                                    src="/assets/wp-content/uploads/2023/11/826.jpg"
-                                                                    class="attachment-medium size-medium"
-                                                                    alt="826" decoding="async" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="icon-box-text last-reset">
-
-
-                                                        <div id="text-966334771"
-                                                            class="text text-chem-no">
-
-
-                                                            <h3><span
-                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                        style="color: #000000;"
-                                                                        href="https://kingledvietnam.com/den-exit-chi-huong/">Đèn
-                                                                        Exit chỉ hướng
-                                                                        KingLED</a></span></h3>
-
-                                                            <style>
-                                                                #text-966334771 {
-                                                                    line-height: 1.4;
-                                                                }
-                                                            </style>
-                                                        </div>
-
-
-                                                    </div>
-                                                </div>
-                                            </a>
-
-
-                                        </div>
-                                    </div>
-
-
-
-                                    <div id="col-376676015"
-                                        class="col chem-no medium-3 small-6 large-3">
-                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                            <a class="plain"
-                                                href="https://kingledvietnam.com/den-led-bup-kingled/">
-                                                <div
-                                                    class="icon-box featured-box icon-box-left text-left">
-                                                    <div class="icon-box-img" style="width: 60px">
-                                                        <div class="icon">
-                                                            <div class="icon-inner">
-                                                                <img width="100" height="100"
-                                                                    src="/assets/wp-content/uploads/2023/11/829.jpeg"
-                                                                    class="attachment-medium size-medium"
-                                                                    alt="829" decoding="async" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="icon-box-text last-reset">
-
-
-                                                        <div id="text-1266246711"
-                                                            class="text text-chem-no">
-
-
-                                                            <h3><span
-                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                        style="color: #000000;"
-                                                                        href="https://kingledvietnam.com/den-led-bup-kingled/">Bóng
-                                                                        đèn LED</a></span></h3>
-
-                                                            <style>
-                                                                #text-1266246711 {
-                                                                    line-height: 1.4;
-                                                                }
-                                                            </style>
-                                                        </div>
-
-
-                                                    </div>
-                                                </div>
-                                            </a>
-
-
-                                        </div>
-                                    </div>
-
-
-
-                                    <div id="col-1057655248"
-                                        class="col chem-no medium-3 small-6 large-3">
-                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                            <a class="plain"
-                                                href="https://kingledvietnam.com/den-nha-xuong/">
-                                                <div
-                                                    class="icon-box featured-box icon-box-left text-left">
-                                                    <div class="icon-box-img" style="width: 60px">
-                                                        <div class="icon">
-                                                            <div class="icon-inner">
-                                                                <img width="100" height="100"
-                                                                    src="/assets/wp-content/uploads/2023/11/828.jpg"
-                                                                    class="attachment-medium size-medium"
-                                                                    alt="828" decoding="async" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="icon-box-text last-reset">
-
-
-                                                        <div id="text-1608380299"
-                                                            class="text text-chem-no">
-
-
-                                                            <h3><span
-                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                        style="color: #000000;"
-                                                                        href="https://kingledvietnam.com/den-nha-xuong/">Đèn
-                                                                        nhà xưởng KingLED</a></span>
-                                                            </h3>
-
-                                                            <style>
-                                                                #text-1608380299 {
-                                                                    line-height: 1.4;
-                                                                }
-                                                            </style>
-                                                        </div>
-
-
-                                                    </div>
-                                                </div>
-                                            </a>
-
-
-                                        </div>
-                                    </div>
-
-
-
-                                    <div id="col-1505854025"
-                                        class="col chem-no medium-3 small-6 large-3">
-                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                            <a class="plain"
-                                                href="https://kingledvietnam.com/phu-kien-den-led-day/">
-                                                <div
-                                                    class="icon-box featured-box icon-box-left text-left">
-                                                    <div class="icon-box-img" style="width: 60px">
-                                                        <div class="icon">
-                                                            <div class="icon-inner">
-                                                                <img width="100" height="100"
-                                                                    src="/assets/wp-content/uploads/2023/11/810.jpg"
-                                                                    class="attachment-medium size-medium"
-                                                                    alt="810" decoding="async" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="icon-box-text last-reset">
-
-
-                                                        <div id="text-2384474797"
-                                                            class="text text-chem-no">
-
-
-                                                            <h3><span
-                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                        style="color: #000000;"
-                                                                        href="https://kingledvietnam.com/phu-kien-den-led-day/">Phụ
-                                                                        kiện</a></span></h3>
-
-                                                            <style>
-                                                                #text-2384474797 {
-                                                                    line-height: 1.4;
-                                                                }
-                                                            </style>
-                                                        </div>
-
-
-                                                    </div>
-                                                </div>
-                                            </a>
-
-
-                                        </div>
-                                    </div>
-
-
-
+                                            </div>
+                                        @endif
+                                    @endforeach
                                 </div>
                             </div>
                         </li>

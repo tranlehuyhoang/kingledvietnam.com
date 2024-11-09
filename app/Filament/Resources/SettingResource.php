@@ -154,12 +154,12 @@ class SettingResource extends Resource
                                     ->label('Hướng dẫn thanh toán'),
                             ]),
 
-                        Tabs\Tab::make('Vận chuyển')
+                        Tabs\Tab::make('Liên hệ')
                             ->icon('heroicon-o-truck')
                             ->schema([
                                 Forms\Components\RichEditor::make('shipping_policy')
                                     ->columnSpanFull()
-                                    ->label('Chính sách vận chuyển và giao nhận'),
+                                    ->label('Liên hệ'),
                             ]),
 
                         Tabs\Tab::make('Bảo hành')
@@ -170,12 +170,12 @@ class SettingResource extends Resource
                                     ->label('Chính sách bảo hành'),
                             ]),
 
-                        Tabs\Tab::make('Bảo mật')
+                        Tabs\Tab::make('Dịch vụ')
                             ->icon('heroicon-o-lock-closed')
                             ->schema([
                                 Forms\Components\RichEditor::make('privacy_policy')
                                     ->columnSpanFull()
-                                    ->label('Chính sách bảo mật'),
+                                    ->label('Điều khoản dịch vụ'),
                             ]),
 
                         Tabs\Tab::make('Đổi trả')
@@ -192,6 +192,15 @@ class SettingResource extends Resource
                                 Forms\Components\RichEditor::make('introduction')
                                     ->columnSpanFull()
                                     ->label('Giới thiệu'),
+
+                     
+                            ]),
+                        Tabs\Tab::make('Báo Giá')
+                            ->icon('heroicon-o-information-circle')
+                            ->schema([
+                                Forms\Components\RichEditor::make('baogia')
+                                    ->columnSpanFull()
+                                    ->label('Báo Giá'),
 
                      
                             ]),
