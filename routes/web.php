@@ -27,6 +27,7 @@ use App\Livewire\AccountAddresses;
 use App\Livewire\AccountOrdersDetail;
 use App\Livewire\BaoGia;
 use App\Livewire\Category;
+use App\Livewire\DieuKhoanDichVu;
 use App\Livewire\HuongDanMuaHang;
 use App\Livewire\Login;
 use App\Livewire\Logout;
@@ -58,11 +59,10 @@ Route::get('/tin-tuc/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/', BlogPo
 
 
 Route::get('/chinh-sach-van-chuyen', ShippingPolicy::class);
-Route::get('/chinh-sach-bao-mat', PrivacyPolicy::class);
 
 Route::get('/chinh-sach-bao-hanh', WarrantyPolicy::class);
 Route::get('/chinh-sach-doi-tra-hang', ReturnPolicy::class);
-Route::get('/dieu-khoan-dich-vu', ReturnPolicy::class);
+Route::get('/dieu-khoan-dich-vu', DieuKhoanDichVu::class);
 Route::get('/hinh-thuc-thanh-toan', PaymentPolicy::class);
 Route::get('/huong-dan-mua-hang', HuongDanMuaHang::class);
 

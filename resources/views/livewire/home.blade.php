@@ -63,12 +63,9 @@
             <link rel='dns-prefetch' href='//use.fontawesome.com' />
             <link rel='prefetch'
                 href='/assets/wp-content/themes/flatsome/assets/js/flatsome.js?ver=8e60d746741250b4dd4e' />
-            <link rel='prefetch'
-                href='/assets/wp-content/themes/flatsome/assets/js/chunk.slider.js?ver=3.19.6' />
-            <link rel='prefetch'
-                href='/assets/wp-content/themes/flatsome/assets/js/chunk.popups.js?ver=3.19.6' />
-            <link rel='prefetch'
-                href='/assets/wp-content/themes/flatsome/assets/js/chunk.tooltips.js?ver=3.19.6' />
+            <link rel='prefetch' href='/assets/wp-content/themes/flatsome/assets/js/chunk.slider.js?ver=3.19.6' />
+            <link rel='prefetch' href='/assets/wp-content/themes/flatsome/assets/js/chunk.popups.js?ver=3.19.6' />
+            <link rel='prefetch' href='/assets/wp-content/themes/flatsome/assets/js/chunk.tooltips.js?ver=3.19.6' />
             <link rel='prefetch'
                 href='/assets/wp-content/themes/flatsome/assets/js/woocommerce.js?ver=dd6035ce106022a74757' />
             <link rel="alternate" type="application/rss+xml" title="Dòng thông tin Đèn LED KingLED &raquo;"
@@ -97,22 +94,21 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                 }
             </style>
             <link rel='stylesheet' id='contact-form-7-css'
-                href='/assets/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8'
-                type='text/css' media='all' />
-            <link rel='stylesheet' id='toc-screen-css'
-                href='/assets/wp-content/plugins/table-of-contents-plus/screen.min.css?ver=2408'
-                type='text/css' media='all' />
-            <link rel='stylesheet' id='uaf_client_css-css'
-                href='/assets/wp-content/uploads/useanyfont/uaf.css?ver=1727411199' type='text/css'
+                href='/assets/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8' type='text/css'
                 media='all' />
+            <link rel='stylesheet' id='toc-screen-css'
+                href='/assets/wp-content/plugins/table-of-contents-plus/screen.min.css?ver=2408' type='text/css'
+                media='all' />
+            <link rel='stylesheet' id='uaf_client_css-css'
+                href='/assets/wp-content/uploads/useanyfont/uaf.css?ver=1727411199' type='text/css' media='all' />
             <style id='woocommerce-inline-inline-css' type='text/css'>
                 .woocommerce form .form-row .required {
                     visibility: visible;
                 }
             </style>
             <link rel='stylesheet' id='dashicons-css'
-                href='/assets/wp-includes/css/dashicons.min.css?ver=c22ab06377899eb7bf167f0522305700'
-                type='text/css' media='all' />
+                href='/assets/wp-includes/css/dashicons.min.css?ver=c22ab06377899eb7bf167f0522305700' type='text/css'
+                media='all' />
             <link rel='stylesheet' id='bfa-font-awesome-css'
                 href='https://use.fontawesome.com/releases/v5.15.4/css/all.css?ver=2.0.3' type='text/css' media='all' />
             <link rel='stylesheet' id='bfa-font-awesome-v4-shim-css'
@@ -151,8 +147,8 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                 }
             </style>
             <link rel='stylesheet' id='flatsome-main-css'
-                href='/assets/wp-content/themes/flatsome/assets/css/flatsome.css?ver=3.19.6'
-                type='text/css' media='all' />
+                href='/assets/wp-content/themes/flatsome/assets/css/flatsome.css?ver=3.19.6' type='text/css'
+                media='all' />
             <style id='flatsome-main-inline-css' type='text/css'>
                 @font-face {
                     font-family: "fl-icons";
@@ -167,16 +163,14 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                 }
             </style>
             <link rel='stylesheet' id='flatsome-shop-css'
-                href='/assets/wp-content/themes/flatsome/assets/css/flatsome-shop.css?ver=3.19.6'
-                type='text/css' media='all' />
-            <link rel='stylesheet' id='flatsome-style-css'
-                href='/assets/wp-content/themes/flatsome-child/style.css?ver=3.0' type='text/css'
+                href='/assets/wp-content/themes/flatsome/assets/css/flatsome-shop.css?ver=3.19.6' type='text/css'
                 media='all' />
-            <script type="text/javascript"
-                src="/assets/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
+            <link rel='stylesheet' id='flatsome-style-css'
+                href='/assets/wp-content/themes/flatsome-child/style.css?ver=3.0' type='text/css' media='all' />
+            <script type="text/javascript" src="/assets/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+                id="jquery-core-js">
             </script>
-            <script type="text/javascript"
-                src="/assets/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+            <script type="text/javascript" src="/assets/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
                 id="jquery-migrate-js">
             </script>
             <script type="text/javascript"
@@ -194,8 +188,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                 src="/assets/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.9.3.3"
                 id="js-cookie-js" data-wp-strategy="defer"></script>
             <link rel="https://api.w.org/" href="/assets/wp-json/" />
-            <link rel="alternate" title="JSON" type="application/json"
-                href="/assets/wp-json/wp/v2/pages/25" />
+            <link rel="alternate" title="JSON" type="application/json" href="/assets/wp-json/wp/v2/pages/25" />
             <link rel="alternate" title="oNhúng (JSON)" type="application/json+oembed"
                 href="/assets/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkingledvietnam.com%2F" />
             <link rel="alternate" title="oNhúng (XML)" type="text/xml+oembed"
@@ -233,11 +226,9 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                 }
             </style>
             <style id="wpsp-style-frontend"></style>
-            <link rel="icon"
-                href="/assets/wp-content/uploads/2020/03/cropped-cropped-logo-kingled-32x32.jpg"
+            <link rel="icon" href="/assets/wp-content/uploads/2020/03/cropped-cropped-logo-kingled-32x32.jpg"
                 sizes="32x32" />
-            <link rel="icon"
-                href="/assets/wp-content/uploads/2020/03/cropped-cropped-logo-kingled-192x192.jpg"
+            <link rel="icon" href="/assets/wp-content/uploads/2020/03/cropped-cropped-logo-kingled-192x192.jpg"
                 sizes="192x192" />
             <link rel="apple-touch-icon"
                 href="/assets/wp-content/uploads/2020/03/cropped-cropped-logo-kingled-180x180.jpg" />
@@ -991,1332 +982,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
             <div id="wrapper">
 
 
-                <header id="header" class="header ">
-                    <div class="header-wrapper">
-                        <div id="top-bar" class="header-top hide-for-sticky nav-dark hide-for-medium">
-                            <div class="flex-row container">
-                                <div class="flex-col hide-for-medium flex-left">
-                                    <ul class="nav nav-left medium-nav-center nav-small  nav-divided">
-                                        <li class="header-contact-wrapper">
-                                            <ul id="header-contact"
-                                                class="nav nav-divided nav-uppercase header-contact">
-                                                <li class="">
-                                                    <a target="_blank" rel="noopener"
-                                                        href="https://maps.google.com/?q=31 Hoàng Quốc Việt"
-                                                        title="31 Hoàng Quốc Việt" class="tooltip">
-                                                        <i class="icon-map-pin-fill" style="font-size:16px;"></i> <span>
-                                                            31 Hoàng Quốc Việt </span>
-                                                    </a>
-                                                </li>
-
-                                                <li class="">
-                                                    <a href="mailto:kingledvietnam@gmail.com" class="tooltip"
-                                                        title="kingledvietnam@gmail.com">
-                                                        <i class="icon-envelop" style="font-size:16px;"></i> <span>
-                                                            kingledvietnam@gmail.com </span>
-                                                    </a>
-                                                </li>
-
-
-                                                <li class="">
-                                                    <a href="tel:0989.04.3239" class="tooltip" title="0989.04.3239">
-                                                        <i class="icon-phone" style="font-size:16px;"></i>
-                                                        <span>0989.04.3239</span>
-                                                    </a>
-                                                </li>
-
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div class="flex-col hide-for-medium flex-center">
-                                    <ul class="nav nav-center nav-small  nav-divided">
-                                    </ul>
-                                </div>
-
-                                <div class="flex-col hide-for-medium flex-right">
-                                    <ul class="nav top-bar-nav nav-right nav-small  nav-divided">
-                                    </ul>
-                                </div>
-
-
-                            </div>
-                        </div>
-                        <div id="masthead" class="header-main hide-for-sticky">
-                            <div class="header-inner flex-row container logo-left medium-logo-center" role="navigation">
-
-                                <!-- Logo -->
-                                <div id="logo" class="flex-col logo">
-
-                                    <!-- Header logo -->
-                                    <a href="https://kingledvietnam.com/"
-                                        title="Đèn LED KingLED - Nhà Phân Phối Đèn KingLED Việt Nam 2024" rel="home">
-                                        <img width="928" height="422"
-                                            src="/assets/wp-content/uploads/2023/12/kingled-vinalight2.jpg"
-                                            class="header_logo header-logo" alt="Đèn LED KingLED" /><img width="928"
-                                            height="422"
-                                            src="/assets/wp-content/uploads/2023/12/kingled-vinalight2.jpg"
-                                            class="header-logo-dark" alt="Đèn LED KingLED" /></a>
-                                </div>
-
-                                <!-- Mobile Left Elements -->
-                                <div class="flex-col show-for-medium flex-left">
-                                    <ul class="mobile-nav nav nav-left ">
-                                        <li class="nav-icon has-icon">
-                                            <a href="#" data-open="#main-menu" data-pos="left"
-                                                data-bg="main-menu-overlay" data-color="" class="is-small"
-                                                aria-label="Menu" aria-controls="main-menu" aria-expanded="false">
-
-                                                <i class="icon-menu"></i>
-                                                <span class="menu-title uppercase hide-for-small">Menu</span> </a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <!-- Left Elements -->
-                                <div class="flex-col hide-for-medium flex-left
-            flex-grow">
-                                    <ul class="header-nav header-nav-main nav nav-left  nav-uppercase">
-                                        <li class="header-search-form search-form html relative has-icon">
-                                            <div class="header-search-form-wrapper">
-                                                <div class="searchform-wrapper ux-search-box relative is-normal">
-                                                    <form role="search" method="get" class="searchform"
-                                                        action="https://kingledvietnam.com/">
-                                                        <div class="flex-row relative">
-                                                            <div class="flex-col search-form-categories">
-                                                                <select class="search_categories resize-select mb-0"
-                                                                    name="product_cat">
-                                                                    <option value="" selected='selected'>Tất cả</option>
-                                                                    <option value="den-am-bac-cau-thang">ĐÈN ÂM BẬC CẦU
-                                                                        THANG
-                                                                    </option>
-                                                                    <option value="den-cot-san-vuon">ĐÈN CỘT SÂN VƯỜN
-                                                                    </option>
-                                                                    <option value="den-exit-chi-huong">ĐÈN EXIT CHỈ
-                                                                        HƯỚNG
-                                                                    </option>
-                                                                    <option value="den-khan-cap-kingled">ĐÈN KHẨN CẤP
-                                                                        KINGLED
-                                                                    </option>
-                                                                    <option value="den-led-am-tran-kingeco">ĐÈN LED ÂM
-                                                                        TRẦN
-                                                                        KINGECO</option>
-                                                                    <option value="den-led-am-tran-kingled">ĐÈN LED ÂM
-                                                                        TRẦN
-                                                                        KINGLED</option>
-                                                                    <option value="den-led-bup-kingled">ĐÈN LED BÚP
-                                                                        KINGLED
-                                                                    </option>
-                                                                    <option value="den-led-day-kingled">ĐÈN LED DÂY
-                                                                        KINGLED
-                                                                    </option>
-                                                                    <option value="den-led-ong-bo-kingled">ĐÈN LED ỐNG
-                                                                        BƠ
-                                                                        KINGLED</option>
-                                                                    <option value="den-led-op-tran-kingled">ĐÈN LED ỐP
-                                                                        TRẦN
-                                                                        KINGLED</option>
-                                                                    <option value="den-led-panel-kingled">ĐÈN LED PANEL
-                                                                        KINGLED
-                                                                    </option>
-                                                                    <option value="den-led-roi-ray-kingled">ĐÈN LED RỌI
-                                                                        RAY
-                                                                        KINGLED</option>
-                                                                    <option value="den-led-spot-light">ĐÈN LED SPOT
-                                                                        LIGHT
-                                                                    </option>
-                                                                    <option value="den-led-tuyp-kingled">ĐÈN LED TUÝP
-                                                                        KINGLED
-                                                                    </option>
-                                                                    <option value="den-nha-xuong">ĐÈN NHÀ XƯỞNG</option>
-                                                                    <option value="den-pha-led-kingled">ĐÈN PHA LED
-                                                                        KINGLED
-                                                                    </option>
-                                                                    <option value="den-ray-nam-cham">ĐÈN RAY NAM CHÂM
-                                                                    </option>
-                                                                    <option value="den-soi-tranh-kingled">ĐÈN SOI TRANH
-                                                                        KINGLED
-                                                                    </option>
-                                                                    <option value="den-tha-trang-tri-kingled">ĐÈN THẢ
-                                                                        TRANG TRÍ
-                                                                        KINGLED</option>
-                                                                    <option value="den-tuong-trang-tri">ĐÈN TƯỜNG TRANG
-                                                                        TRÍ
-                                                                    </option>
-                                                                    <option value="phu-kien-den-led-day">PHỤ KIỆN ĐÈN
-                                                                        LED DÂY
-                                                                    </option>
-                                                                    <option value="phu-kien-den-ray-nam-cham">PHỤ KIỆN
-                                                                        ĐÈN RAY
-                                                                        NAM CHÂM</option>
-                                                                    <option value="quat-suoi-dieu-hoa">QUẠT SƯỞI ĐIỀU
-                                                                        HÒA
-                                                                    </option>
-                                                                    <option value="san-pham-moi-ra-mat">SẢN PHẨM MỚI RA
-                                                                        MẮT
-                                                                    </option>
-                                                                    <option value="thanh-ray-nam-cham-mong">THANH RAY
-                                                                        NAM CHÂM
-                                                                        MỎNG</option>
-                                                                </select>
-                                                            </div>
-                                                            <div class="flex-col flex-grow">
-                                                                <label class="screen-reader-text"
-                                                                    for="woocommerce-product-search-field-0">Tìm
-                                                                    kiếm:</label>
-                                                                <input type="search"
-                                                                    id="woocommerce-product-search-field-0"
-                                                                    class="search-field mb-0"
-                                                                    placeholder="Tìm kiếm&hellip;" value="" name="s" />
-                                                                <input type="hidden" name="post_type" value="product" />
-                                                            </div>
-                                                            <div class="flex-col">
-                                                                <button type="submit" value="Tìm kiếm"
-                                                                    class="ux-search-submit submit-button secondary button  icon mb-0"
-                                                                    aria-label="Gửi">
-                                                                    <i class="icon-search"></i> </button>
-                                                            </div>
-                                                        </div>
-                                                        <div class="live-search-results text-left z-top"></div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <!-- Right Elements -->
-                                <div class="flex-col hide-for-medium flex-right">
-                                    <ul class="header-nav header-nav-main nav nav-right  nav-uppercase">
-                                        <li class="cart-item has-icon has-dropdown">
-
-                                            <a href="https://kingledvietnam.com/gio-hang/"
-                                                class="header-cart-link is-small" title="Giỏ hàng">
-
-                                                <span class="header-cart-title">
-                                                    Giỏ hàng </span>
-
-                                                <i class="icon-shopping-cart" data-icon-label="0">
-                                                </i>
-                                            </a>
-
-                                            <ul class="nav-dropdown nav-dropdown-default">
-                                                <li class="html widget_shopping_cart">
-                                                    <div class="widget_shopping_cart_content">
-
-
-                                                        <div
-                                                            class="ux-mini-cart-empty flex flex-row-col text-center pt pb">
-                                                            <div class="ux-mini-cart-empty-icon">
-                                                                <svg xmlns="http://www.w3.org/2000/svg"
-                                                                    viewBox="0 0 17 19" style="opacity:.1;height:80px;">
-                                                                    <path
-                                                                        d="M8.5 0C6.7 0 5.3 1.2 5.3 2.7v2H2.1c-.3 0-.6.3-.7.7L0 18.2c0 .4.2.8.6.8h15.7c.4 0 .7-.3.7-.7v-.1L15.6 5.4c0-.3-.3-.6-.7-.6h-3.2v-2c0-1.6-1.4-2.8-3.2-2.8zM6.7 2.7c0-.8.8-1.4 1.8-1.4s1.8.6 1.8 1.4v2H6.7v-2zm7.5 3.4 1.3 11.5h-14L2.8 6.1h2.5v1.4c0 .4.3.7.7.7.4 0 .7-.3.7-.7V6.1h3.5v1.4c0 .4.3.7.7.7s.7-.3.7-.7V6.1h2.6z"
-                                                                        fill-rule="evenodd" clip-rule="evenodd"
-                                                                        fill="currentColor"></path>
-                                                                </svg>
-                                                            </div>
-                                                            <p class="woocommerce-mini-cart__empty-message empty">Chưa
-                                                                có sản
-                                                                phẩm trong giỏ hàng.</p>
-                                                            <p class="return-to-shop">
-                                                                <a class="button primary wc-backward"
-                                                                    href="https://kingledvietnam.com/cua-hang/">
-                                                                    Quay trở lại cửa hàng </a>
-                                                            </p>
-                                                        </div>
-
-
-                                                    </div>
-                                                </li>
-                                            </ul>
-
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <!-- Mobile Right Elements -->
-                                <div class="flex-col show-for-medium flex-right">
-                                    <ul class="mobile-nav nav nav-right ">
-                                        <li class="cart-item has-icon">
-
-
-                                            <a href="https://kingledvietnam.com/gio-hang/"
-                                                class="header-cart-link is-small off-canvas-toggle nav-top-link"
-                                                title="Giỏ hàng" data-open="#cart-popup" data-class="off-canvas-cart"
-                                                data-pos="right">
-
-                                                <i class="icon-shopping-cart" data-icon-label="0">
-                                                </i>
-                                            </a>
-
-
-                                            <!-- Cart Sidebar Popup -->
-                                            <div id="cart-popup" class="mfp-hide">
-                                                <div class="cart-popup-inner inner-padding cart-popup-inner--sticky">
-                                                    <div class="cart-popup-title text-center">
-                                                        <span class="heading-font uppercase">Giỏ hàng</span>
-                                                        <div class="is-divider"></div>
-                                                    </div>
-                                                    <div class="widget_shopping_cart">
-                                                        <div class="widget_shopping_cart_content">
-
-
-                                                            <div
-                                                                class="ux-mini-cart-empty flex flex-row-col text-center pt pb">
-                                                                <div class="ux-mini-cart-empty-icon">
-                                                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                                                        viewBox="0 0 17 19"
-                                                                        style="opacity:.1;height:80px;">
-                                                                        <path
-                                                                            d="M8.5 0C6.7 0 5.3 1.2 5.3 2.7v2H2.1c-.3 0-.6.3-.7.7L0 18.2c0 .4.2.8.6.8h15.7c.4 0 .7-.3.7-.7v-.1L15.6 5.4c0-.3-.3-.6-.7-.6h-3.2v-2c0-1.6-1.4-2.8-3.2-2.8zM6.7 2.7c0-.8.8-1.4 1.8-1.4s1.8.6 1.8 1.4v2H6.7v-2zm7.5 3.4 1.3 11.5h-14L2.8 6.1h2.5v1.4c0 .4.3.7.7.7.4 0 .7-.3.7-.7V6.1h3.5v1.4c0 .4.3.7.7.7s.7-.3.7-.7V6.1h2.6z"
-                                                                            fill-rule="evenodd" clip-rule="evenodd"
-                                                                            fill="currentColor"></path>
-                                                                    </svg>
-                                                                </div>
-                                                                <p class="woocommerce-mini-cart__empty-message empty">
-                                                                    Chưa có
-                                                                    sản phẩm trong giỏ hàng.</p>
-                                                                <p class="return-to-shop">
-                                                                    <a class="button primary wc-backward"
-                                                                        href="https://kingledvietnam.com/cua-hang/">
-                                                                        Quay trở lại cửa hàng </a>
-                                                                </p>
-                                                            </div>
-
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </li>
-                                    </ul>
-                                </div>
-
-                            </div>
-
-                        </div>
-                        <div id="wide-nav" class="header-bottom wide-nav hide-for-sticky">
-                            <div class="flex-row container">
-
-                                <div class="flex-col hide-for-medium flex-left">
-                                    <ul
-                                        class="nav header-nav header-bottom-nav nav-left  nav-divided nav-size-small nav-spacing-small nav-uppercase">
-                                        <li id="menu-item-3183"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-25 current_page_item menu-item-3183 active menu-item-design-default">
-                                            <a href="https://kingledvietnam.com/" aria-current="page"
-                                                class="nav-top-link">Trang
-                                                Chủ</a>
-                                        </li>
-                                        <li id="menu-item-3186"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3186 menu-item-design-default">
-                                            <a href="https://kingledvietnam.com/gioi-thieu/" class="nav-top-link">Giới
-                                                Thiệu</a>
-                                        </li>
-                                        <li id="menu-item-6390"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6390 menu-item-design-container-width menu-item-has-block has-dropdown nav-dropdown-toggle">
-                                            <a href="https://kingledvietnam.com/cua-hang/" class="nav-top-link"
-                                                aria-expanded="false" aria-haspopup="menu">Danh mục KingLED<i
-                                                    class="icon-angle-down"></i></a>
-                                            <div class="sub-menu nav-dropdown">
-                                                <div class="row row-collapse row-solid chem-no-tong"
-                                                    id="row-1054830396">
-
-
-                                                    <div id="col-1621966801"
-                                                        class="col chem-no medium-3 small-6 large-3">
-                                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                                            <a class="plain"
-                                                                href="https://kingledvietnam.com/den-led-am-tran-kingled/">
-                                                                <div
-                                                                    class="icon-box featured-box icon-box-left text-left">
-                                                                    <div class="icon-box-img" style="width: 60px">
-                                                                        <div class="icon">
-                                                                            <div class="icon-inner">
-                                                                                <img width="100" height="100"
-                                                                                    src="/assets/wp-content/uploads/2023/11/den-led-am-tran-dowlight.jpg"
-                                                                                    class="attachment-medium size-medium"
-                                                                                    alt="den led am tran dowlight"
-                                                                                    decoding="async" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="icon-box-text last-reset">
-
-
-                                                                        <div id="text-3919581666"
-                                                                            class="text text-chem-no">
-
-
-                                                                            <h3><span
-                                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                                        style="color: #000000;"
-                                                                                        href="https://kingledvietnam.com/den-led-am-tran-kingled/">Đèn
-                                                                                        LED Âm trần KingLED</a></span>
-                                                                            </h3>
-
-                                                                            <style>
-                                                                                #text-3919581666 {
-                                                                                    line-height: 1.4;
-                                                                                    text-align: left;
-                                                                                }
-                                                                            </style>
-                                                                        </div>
-
-
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-
-
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div id="col-1381969008"
-                                                        class="col chem-no medium-3 small-6 large-3">
-                                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                                            <a class="plain"
-                                                                href="https://kingledvietnam.com/den-led-spot-light/">
-                                                                <div
-                                                                    class="icon-box featured-box icon-box-left text-left">
-                                                                    <div class="icon-box-img" style="width: 60px">
-                                                                        <div class="icon">
-                                                                            <div class="icon-inner">
-                                                                                <img width="100" height="100"
-                                                                                    src="/assets/wp-content/uploads/2023/11/802.jpg"
-                                                                                    class="attachment-medium size-medium"
-                                                                                    alt="802" decoding="async" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="icon-box-text last-reset">
-
-
-                                                                        <div id="text-3771831835"
-                                                                            class="text text-chem-no">
-
-
-                                                                            <h3><span
-                                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                                        style="color: #000000;"
-                                                                                        href="https://kingledvietnam.com/den-led-spot-light/">Đèn
-                                                                                        LED Spolight KingLED</a></span>
-                                                                            </h3>
-
-                                                                            <style>
-                                                                                #text-3771831835 {
-                                                                                    line-height: 1.4;
-                                                                                }
-                                                                            </style>
-                                                                        </div>
-
-
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-
-
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div id="col-450627898"
-                                                        class="col chem-no medium-3 small-6 large-3">
-                                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                                            <a class="plain"
-                                                                href="https://kingledvietnam.com/den-led-tuyp-kingled/">
-                                                                <div
-                                                                    class="icon-box featured-box icon-box-left text-left">
-                                                                    <div class="icon-box-img" style="width: 60px">
-                                                                        <div class="icon">
-                                                                            <div class="icon-inner">
-                                                                                <img width="100" height="100"
-                                                                                    src="/assets/wp-content/uploads/2023/11/808.jpg"
-                                                                                    class="attachment-medium size-medium"
-                                                                                    alt="808" decoding="async" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="icon-box-text last-reset">
-
-
-                                                                        <div id="text-4058671125"
-                                                                            class="text text-chem-no">
-
-
-                                                                            <h3><span
-                                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                                        style="color: #000000;"
-                                                                                        href="https://kingledvietnam.com/den-led-tuyp-kingled/">Đèn
-                                                                                        LED tuýp KingLED</a></span></h3>
-
-                                                                            <style>
-                                                                                #text-4058671125 {
-                                                                                    line-height: 1.4;
-                                                                                }
-                                                                            </style>
-                                                                        </div>
-
-
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-
-
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div id="col-1010941614"
-                                                        class="col chem-no medium-3 small-6 large-3">
-                                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                                            <a class="plain"
-                                                                href="https://kingledvietnam.com/den-led-roi-ray-kingled/">
-                                                                <div
-                                                                    class="icon-box featured-box icon-box-left text-left">
-                                                                    <div class="icon-box-img" style="width: 60px">
-                                                                        <div class="icon">
-                                                                            <div class="icon-inner">
-                                                                                <img width="100" height="100"
-                                                                                    src="/assets/wp-content/uploads/2023/11/816.jpg"
-                                                                                    class="attachment-medium size-medium"
-                                                                                    alt="816" decoding="async" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="icon-box-text last-reset">
-
-
-                                                                        <div id="text-1979413852"
-                                                                            class="text text-chem-no">
-
-
-                                                                            <h3><span
-                                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                                        style="color: #000000;"
-                                                                                        href="https://kingledvietnam.com/den-led-roi-ray-kingled/">Đèn
-                                                                                        LED rọi ray KingLED</a></span>
-                                                                            </h3>
-
-                                                                            <style>
-                                                                                #text-1979413852 {
-                                                                                    line-height: 1.4;
-                                                                                }
-                                                                            </style>
-                                                                        </div>
-
-
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-
-
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div id="col-631172335"
-                                                        class="col chem-no medium-3 small-6 large-3">
-                                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                                            <a class="plain"
-                                                                href="https://kingledvietnam.com/den-led-day-kingled/">
-                                                                <div
-                                                                    class="icon-box featured-box icon-box-left text-left">
-                                                                    <div class="icon-box-img" style="width: 60px">
-                                                                        <div class="icon">
-                                                                            <div class="icon-inner">
-                                                                                <img width="100" height="100"
-                                                                                    src="/assets/wp-content/uploads/2023/11/821.jpg"
-                                                                                    class="attachment-medium size-medium"
-                                                                                    alt="821" decoding="async" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="icon-box-text last-reset">
-
-
-                                                                        <div id="text-367803728"
-                                                                            class="text text-chem-no">
-
-
-                                                                            <h3><span
-                                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                                        style="color: #000000;"
-                                                                                        href="https://kingledvietnam.com/den-led-day-kingled/">Đèn
-                                                                                        LED Dây KingLED</a></span></h3>
-
-                                                                            <style>
-                                                                                #text-367803728 {
-                                                                                    line-height: 1.4;
-                                                                                }
-                                                                            </style>
-                                                                        </div>
-
-
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-
-
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div id="col-788541527"
-                                                        class="col chem-no medium-3 small-6 large-3">
-                                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                                            <a class="plain"
-                                                                href="https://kingledvietnam.com/den-led-op-tran-kingled/">
-                                                                <div
-                                                                    class="icon-box featured-box icon-box-left text-left">
-                                                                    <div class="icon-box-img" style="width: 60px">
-                                                                        <div class="icon">
-                                                                            <div class="icon-inner">
-                                                                                <img width="100" height="100"
-                                                                                    src="/assets/wp-content/uploads/2023/11/813.jpg"
-                                                                                    class="attachment-medium size-medium"
-                                                                                    alt="813" decoding="async" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="icon-box-text last-reset">
-
-
-                                                                        <div id="text-594800250"
-                                                                            class="text text-chem-no">
-
-
-                                                                            <h3><span
-                                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                                        style="color: #000000;"
-                                                                                        href="https://kingledvietnam.com/den-led-op-tran-kingled/">Đèn
-                                                                                        LED ốp trần KingLED</a></span>
-                                                                            </h3>
-
-                                                                            <style>
-                                                                                #text-594800250 {
-                                                                                    line-height: 1.4;
-                                                                                }
-                                                                            </style>
-                                                                        </div>
-
-
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-
-
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div id="col-1707083366"
-                                                        class="col chem-no medium-3 small-6 large-3">
-                                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                                            <a class="plain"
-                                                                href="https://kingledvietnam.com/den-led-panel-kingled/">
-                                                                <div
-                                                                    class="icon-box featured-box icon-box-left text-left">
-                                                                    <div class="icon-box-img" style="width: 60px">
-                                                                        <div class="icon">
-                                                                            <div class="icon-inner">
-                                                                                <img width="100" height="100"
-                                                                                    src="/assets/wp-content/uploads/2023/11/827.jpg"
-                                                                                    class="attachment-medium size-medium"
-                                                                                    alt="827" decoding="async" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="icon-box-text last-reset">
-
-
-                                                                        <div id="text-1915064366"
-                                                                            class="text text-chem-no">
-
-
-                                                                            <h3><span
-                                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                                        style="color: #000000;"
-                                                                                        href="https://kingledvietnam.com/den-led-panel-kingled/">Đèn
-                                                                                        LED Panel KingLED</a></span>
-                                                                            </h3>
-
-                                                                            <style>
-                                                                                #text-1915064366 {
-                                                                                    line-height: 1.4;
-                                                                                }
-                                                                            </style>
-                                                                        </div>
-
-
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-
-
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div id="col-770596627"
-                                                        class="col chem-no medium-3 small-6 large-3">
-                                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                                            <a class="plain"
-                                                                href="https://kingledvietnam.com/den-led-ong-bo-kingled/">
-                                                                <div
-                                                                    class="icon-box featured-box icon-box-left text-left">
-                                                                    <div class="icon-box-img" style="width: 60px">
-                                                                        <div class="icon">
-                                                                            <div class="icon-inner">
-                                                                                <img width="100" height="100"
-                                                                                    src="/assets/wp-content/uploads/2023/11/824.jpg"
-                                                                                    class="attachment-medium size-medium"
-                                                                                    alt="824" decoding="async" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="icon-box-text last-reset">
-
-
-                                                                        <div id="text-1035197261"
-                                                                            class="text text-chem-no">
-
-
-                                                                            <h3><span
-                                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                                        style="color: #000000;"
-                                                                                        href="https://kingledvietnam.com/den-led-ong-bo-kingled/">Đèn
-                                                                                        LED ống bơ KingLED</a></span>
-                                                                            </h3>
-
-                                                                            <style>
-                                                                                #text-1035197261 {
-                                                                                    line-height: 1.4;
-                                                                                }
-                                                                            </style>
-                                                                        </div>
-
-
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-
-
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div id="col-1559707477"
-                                                        class="col chem-no medium-3 small-6 large-3">
-                                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                                            <a class="plain"
-                                                                href="https://kingledvietnam.com/den-tha-trang-tri-kingled/">
-                                                                <div
-                                                                    class="icon-box featured-box icon-box-left text-left">
-                                                                    <div class="icon-box-img" style="width: 60px">
-                                                                        <div class="icon">
-                                                                            <div class="icon-inner">
-                                                                                <img width="100" height="100"
-                                                                                    src="/assets/wp-content/uploads/2023/11/822.jpg"
-                                                                                    class="attachment-medium size-medium"
-                                                                                    alt="822" decoding="async" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="icon-box-text last-reset">
-
-
-                                                                        <div id="text-459421488"
-                                                                            class="text text-chem-no">
-
-
-                                                                            <h3><span
-                                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                                        style="color: #000000;"
-                                                                                        href="https://kingledvietnam.com/den-tha-trang-tri-kingled/">Đèn
-                                                                                        thả trang trí KingLED</a></span>
-                                                                            </h3>
-
-                                                                            <style>
-                                                                                #text-459421488 {
-                                                                                    line-height: 1.4;
-                                                                                }
-                                                                            </style>
-                                                                        </div>
-
-
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-
-
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div id="col-1935297270"
-                                                        class="col chem-no medium-3 small-6 large-3">
-                                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                                            <a class="plain"
-                                                                href="https://kingledvietnam.com/den-pha-led-kingled/">
-                                                                <div
-                                                                    class="icon-box featured-box icon-box-left text-left">
-                                                                    <div class="icon-box-img" style="width: 60px">
-                                                                        <div class="icon">
-                                                                            <div class="icon-inner">
-                                                                                <img width="100" height="100"
-                                                                                    src="/assets/wp-content/uploads/2023/11/819.jpg"
-                                                                                    class="attachment-medium size-medium"
-                                                                                    alt="819" decoding="async" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="icon-box-text last-reset">
-
-
-                                                                        <div id="text-120460165"
-                                                                            class="text text-chem-no">
-
-
-                                                                            <h3><span
-                                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                                        style="color: #000000;"
-                                                                                        href="https://kingledvietnam.com/den-pha-led-kingled/">Đèn
-                                                                                        pha LED KingLED</a></span></h3>
-
-                                                                            <style>
-                                                                                #text-120460165 {
-                                                                                    line-height: 1.4;
-                                                                                }
-                                                                            </style>
-                                                                        </div>
-
-
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-
-
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div id="col-1457044474"
-                                                        class="col chem-no medium-3 small-6 large-3">
-                                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                                            <a class="plain"
-                                                                href="https://kingledvietnam.com/den-cot-san-vuon/">
-                                                                <div
-                                                                    class="icon-box featured-box icon-box-left text-left">
-                                                                    <div class="icon-box-img" style="width: 60px">
-                                                                        <div class="icon">
-                                                                            <div class="icon-inner">
-                                                                                <img width="100" height="100"
-                                                                                    src="/assets/wp-content/uploads/2023/11/812.jpg"
-                                                                                    class="attachment-medium size-medium"
-                                                                                    alt="812" decoding="async" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="icon-box-text last-reset">
-
-
-                                                                        <div id="text-4135508866"
-                                                                            class="text text-chem-no">
-
-
-                                                                            <h3><span
-                                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                                        style="color: #000000;"
-                                                                                        href="https://kingledvietnam.com/den-cot-san-vuon/">Đèn
-                                                                                        LED sân vườn KingLED</a></span>
-                                                                            </h3>
-
-                                                                            <style>
-                                                                                #text-4135508866 {
-                                                                                    line-height: 1.4;
-                                                                                }
-                                                                            </style>
-                                                                        </div>
-
-
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-
-
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div id="col-552528498"
-                                                        class="col chem-no medium-3 small-6 large-3">
-                                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                                            <a class="plain"
-                                                                href="https://kingledvietnam.com/den-khan-cap-kingled/">
-                                                                <div
-                                                                    class="icon-box featured-box icon-box-left text-left">
-                                                                    <div class="icon-box-img" style="width: 60px">
-                                                                        <div class="icon">
-                                                                            <div class="icon-inner">
-                                                                                <img width="100" height="100"
-                                                                                    src="/assets/wp-content/uploads/2023/11/832.jpg"
-                                                                                    class="attachment-medium size-medium"
-                                                                                    alt="832" decoding="async" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="icon-box-text last-reset">
-
-
-                                                                        <div id="text-1660283317"
-                                                                            class="text text-chem-no">
-
-
-                                                                            <h3><span
-                                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                                        style="color: #000000;"
-                                                                                        href="https://kingledvietnam.com/den-khan-cap-kingled/">Đèn
-                                                                                        khẩn cấp KingLED</a></span></h3>
-
-                                                                            <style>
-                                                                                #text-1660283317 {
-                                                                                    line-height: 1.4;
-                                                                                }
-                                                                            </style>
-                                                                        </div>
-
-
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-
-
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div id="col-1994947812"
-                                                        class="col chem-no medium-3 small-6 large-3">
-                                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                                            <a class="plain"
-                                                                href="https://kingledvietnam.com/den-exit-chi-huong/">
-                                                                <div
-                                                                    class="icon-box featured-box icon-box-left text-left">
-                                                                    <div class="icon-box-img" style="width: 60px">
-                                                                        <div class="icon">
-                                                                            <div class="icon-inner">
-                                                                                <img width="100" height="100"
-                                                                                    src="/assets/wp-content/uploads/2023/11/826.jpg"
-                                                                                    class="attachment-medium size-medium"
-                                                                                    alt="826" decoding="async" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="icon-box-text last-reset">
-
-
-                                                                        <div id="text-966334771"
-                                                                            class="text text-chem-no">
-
-
-                                                                            <h3><span
-                                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                                        style="color: #000000;"
-                                                                                        href="https://kingledvietnam.com/den-exit-chi-huong/">Đèn
-                                                                                        Exit chỉ hướng
-                                                                                        KingLED</a></span></h3>
-
-                                                                            <style>
-                                                                                #text-966334771 {
-                                                                                    line-height: 1.4;
-                                                                                }
-                                                                            </style>
-                                                                        </div>
-
-
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-
-
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div id="col-376676015"
-                                                        class="col chem-no medium-3 small-6 large-3">
-                                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                                            <a class="plain"
-                                                                href="https://kingledvietnam.com/den-led-bup-kingled/">
-                                                                <div
-                                                                    class="icon-box featured-box icon-box-left text-left">
-                                                                    <div class="icon-box-img" style="width: 60px">
-                                                                        <div class="icon">
-                                                                            <div class="icon-inner">
-                                                                                <img width="100" height="100"
-                                                                                    src="/assets/wp-content/uploads/2023/11/829.jpeg"
-                                                                                    class="attachment-medium size-medium"
-                                                                                    alt="829" decoding="async" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="icon-box-text last-reset">
-
-
-                                                                        <div id="text-1266246711"
-                                                                            class="text text-chem-no">
-
-
-                                                                            <h3><span
-                                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                                        style="color: #000000;"
-                                                                                        href="https://kingledvietnam.com/den-led-bup-kingled/">Bóng
-                                                                                        đèn LED</a></span></h3>
-
-                                                                            <style>
-                                                                                #text-1266246711 {
-                                                                                    line-height: 1.4;
-                                                                                }
-                                                                            </style>
-                                                                        </div>
-
-
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-
-
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div id="col-1057655248"
-                                                        class="col chem-no medium-3 small-6 large-3">
-                                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                                            <a class="plain"
-                                                                href="https://kingledvietnam.com/den-nha-xuong/">
-                                                                <div
-                                                                    class="icon-box featured-box icon-box-left text-left">
-                                                                    <div class="icon-box-img" style="width: 60px">
-                                                                        <div class="icon">
-                                                                            <div class="icon-inner">
-                                                                                <img width="100" height="100"
-                                                                                    src="/assets/wp-content/uploads/2023/11/828.jpg"
-                                                                                    class="attachment-medium size-medium"
-                                                                                    alt="828" decoding="async" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="icon-box-text last-reset">
-
-
-                                                                        <div id="text-1608380299"
-                                                                            class="text text-chem-no">
-
-
-                                                                            <h3><span
-                                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                                        style="color: #000000;"
-                                                                                        href="https://kingledvietnam.com/den-nha-xuong/">Đèn
-                                                                                        nhà xưởng KingLED</a></span>
-                                                                            </h3>
-
-                                                                            <style>
-                                                                                #text-1608380299 {
-                                                                                    line-height: 1.4;
-                                                                                }
-                                                                            </style>
-                                                                        </div>
-
-
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-
-
-                                                        </div>
-                                                    </div>
-
-
-
-                                                    <div id="col-1505854025"
-                                                        class="col chem-no medium-3 small-6 large-3">
-                                                        <div class="col-inner text-center box-shadow-2-hover">
-
-
-
-
-                                                            <a class="plain"
-                                                                href="https://kingledvietnam.com/phu-kien-den-led-day/">
-                                                                <div
-                                                                    class="icon-box featured-box icon-box-left text-left">
-                                                                    <div class="icon-box-img" style="width: 60px">
-                                                                        <div class="icon">
-                                                                            <div class="icon-inner">
-                                                                                <img width="100" height="100"
-                                                                                    src="/assets/wp-content/uploads/2023/11/810.jpg"
-                                                                                    class="attachment-medium size-medium"
-                                                                                    alt="810" decoding="async" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="icon-box-text last-reset">
-
-
-                                                                        <div id="text-2384474797"
-                                                                            class="text text-chem-no">
-
-
-                                                                            <h3><span
-                                                                                    style="color: #000000; font-family: avo; font-size: 75%;"><a
-                                                                                        style="color: #000000;"
-                                                                                        href="https://kingledvietnam.com/phu-kien-den-led-day/">Phụ
-                                                                                        kiện</a></span></h3>
-
-                                                                            <style>
-                                                                                #text-2384474797 {
-                                                                                    line-height: 1.4;
-                                                                                }
-                                                                            </style>
-                                                                        </div>
-
-
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-
-
-                                                        </div>
-                                                    </div>
-
-
-
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li id="menu-item-3184"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3184 menu-item-design-default">
-                                            <a href="https://kingledvietnam.com/bao-gia/" class="nav-top-link">Báo
-                                                Giá</a>
-                                        </li>
-                                        <li id="menu-item-3187"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3187 menu-item-design-default">
-                                            <a href="https://kingledvietnam.com/lien-he/" class="nav-top-link">Liên
-                                                Hệ</a>
-                                        </li>
-                                        <li id="menu-item-3188"
-                                            class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3188 menu-item-design-default">
-                                            <a href="https://kingledvietnam.com/tin-tuc/" class="nav-top-link">Tin
-                                                Tức</a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-
-                                <div class="flex-col hide-for-medium flex-right flex-grow">
-                                    <ul
-                                        class="nav header-nav header-bottom-nav nav-right  nav-divided nav-size-small nav-spacing-small nav-uppercase">
-                                    </ul>
-                                </div>
-
-                                <div class="flex-col show-for-medium flex-grow">
-                                    <ul
-                                        class="nav header-bottom-nav nav-center mobile-nav  nav-divided nav-size-small nav-spacing-small nav-uppercase">
-                                        <li class="header-search-form search-form html relative has-icon">
-                                            <div class="header-search-form-wrapper">
-                                                <div class="searchform-wrapper ux-search-box relative is-normal">
-                                                    <form role="search" method="get" class="searchform"
-                                                        action="https://kingledvietnam.com/">
-                                                        <div class="flex-row relative">
-                                                            <div class="flex-col search-form-categories">
-                                                                <select class="search_categories resize-select mb-0"
-                                                                    name="product_cat">
-                                                                    <option value="" selected='selected'>Tất cả</option>
-                                                                    <option value="den-am-bac-cau-thang">ĐÈN ÂM BẬC CẦU
-                                                                        THANG
-                                                                    </option>
-                                                                    <option value="den-cot-san-vuon">ĐÈN CỘT SÂN VƯỜN
-                                                                    </option>
-                                                                    <option value="den-exit-chi-huong">ĐÈN EXIT CHỈ
-                                                                        HƯỚNG
-                                                                    </option>
-                                                                    <option value="den-khan-cap-kingled">ĐÈN KHẨN CẤP
-                                                                        KINGLED
-                                                                    </option>
-                                                                    <option value="den-led-am-tran-kingeco">ĐÈN LED ÂM
-                                                                        TRẦN
-                                                                        KINGECO</option>
-                                                                    <option value="den-led-am-tran-kingled">ĐÈN LED ÂM
-                                                                        TRẦN
-                                                                        KINGLED</option>
-                                                                    <option value="den-led-bup-kingled">ĐÈN LED BÚP
-                                                                        KINGLED
-                                                                    </option>
-                                                                    <option value="den-led-day-kingled">ĐÈN LED DÂY
-                                                                        KINGLED
-                                                                    </option>
-                                                                    <option value="den-led-ong-bo-kingled">ĐÈN LED ỐNG
-                                                                        BƠ
-                                                                        KINGLED</option>
-                                                                    <option value="den-led-op-tran-kingled">ĐÈN LED ỐP
-                                                                        TRẦN
-                                                                        KINGLED</option>
-                                                                    <option value="den-led-panel-kingled">ĐÈN LED PANEL
-                                                                        KINGLED
-                                                                    </option>
-                                                                    <option value="den-led-roi-ray-kingled">ĐÈN LED RỌI
-                                                                        RAY
-                                                                        KINGLED</option>
-                                                                    <option value="den-led-spot-light">ĐÈN LED SPOT
-                                                                        LIGHT
-                                                                    </option>
-                                                                    <option value="den-led-tuyp-kingled">ĐÈN LED TUÝP
-                                                                        KINGLED
-                                                                    </option>
-                                                                    <option value="den-nha-xuong">ĐÈN NHÀ XƯỞNG</option>
-                                                                    <option value="den-pha-led-kingled">ĐÈN PHA LED
-                                                                        KINGLED
-                                                                    </option>
-                                                                    <option value="den-ray-nam-cham">ĐÈN RAY NAM CHÂM
-                                                                    </option>
-                                                                    <option value="den-soi-tranh-kingled">ĐÈN SOI TRANH
-                                                                        KINGLED
-                                                                    </option>
-                                                                    <option value="den-tha-trang-tri-kingled">ĐÈN THẢ
-                                                                        TRANG TRÍ
-                                                                        KINGLED</option>
-                                                                    <option value="den-tuong-trang-tri">ĐÈN TƯỜNG TRANG
-                                                                        TRÍ
-                                                                    </option>
-                                                                    <option value="phu-kien-den-led-day">PHỤ KIỆN ĐÈN
-                                                                        LED DÂY
-                                                                    </option>
-                                                                    <option value="phu-kien-den-ray-nam-cham">PHỤ KIỆN
-                                                                        ĐÈN RAY
-                                                                        NAM CHÂM</option>
-                                                                    <option value="quat-suoi-dieu-hoa">QUẠT SƯỞI ĐIỀU
-                                                                        HÒA
-                                                                    </option>
-                                                                    <option value="san-pham-moi-ra-mat">SẢN PHẨM MỚI RA
-                                                                        MẮT
-                                                                    </option>
-                                                                    <option value="thanh-ray-nam-cham-mong">THANH RAY
-                                                                        NAM CHÂM
-                                                                        MỎNG</option>
-                                                                </select>
-                                                            </div>
-                                                            <div class="flex-col flex-grow">
-                                                                <label class="screen-reader-text"
-                                                                    for="woocommerce-product-search-field-1">Tìm
-                                                                    kiếm:</label>
-                                                                <input type="search"
-                                                                    id="woocommerce-product-search-field-1"
-                                                                    class="search-field mb-0"
-                                                                    placeholder="Tìm kiếm&hellip;" value="" name="s" />
-                                                                <input type="hidden" name="post_type" value="product" />
-                                                            </div>
-                                                            <div class="flex-col">
-                                                                <button type="submit" value="Tìm kiếm"
-                                                                    class="ux-search-submit submit-button secondary button  icon mb-0"
-                                                                    aria-label="Gửi">
-                                                                    <i class="icon-search"></i> </button>
-                                                            </div>
-                                                        </div>
-                                                        <div class="live-search-results text-left z-top"></div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="header-bg-container fill">
-                            <div class="header-bg-image fill"></div>
-                            <div class="header-bg-color fill"></div>
-                        </div>
-                    </div>
-                </header>
+                @livewire('inc.header')
 
 
                 <main id="main" class="">
@@ -3292,7 +1958,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 <a href="https://kingledvietnam.com/den-led-am-tran-ruby-12w-don-sac-dl-12ss-t140-kingled/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
                                                                     LED Âm Trần Ruby 12W Đơn Sắc (DL-12SS-T140)
-                                                                    Kingled</a></p>
+                                                                    Kingled</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -3417,7 +2084,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 <a href="https://kingledvietnam.com/den-led-am-tran-ruby-8w-don-sac-dl-8ss-t120-kingled/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
                                                                     LED Âm Trần Ruby 8W Đơn Sắc (DL-8SS-T120)
-                                                                    Kingled</a></p>
+                                                                    Kingled</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -3605,7 +2273,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 <a href="https://kingledvietnam.com/den-led-am-tran-ruby-6w-don-sac-dl-6ss-t100-kingled/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
                                                                     LED Âm Trần Ruby 6W Đơn Sắc (DL-6SS-T100)
-                                                                    Kingled</a></p>
+                                                                    Kingled</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -3696,7 +2365,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-led-spotlight-7w-dlr-7-t110/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    LED SPOTLIGHT 7W (DLR-7-T110)</a></p>
+                                                                    LED SPOTLIGHT 7W (DLR-7-T110)</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -3757,7 +2427,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-led-spotlight-5w-dlr-5-t95/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    LED SPOTLIGHT 5W (DLR-5-T95)</a></p>
+                                                                    LED SPOTLIGHT 5W (DLR-5-T95)</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -3811,7 +2482,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-led-spotlight-3w-dlr-3-t85-kingled/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    LED SPOTLIGHT 3W (DLR-3-T85) KINGLED</a></p>
+                                                                    LED SPOTLIGHT 3W (DLR-3-T85) KINGLED</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -4123,7 +2795,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 <a href="https://kingledvietnam.com/den-tuyp-led-ban-nguyet-amber-27w-tbn-27ss-60/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
                                                                     Tuýp LED Bán Nguyệt Amber 27W (TBN-27SS-60)
-                                                                    Kingled</a></p>
+                                                                    Kingled</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -4185,7 +2858,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 <a href="https://kingledvietnam.com/den-tuyp-led-ban-nguyet-amber-54w-tbn-54ss-120-kingled/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
                                                                     Tuýp LED Bán Nguyệt Amber 54W (TBN-54SS-120)
-                                                                    Kingled</a></p>
+                                                                    Kingled</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -4247,7 +2921,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 <a href="https://kingledvietnam.com/den-tuyp-led-ban-nguyet-amber-36w-tbn-36ss-120-kingled/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
                                                                     Tuýp LED Bán Nguyệt Amber 36W (TBN-36SS-120)
-                                                                    Kingled</a></p>
+                                                                    Kingled</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -4309,7 +2984,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 <a href="https://kingledvietnam.com/den-tuyp-led-ban-nguyet-amber-18w-tbn-18ss-60-kingled/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
                                                                     Tuýp LED Bán Nguyệt Amber 18W (TBN-18SS-60)
-                                                                    Kingled</a></p>
+                                                                    Kingled</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -4371,7 +3047,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 <a href="https://kingledvietnam.com/den-tuyp-led-ban-nguyet-kingeco-18w-0-6m-ec-tbn-18-60/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
                                                                     Tuýp LED Bán Nguyệt Kingeco 18W 0.6m
-                                                                    (EC-TBN-18-60)</a></p>
+                                                                    (EC-TBN-18-60)</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -4462,7 +3139,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-led-bulb-3w-kingled-dob-lb-3/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                    led Bulb 3w Kingled DOB-LB-3</a></p>
+                                                                    led Bulb 3w Kingled DOB-LB-3</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -4523,7 +3201,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-led-bulb-kingled-5w-dob-lb-5/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                    led Bulb Kingled 5w DOB-LB-5</a></p>
+                                                                    led Bulb Kingled 5w DOB-LB-5</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -4584,7 +3263,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-led-bulb-kingled-9w-dob-lb-9/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                    led Bulb Kingled 9w DOB-LB-9</a></p>
+                                                                    led Bulb Kingled 9w DOB-LB-9</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -4645,7 +3325,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-led-bulb-kingled-13w-dob-lb-13/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                    led Bulb Kingled 13w DOB-LB-13</a></p>
+                                                                    led Bulb Kingled 13w DOB-LB-13</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -4706,7 +3387,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-led-bulb-kingled-15w-dob-lb-15/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                    led Bulb Kingled 15w DOB-LB-15</a></p>
+                                                                    led Bulb Kingled 15w DOB-LB-15</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -4767,7 +3449,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-led-bulb-kingled-20w-dob-lb-20/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                    led Bulb Kingled 20w DOB-LB-20</a></p>
+                                                                    led Bulb Kingled 20w DOB-LB-20</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -4858,7 +3541,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-panel-hop-zoisite-48w-plh-ss-series-30x120cm/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    PANEL HỘP ZOISITE 48W PLH-48SS-30120</a></p>
+                                                                    PANEL HỘP ZOISITE 48W PLH-48SS-30120</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -4919,7 +3603,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-panel-hop-zoisite-48w-plh-ss-series-60x60cm/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    PANEL HỘP ZOISITE 48W PLH-48SS-6060</a></p>
+                                                                    PANEL HỘP ZOISITE 48W PLH-48SS-6060</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -4973,7 +3658,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-panel-hop-onyx-48w-60x60cm/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    PANEL HỘP ONYX 48W, 60x60cm</a></p>
+                                                                    PANEL HỘP ONYX 48W, 60x60cm</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -5027,7 +3713,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-led-panel-sieu-mong-jasper-48w-60x60cm/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    LED PANEL SIÊU MỎNG JASPER 48W SPL-48SS-6060</a></p>
+                                                                    LED PANEL SIÊU MỎNG JASPER 48W SPL-48SS-6060</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -5081,7 +3768,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/am-tran-sieu-mong-pearl-24w-210-mat-vuong/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Âm
-                                                                    trần siêu mỏng Pearl 24W/210, mặt vuông</a></p>
+                                                                    trần siêu mỏng Pearl 24W/210, mặt vuông</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -5135,7 +3823,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/am-tran-sieu-mong-pearl-24w-210-mat-tron/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Âm
-                                                                    trần siêu mỏng Pearl 24W/210, mặt tròn</a></p>
+                                                                    trần siêu mỏng Pearl 24W/210, mặt tròn</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -5227,7 +3916,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 <a href="https://kingledvietnam.com/den-led-op-tran-tron-den-18w-ec-onl-18-t215-t-d-kingeco/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
                                                                     LED ốp trần tròn đen 18W EC-ONL-18-T215-T-Đ
-                                                                    KingEco</a></p>
+                                                                    KingEco</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -5289,7 +3979,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 <a href="https://kingledvietnam.com/den-led-op-tran-tron-den-12w-ec-onl-12-t170-t-d-kingeco/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
                                                                     LED ốp trần tròn đen 12W EC-ONL-12-T170-T-Đ
-                                                                    KingEco</a></p>
+                                                                    KingEco</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -5351,7 +4042,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 <a href="https://kingledvietnam.com/den-led-op-tran-vuong-den-18w-ec-onl-18-v215-t-d-kingeco/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
                                                                     LED ốp trần vuông đen 18W EC-ONL-18-V215-T-Đ
-                                                                    KingEco</a></p>
+                                                                    KingEco</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -5413,7 +4105,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 <a href="https://kingledvietnam.com/den-led-op-tran-vuong-den-12w-ec-onl-12-v170-t-d-kingeco/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
                                                                     LED ốp trần vuông đen 12W EC-ONL-12-V170-T-Đ
-                                                                    KingEco</a></p>
+                                                                    KingEco</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -5624,7 +4317,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 <a href="https://kingledvietnam.com/den-ong-bo-chieu-roi-emerald-10w-obr-10-d95-kingled/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
                                                                     Ống Bơ Chiếu Rọi Emerald 10W (OBR-10-D95)
-                                                                    Kingled</a></p>
+                                                                    Kingled</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -5734,7 +4428,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 <a href="https://kingledvietnam.com/den-ong-bo-chieu-roi-emerald-15w-obr-15-d115-kingled/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
                                                                     Ống Bơ Chiếu Rọi Emerald 15W (OBR-15-D115)
-                                                                    Kingled</a></p>
+                                                                    Kingled</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -5796,7 +4491,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 <a href="https://kingledvietnam.com/den-ong-bo-tan-quang-agate-12w-doi-mau-obk-12ss-d115-kingled/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
                                                                     Ống Bơ Tán Quang Agate 12W Đổi Màu (OBK-12SS-D115)
-                                                                    Kingled</a></p>
+                                                                    Kingled</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -5858,7 +4554,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 <a href="https://kingledvietnam.com/den-ong-bo-tan-quang-agate-12w-obk-12ss-d115-kingled/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
                                                                     Ống Bơ Tán Quang Agate 12W (OBK-12SS-D115)
-                                                                    Kingled</a></p>
+                                                                    Kingled</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -6012,7 +4709,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-roi-ray-sapphire-7w-dtl-7-kingled/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                    Rọi Ray Sapphire 7W vỏ đen (DTL-7-D) Kingled</a></p>
+                                                                    Rọi Ray Sapphire 7W vỏ đen (DTL-7-D) Kingled</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -6286,7 +4984,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-roi-ray-sapphire-7w-vo-den-trang-rrt-7ss/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                    Rọi Ray Sapphire 7W, vỏ đen/ trắng (RRT-7SS)</a></p>
+                                                                    Rọi Ray Sapphire 7W, vỏ đen/ trắng (RRT-7SS)</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -6370,7 +5069,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-ray-nam-cham-sieu-mong-den-tha/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    THẢ RAY NAM CHÂM SIÊU MỎNG 7W</a></p>
+                                                                    THẢ RAY NAM CHÂM SIÊU MỎNG 7W</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -6431,7 +5131,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-ray-nam-cham-sieu-mong-chieu-roi-6w-crx/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    RAY NAM CHÂM SIÊU MỎNG CHIẾU RỌI 6W (CRX)</a></p>
+                                                                    RAY NAM CHÂM SIÊU MỎNG CHIẾU RỌI 6W (CRX)</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -6492,7 +5193,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-ray-nam-cham-sieu-mong-chieu-roi-12w-crx/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    RAY NAM CHÂM SIÊU MỎNG CHIẾU RỌI 12W (CRX)</a></p>
+                                                                    RAY NAM CHÂM SIÊU MỎNG CHIẾU RỌI 12W (CRX)</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -6549,7 +5251,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-ray-nam-cham-sieu-mong-roi-ray-9w/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    RAY NAM CHÂM SIÊU MỎNG RỌI RAY 9W</a></p>
+                                                                    RAY NAM CHÂM SIÊU MỎNG RỌI RAY 9W</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><span
@@ -6603,7 +5306,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-ray-nam-cham-sieu-mong-ong-bo-6w/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    RAY NAM CHÂM SIÊU MỎNG &#8211; ỐNG BƠ 6W</a></p>
+                                                                    RAY NAM CHÂM SIÊU MỎNG &#8211; ỐNG BƠ 6W</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -6664,7 +5368,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-ray-nam-cham-sieu-mong-6ss-cr/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    RAY NAM CHÂM SIÊU MỎNG (6SS-CR)</a></p>
+                                                                    RAY NAM CHÂM SIÊU MỎNG (6SS-CR)</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -6755,7 +5460,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-led-pha-thau-kinh-200w-ec-ptk-200-kingeco/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                    LED Pha thấu kính 200W EC-PTK-200 Kingeco</a></p>
+                                                                    LED Pha thấu kính 200W EC-PTK-200 Kingeco</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -6816,7 +5522,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-led-pha-thau-kinh-150w-ec-ptk-150-kingeco/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                    LED Pha thấu kính 150W EC-PTK-150 Kingeco</a></p>
+                                                                    LED Pha thấu kính 150W EC-PTK-150 Kingeco</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -6877,7 +5584,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-led-pha-thau-kinh-100w-ec-ptk-100-kingeco/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                    LED Pha thấu kính 100W EC-PTK-100 Kingeco</a></p>
+                                                                    LED Pha thấu kính 100W EC-PTK-100 Kingeco</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -6938,7 +5646,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-led-pha-thau-kinh-50w-ec-ptk-50-kingeco/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                    LED Pha thấu kính 50W EC-PTK-50 Kingeco</a></p>
+                                                                    LED Pha thấu kính 50W EC-PTK-50 Kingeco</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -6999,7 +5708,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-led-pha-thau-kinh-30w-ec-ptk-30-kingeco/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                    LED Pha thấu kính 30W EC-PTK-30 Kingeco</a></p>
+                                                                    LED Pha thấu kính 30W EC-PTK-30 Kingeco</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -7060,7 +5770,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-pha-led-50w-chip-osram-ec-fl-50-kingled/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                    Pha Led 50W Chip Osram EC-FL-50 Kingled</a></p>
+                                                                    Pha Led 50W Chip Osram EC-FL-50 Kingled</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -7151,7 +5862,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-tuong-tran-vien-dttv-anh-sang-vang/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    TƯỜNG TRÀN VIỀN DTTV ÁNH SÁNG VÀNG</a></p>
+                                                                    TƯỜNG TRÀN VIỀN DTTV ÁNH SÁNG VÀNG</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -7212,7 +5924,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-tuong-tran-vien-dttv-anh-sang-trang/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    TƯỜNG TRÀN VIỀN DTTV ÁNH SÁNG TRẮNG</a></p>
+                                                                    TƯỜNG TRÀN VIỀN DTTV ÁNH SÁNG TRẮNG</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -7328,7 +6041,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-led-gan-tuong-lwa901a/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                    LED Gắn Tường LWA901A</a></p>
+                                                                    LED Gắn Tường LWA901A</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -7382,7 +6096,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-led-gan-tuong-lwa9011-2/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                    LED Gắn Tường LWA9011-2</a></p>
+                                                                    LED Gắn Tường LWA9011-2</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -7436,7 +6151,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-led-gan-tuong-lwa5011/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                    LED Gắn Tường LWA5011</a></p>
+                                                                    LED Gắn Tường LWA5011</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -7520,7 +6236,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-roi-tranh-lt2005-2cf-kingled/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    RỌI TRANH LT2005-2CF KINGLED</a></p>
+                                                                    RỌI TRANH LT2005-2CF KINGLED</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -7574,7 +6291,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-roi-tranh-lt2004-3/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    RỌI TRANH LT2004-3</a></p>
+                                                                    RỌI TRANH LT2004-3</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -7628,7 +6346,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-roi-tranh-lt2004-2/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    RỌI TRANH LT2004-2</a></p>
+                                                                    RỌI TRANH LT2004-2</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -7682,7 +6401,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-roi-tranh-lt2003-3-kingled/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    RỌI TRANH LT2003-3 KINGLED</a></p>
+                                                                    RỌI TRANH LT2003-3 KINGLED</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -7736,7 +6456,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-roi-tranh-lt2003-2-kingled/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    RỌI TRANH LT2003-2 KINGLED</a></p>
+                                                                    RỌI TRANH LT2003-2 KINGLED</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -7790,7 +6511,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-roi-tranh-guong-3w-lt2005-3cf-kingled/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                    rọi tranh-gương 3W LT2005–3CF Kingled</a></p>
+                                                                    rọi tranh-gương 3W LT2005–3CF Kingled</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -7882,7 +6604,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-nha-xuong-hb-series-200w-2/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    NHÀ XƯỞNG (HB SERIES) 200W</a></p>
+                                                                    NHÀ XƯỞNG (HB SERIES) 200W</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -7943,7 +6666,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-nha-xuong-hb-series-150w-2/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    NHÀ XƯỞNG (HB SERIES) 150W</a></p>
+                                                                    NHÀ XƯỞNG (HB SERIES) 150W</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -8004,7 +6728,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-nha-xuong-hb-series-100w/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    NHÀ XƯỞNG (HB SERIES) 100W</a></p>
+                                                                    NHÀ XƯỞNG (HB SERIES) 100W</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -8237,7 +6962,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-led-day-ec-ld-cob-anh-sang-vang/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                    LED DÂY EC-LD-COB ÁNH SÁNG VÀNG</a></p>
+                                                                    LED DÂY EC-LD-COB ÁNH SÁNG VÀNG</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><del aria-hidden="true"><span
@@ -8287,7 +7013,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/led-day-dan-dc12v-22w-kingled/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">LED
-                                                                    dây dán DC12V 22W KingLED</a></p>
+                                                                    dây dán DC12V 22W KingLED</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><span
@@ -8330,7 +7057,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/led-day-dan-dc12v-18w-kingled/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">LED
-                                                                    dây dán DC12V 18W KingLED</a></p>
+                                                                    dây dán DC12V 18W KingLED</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><span
@@ -8373,7 +7101,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/led-day-dan-dc12v-12w-kingled/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">LED
-                                                                    dây dán DC12V 12W KingLED</a></p>
+                                                                    dây dán DC12V 12W KingLED</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><span
@@ -8416,7 +7145,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/nguon-den-led-day-9w-2835-dc-220-9-kingled/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Nguồn
-                                                                    Đèn Led Dây 9W 2835 DC-220-9 Kingled</a></p>
+                                                                    Đèn Led Dây 9W 2835 DC-220-9 Kingled</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><span
@@ -8459,7 +7189,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/den-led-day-9w-ec-ld-9-2835/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                    Led Dây 9W EC-LD-9-2835 Kingled</a></p>
+                                                                    Led Dây 9W EC-LD-9-2835 Kingled</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price"><span
@@ -8531,7 +7262,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/bo-nguon-60w/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Bộ
-                                                                    Nguồn 60W</a></p>
+                                                                    Nguồn 60W</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price">Liên hệ</span>
@@ -8572,7 +7304,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/bo-nguon-48w/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Bộ
-                                                                    Nguồn 48W</a></p>
+                                                                    Nguồn 48W</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price">Liên hệ</span>
@@ -8613,7 +7346,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/bo-nguon-200w/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Bộ
-                                                                    Nguồn 200W</a></p>
+                                                                    Nguồn 200W</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price">Liên hệ</span>
@@ -8654,7 +7388,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/bo-nguon-150w/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Bộ
-                                                                    Nguồn 150W</a></p>
+                                                                    Nguồn 150W</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price">Liên hệ</span>
@@ -8695,7 +7430,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/thanh-nhom-lap-noi-tnn-1707/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Thanh
-                                                                    Nhôm Lắp Nổi TNN-1707</a></p>
+                                                                    Nhôm Lắp Nổi TNN-1707</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price">Liên hệ</span>
@@ -8736,7 +7472,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                                 class="name product-title woocommerce-loop-product__title">
                                                                 <a href="https://kingledvietnam.com/thanh-nhom-lap-noi-tnn-1307/"
                                                                     class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Thanh
-                                                                    Nhôm Lắp Nổi TNN-1307</a></p>
+                                                                    Nhôm Lắp Nổi TNN-1307</a>
+                                                            </p>
                                                         </div>
                                                         <div class="price-wrapper">
                                                             <span class="price">Liên hệ</span>
@@ -8760,240 +7497,11 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 
                 </main>
 
-                <footer id="footer" class="footer-wrapper">
-
-
-                    <!-- FOOTER 1 -->
-
-                    <!-- FOOTER 2 -->
-                    <div class="footer-widgets footer footer-2 dark">
-                        <div class="row dark large-columns-3 mb-0">
-
-                            <div id="block_widget-3" class="col pb-0 widget block_widget">
-
-                                <div class="philips">
-                                    <h2 style="font-size:20px;">
-                                        <span>Đèn KingLED Việt Nam</span><br />
-                                    </h2>
-                                    <p style="padding-top:10px;">Sản phẩm đèn led KingLED rất đa dạng và phong phú, phục
-                                        vụ tất
-                                        cả các nhu cầu thiết yếu của công trình công nghiệp dân dụng. Các loại đèn led
-                                        KingLED
-                                        chuyên dụng như : Đèn led âm trần, Đèn Led ốp trần, Đèn tuýp led, Đèn led búp,
-                                        Đèn Led
-                                        Công Nghiệp, Đèn Thả Nghệ Thuật, Đèn Trang Trí, Đèn Chùm, Đèn led dây, Đèn Rọi
-                                        Ray, Đèn
-                                        học, đèn bàn Đèn học, đèn led bàn, Đèn Sân Vườn ,đèn Sưởi Nhà Tắm, Máng Đèn Led
-                                        , Phụ
-                                        kiện <a href="https://denled.com.vn">đèn led</a>.</p>
-                                </div>
-                            </div>
-
-                            <div id="block_widget-2" class="col pb-0 widget block_widget">
-
-                                <div class="thong-tin-a">
-                                    <p><b>Thông Tin Liên Hệ</b></p>
-                                    <ul>
-                                        <li><a> <img style="width: 19px; float: left; margin-right: 7px; margin-left: -11px;"
-                                                    src="/assets/wp-content/uploads/2019/06/home_icon.png" />Nhà
-                                                máy sản xuất : Khu 4, Thị trấn Đông Anh, Hà Nội</a></li>
-                                        <li><a> <img style="width: 19px; float: left; margin-right: 7px; margin-left: -11px;"
-                                                    src="/assets/wp-content/uploads/2019/06/home_icon.png" />Trụ
-                                                sở chính : Số 31 Hoàng Quốc Việt - Nghĩa Đô - Cầu Giấy - TP.Hà Nội
-                                                Hotline :
-                                                0904.6789.22.</a></li>
-                                        <li><a><img style="width: 19px; float: left; margin-right: 7px; margin-left: -11px;" " src="
-                                                    /assets/wp-content/uploads/2019/06/icon-dia-chi.png" />
-                                                Cơ sở TP.HCM : </a><a>50/1 Quang Trung, Phường 10</a><a>, Quận Gò Vấp,
-                                                TP.Hồ Chí
-                                                Minh.</a><a> Hotline : 0909.961.962.</a></li>
-                                        <li><a><img style="width: 19px; float: left; margin-right: 7px; margin-left: -11px;"
-                                                    src="/assets/wp-content/uploads/2019/06/line-clipart-transparent-2.png" />
-                                                Hotline: (0243)9352.999</a></li>
-                                        <li><a><img style="width: 19px; float: left; margin-right: 7px; margin-left: -11px;"
-                                                    src="/assets/wp-content/uploads/2019/06/Mail-min.png" />
-                                                Email: kingledvietnam@gmail.com</a></li>
-                                        <li><a><img style="width: 19px; float: left; margin-right: 7px; margin-left: -11px;"
-                                                    src="/assets/wp-content/uploads/2019/06/icon-blue-m-web-based-min.png" />
-                                                Website: https://kingledvietnam.com</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div id="pages-2" class="col pb-0 widget widget_pages"><span class="widget-title">Thông
-                                    tin</span>
-                                <div class="is-divider small"></div>
-                                <ul>
-                                    <li class="page_item page-item-4513"><a
-                                            href="https://kingledvietnam.com/chinh-sach-bao-hanh/">Chính sách bảo
-                                            hành</a></li>
-                                    <li class="page_item page-item-4515"><a
-                                            href="https://kingledvietnam.com/chinh-sach-doi-tra-hang/">Chính sách đổi
-                                            trả
-                                            hàng</a></li>
-                                    <li class="page_item page-item-4527"><a
-                                            href="https://kingledvietnam.com/dieu-khoan-dich-vu/">Điều khoản dịch vụ</a>
-                                    </li>
-                                    <li class="page_item page-item-4517"><a
-                                            href="https://kingledvietnam.com/hinh-thuc-thanh-toan/">Hình thức thanh
-                                            toán</a>
-                                    </li>
-                                    <li class="page_item page-item-4519"><a
-                                            href="https://kingledvietnam.com/huong-dan-mua-hang/">Hướng dẫn mua hàng</a>
-                                    </li>
-                                    <li class="page_item page-item-893"><a
-                                            href="https://kingledvietnam.com/lien-he/">Liên
-                                            Hệ</a></li>
-                                </ul>
-
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="absolute-footer dark medium-text-center text-center">
-                        <div class="container clearfix">
-
-
-                            <div class="footer-primary pull-left">
-                                <div class="copyright-footer">
-                                    Copyright 2019 © <strong style="color:white;">Cung cấp bởi <span
-                                            style="text-transform: uppercase; color:white;">tamkimgroup.com</span></strong>
-                                    <p>
-                                        <a href="//www.dmca.com/Protection/Status.aspx?ID=1018acc3-d3fb-463f-a9a7-d52c69e68dad"
-                                            title="DMCA.com Protection Status" class="dmca-badge"> <img
-                                                src="https://images.dmca.com/Badges/dmca-badge-w100-5x1-06.png?ID=1018acc3-d3fb-463f-a9a7-d52c69e68dad"
-                                                alt="DMCA.com Protection Status" /></a>
-                                        <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <a href="#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline circle"
-                        id="top-link" aria-label="Lên đầu trang"><i class="icon-angle-up"></i></a>
-
-                </footer>
-                <div class="call-mobile"> <a id="callnowbutton" href="tel:0989043239">0989.04.3239</a><i
-                        class="fa fa-phone"><a id="callnowbutton" href="tel:0989043239"></a></i></div>
-                <div class="call-mobile-1"> <a id="callnowbutton" href="tel:0982051651">0982.051.651</a><i
-                        class="fa fa-phone"><a id="callnowbutton" href="tel:0982051651"></a></i></div>
+             @livewire('inc.footer')
 
             </div>
 
-            <div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide">
-
-
-                <div class="sidebar-menu no-scrollbar ">
-
-
-                    <ul class="nav nav-sidebar nav-vertical nav-uppercase" data-tab="1">
-                        <li class="header-search-form search-form html relative has-icon">
-                            <div class="header-search-form-wrapper">
-                                <div class="searchform-wrapper ux-search-box relative is-normal">
-                                    <form role="search" method="get" class="searchform"
-                                        action="https://kingledvietnam.com/">
-                                        <div class="flex-row relative">
-                                            <div class="flex-col search-form-categories">
-                                                <select class="search_categories resize-select mb-0" name="product_cat">
-                                                    <option value="" selected='selected'>Tất cả</option>
-                                                    <option value="den-am-bac-cau-thang">ĐÈN ÂM BẬC CẦU THANG</option>
-                                                    <option value="den-cot-san-vuon">ĐÈN CỘT SÂN VƯỜN</option>
-                                                    <option value="den-exit-chi-huong">ĐÈN EXIT CHỈ HƯỚNG</option>
-                                                    <option value="den-khan-cap-kingled">ĐÈN KHẨN CẤP KINGLED</option>
-                                                    <option value="den-led-am-tran-kingeco">ĐÈN LED ÂM TRẦN KINGECO
-                                                    </option>
-                                                    <option value="den-led-am-tran-kingled">ĐÈN LED ÂM TRẦN KINGLED
-                                                    </option>
-                                                    <option value="den-led-bup-kingled">ĐÈN LED BÚP KINGLED</option>
-                                                    <option value="den-led-day-kingled">ĐÈN LED DÂY KINGLED</option>
-                                                    <option value="den-led-ong-bo-kingled">ĐÈN LED ỐNG BƠ KINGLED
-                                                    </option>
-                                                    <option value="den-led-op-tran-kingled">ĐÈN LED ỐP TRẦN KINGLED
-                                                    </option>
-                                                    <option value="den-led-panel-kingled">ĐÈN LED PANEL KINGLED</option>
-                                                    <option value="den-led-roi-ray-kingled">ĐÈN LED RỌI RAY KINGLED
-                                                    </option>
-                                                    <option value="den-led-spot-light">ĐÈN LED SPOT LIGHT</option>
-                                                    <option value="den-led-tuyp-kingled">ĐÈN LED TUÝP KINGLED</option>
-                                                    <option value="den-nha-xuong">ĐÈN NHÀ XƯỞNG</option>
-                                                    <option value="den-pha-led-kingled">ĐÈN PHA LED KINGLED</option>
-                                                    <option value="den-ray-nam-cham">ĐÈN RAY NAM CHÂM</option>
-                                                    <option value="den-soi-tranh-kingled">ĐÈN SOI TRANH KINGLED</option>
-                                                    <option value="den-tha-trang-tri-kingled">ĐÈN THẢ TRANG TRÍ KINGLED
-                                                    </option>
-                                                    <option value="den-tuong-trang-tri">ĐÈN TƯỜNG TRANG TRÍ</option>
-                                                    <option value="phu-kien-den-led-day">PHỤ KIỆN ĐÈN LED DÂY</option>
-                                                    <option value="phu-kien-den-ray-nam-cham">PHỤ KIỆN ĐÈN RAY NAM CHÂM
-                                                    </option>
-                                                    <option value="quat-suoi-dieu-hoa">QUẠT SƯỞI ĐIỀU HÒA</option>
-                                                    <option value="san-pham-moi-ra-mat">SẢN PHẨM MỚI RA MẮT</option>
-                                                    <option value="thanh-ray-nam-cham-mong">THANH RAY NAM CHÂM MỎNG
-                                                    </option>
-                                                </select>
-                                            </div>
-                                            <div class="flex-col flex-grow">
-                                                <label class="screen-reader-text"
-                                                    for="woocommerce-product-search-field-2">Tìm
-                                                    kiếm:</label>
-                                                <input type="search" id="woocommerce-product-search-field-2"
-                                                    class="search-field mb-0" placeholder="Tìm kiếm&hellip;" value=""
-                                                    name="s" />
-                                                <input type="hidden" name="post_type" value="product" />
-                                            </div>
-                                            <div class="flex-col">
-                                                <button type="submit" value="Tìm kiếm"
-                                                    class="ux-search-submit submit-button secondary button  icon mb-0"
-                                                    aria-label="Gửi">
-                                                    <i class="icon-search"></i> </button>
-                                            </div>
-                                        </div>
-                                        <div class="live-search-results text-left z-top"></div>
-                                    </form>
-                                </div>
-                            </div>
-                        </li>
-                        <li id="menu-item-3190"
-                            class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3190"><a
-                                href="https://kingledvietnam.com/den-led-am-tran-kingled/">ÂM TRẦN</a></li>
-                        <li id="menu-item-6598"
-                            class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-6598"><a
-                                href="https://kingledvietnam.com/den-led-spot-light/">SPOT LIGHT CHIẾU ĐIỂM</a></li>
-                        <li id="menu-item-3194"
-                            class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3194"><a
-                                href="https://kingledvietnam.com/den-led-panel-kingled/">PANEL</a></li>
-                        <li id="menu-item-3195"
-                            class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3195"><a
-                                href="https://kingledvietnam.com/den-led-roi-ray-kingled/">RỌI RAY</a></li>
-                        <li id="menu-item-3196"
-                            class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3196"><a
-                                href="https://kingledvietnam.com/den-led-tuyp-kingled/">TUÝP LED</a></li>
-                        <li id="menu-item-3193"
-                            class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3193"><a
-                                href="https://kingledvietnam.com/den-led-op-tran-kingled/">ỐP TRẦN</a></li>
-                        <li id="menu-item-3191"
-                            class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3191"><a
-                                href="https://kingledvietnam.com/den-led-bup-kingled/">LED BÚP</a></li>
-                        <li id="menu-item-3202"
-                            class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3202"><a
-                                href="https://kingledvietnam.com/den-tuong-trang-tri/">ĐÈN TƯỜNG</a></li>
-                        <li id="menu-item-3197"
-                            class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3197"><a
-                                href="https://kingledvietnam.com/den-soi-tranh-kingled/">ĐÈN TRANH</a></li>
-                        <li id="menu-item-3209"
-                            class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3209"><a
-                                href="https://kingledvietnam.com/den-pha-led-kingled/">PHA LED</a></li>
-                        <li id="menu-item-3210"
-                            class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3210"><a
-                                href="https://kingledvietnam.com/den-tha-trang-tri-kingled/">ĐÈN THẢ</a></li>
-                    </ul>
-
-
-                </div>
-
-
-            </div>
+            @livewire('inc.sidebar')
             <div id="login-form-popup" class="lightbox-content mfp-hide">
                 <div class="woocommerce">
                     <div class="woocommerce-notices-wrapper"></div>
@@ -9493,12 +8001,10 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                     font-family: var(--wp--preset--font-family--cardo) !important;
                 }
             </style>
-            <script type="text/javascript"
-                src="/assets/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18"
+            <script type="text/javascript" src="/assets/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18"
                 id="wp-hooks-js">
             </script>
-            <script type="text/javascript"
-                src="/assets/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
+            <script type="text/javascript" src="/assets/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
                 id="wp-i18n-js">
             </script>
             <script type="text/javascript" id="wp-i18n-js-after">
@@ -9507,8 +8013,7 @@ wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 /* ]]> */
             </script>
             <script type="text/javascript"
-                src="/assets/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.8"
-                id="swv-js"></script>
+                src="/assets/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.8" id="swv-js"></script>
             <script type="text/javascript" id="contact-form-7-js-extra">
                 /* <![CDATA[ */
 var wpcf7 = {"api":{"root":"https:\/\/kingledvietnam.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -9524,15 +8029,14 @@ var wpcf7 = {"api":{"root":"https:\/\/kingledvietnam.com\/wp-json\/","namespace"
 /* ]]> */
             </script>
             <script type="text/javascript"
-                src="/assets/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.8"
-                id="contact-form-7-js"></script>
+                src="/assets/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.8" id="contact-form-7-js">
+            </script>
             <script type="text/javascript" id="toc-front-js-extra">
                 /* <![CDATA[ */
 var tocplus = {"visibility_show":"show","visibility_hide":"hide","width":"Auto"};
 /* ]]> */
             </script>
-            <script type="text/javascript"
-                src="/assets/wp-content/plugins/table-of-contents-plus/front.min.js?ver=2408"
+            <script type="text/javascript" src="/assets/wp-content/plugins/table-of-contents-plus/front.min.js?ver=2408"
                 id="toc-front-js"></script>
             <script type="text/javascript" id="woocommerce-js-extra">
                 /* <![CDATA[ */

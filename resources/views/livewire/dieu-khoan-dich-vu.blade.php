@@ -36,21 +36,22 @@
                 content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <!-- This site is optimized with the Yoast SEO Premium plugin v23.4 (Yoast SEO v23.4) - https://yoast.com/wordpress/plugins/seo/ -->
-            <title>Hình thức thanh toán | Đèn LED KingLED</title>
-            <link rel="canonical" href="https://kingledvietnam.com/hinh-thuc-thanh-toan/" />
+            <title>Điều khoản dịch vụ | Đèn LED KingLED</title>
+            <link rel="canonical" href="https://kingledvietnam.com/dieu-khoan-dich-vu/" />
             <meta property="og:locale" content="vi_VN" />
             <meta property="og:type" content="article" />
-            <meta property="og:title" content="Hình thức thanh toán" />
+            <meta property="og:title" content="Điều khoản dịch vụ" />
             <meta property="og:description"
-                content="Nhà phân phối VINALIGHT hiện đang hỗ trợ khách hàng khi sử dụng dịch vụ mua hàng tại website với các hình thức thanh toán như sau : 1. Thanh toán tiền mặt trực tiếp tại một trong các địa điểm sau : – Hà Nội : Số 31 Hoàng Quốc Việt – Phường Nghĩa Đô [...]" />
-            <meta property="og:url" content="https://kingledvietnam.com/hinh-thuc-thanh-toan/" />
+                content="1. Giới thiệu Chào mừng quý khách hàng đến với website chúng tôi. Khi quý khách hàng truy cập vào trang website của chúng tôi có nghĩa là quý khách đồng ý với các điều khoản này. Trang web có quyền thay đổi, chỉnh sửa, thêm hoặc lược bỏ bất kỳ phần nào trong Điều [...]" />
+            <meta property="og:url" content="https://kingledvietnam.com/dieu-khoan-dich-vu/" />
             <meta property="og:site_name" content="Đèn LED KingLED" />
             <meta property="article:publisher" content="https://www.facebook.com/kingled.info/" />
+            <meta property="article:modified_time" content="2021-06-09T04:31:19+00:00" />
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:label1" content="Ước tính thời gian đọc" />
-            <meta name="twitter:data1" content="1 phút" />
+            <meta name="twitter:data1" content="5 phút" />
             <script type="application/ld+json" class="yoast-schema-graph">
-                {"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://kingledvietnam.com/hinh-thuc-thanh-toan/","url":"https://kingledvietnam.com/hinh-thuc-thanh-toan/","name":"Hình thức thanh toán | Đèn LED KingLED","isPartOf":{"@id":"https://kingledvietnam.com/#website"},"datePublished":"2021-06-06T14:17:36+00:00","dateModified":"2021-06-06T14:17:36+00:00","breadcrumb":{"@id":"https://kingledvietnam.com/hinh-thuc-thanh-toan/#breadcrumb"},"inLanguage":"vi","potentialAction":[{"@type":"ReadAction","target":["https://kingledvietnam.com/hinh-thuc-thanh-toan/"]}]},{"@type":"BreadcrumbList","@id":"https://kingledvietnam.com/hinh-thuc-thanh-toan/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kingledvietnam.com/"},{"@type":"ListItem","position":2,"name":"Hình thức thanh toán"}]},{"@type":"WebSite","@id":"https://kingledvietnam.com/#website","url":"https://kingledvietnam.com/","name":"Đèn LED KingLED","description":"Nhà Phân Phối Đèn KingLED Việt Nam 2024","publisher":{"@id":"https://kingledvietnam.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kingledvietnam.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"vi"},{"@type":"Organization","@id":"https://kingledvietnam.com/#organization","name":"Công ty thiết bị điện và chiếu sáng Vinalight","url":"https://kingledvietnam.com/","logo":{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/#/schema/logo/image/","url":"/assets/wp-content/uploads/2023/10/logo.jpg","contentUrl":"/assets/wp-content/uploads/2023/10/logo.jpg","width":708,"height":484,"caption":"Công ty thiết bị điện và chiếu sáng Vinalight"},"image":{"@id":"https://kingledvietnam.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/kingled.info/","https://profile.hatena.ne.jp/denkingled/"]}]}
+                {"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://kingledvietnam.com/dieu-khoan-dich-vu/","url":"https://kingledvietnam.com/dieu-khoan-dich-vu/","name":"Điều khoản dịch vụ | Đèn LED KingLED","isPartOf":{"@id":"https://kingledvietnam.com/#website"},"datePublished":"2021-06-09T04:29:42+00:00","dateModified":"2021-06-09T04:31:19+00:00","breadcrumb":{"@id":"https://kingledvietnam.com/dieu-khoan-dich-vu/#breadcrumb"},"inLanguage":"vi","potentialAction":[{"@type":"ReadAction","target":["https://kingledvietnam.com/dieu-khoan-dich-vu/"]}]},{"@type":"BreadcrumbList","@id":"https://kingledvietnam.com/dieu-khoan-dich-vu/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kingledvietnam.com/"},{"@type":"ListItem","position":2,"name":"Điều khoản dịch vụ"}]},{"@type":"WebSite","@id":"https://kingledvietnam.com/#website","url":"https://kingledvietnam.com/","name":"Đèn LED KingLED","description":"Nhà Phân Phối Đèn KingLED Việt Nam 2024","publisher":{"@id":"https://kingledvietnam.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kingledvietnam.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"vi"},{"@type":"Organization","@id":"https://kingledvietnam.com/#organization","name":"Công ty thiết bị điện và chiếu sáng Vinalight","url":"https://kingledvietnam.com/","logo":{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/#/schema/logo/image/","url":"/assets/wp-content/uploads/2023/10/logo.jpg","contentUrl":"/assets/wp-content/uploads/2023/10/logo.jpg","width":708,"height":484,"caption":"Công ty thiết bị điện và chiếu sáng Vinalight"},"image":{"@id":"https://kingledvietnam.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/kingled.info/","https://profile.hatena.ne.jp/denkingled/"]}]}
             </script>
             <!-- / Yoast SEO Premium plugin. -->
 
@@ -189,11 +190,11 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                 id="js-cookie-js" data-wp-strategy="defer"></script>
             <link rel="https://api.w.org/" href="/assets/wp-json/" />
             <link rel="alternate" title="JSON" type="application/json"
-                href="/assets/wp-json/wp/v2/pages/4517" />
+                href="/assets/wp-json/wp/v2/pages/4527" />
             <link rel="alternate" title="oNhúng (JSON)" type="application/json+oembed"
-                href="/assets/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkingledvietnam.com%2Fhinh-thuc-thanh-toan%2F" />
+                href="/assets/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkingledvietnam.com%2Fdieu-khoan-dich-vu%2F" />
             <link rel="alternate" title="oNhúng (XML)" type="text/xml+oembed"
-                href="/assets/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkingledvietnam.com%2Fhinh-thuc-thanh-toan%2F&#038;format=xml" />
+                href="/assets/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkingledvietnam.com%2Fdieu-khoan-dich-vu%2F&#038;format=xml" />
             <!-- Schema optimized by Schema Pro -->
             <script type="application/ld+json">
                 {"@context":"https://schema.org","@type":"Store","name":"CÔNG TY CP THIẾT BỊ ĐIỆN VÀ CHIẾU SÁNG VINALIGHT","image":{"@type":"ImageObject","url":"/assets/wp-content/uploads/2023/10/logo.jpg","width":708,"height":484},"telephone":"0982051651","url":"https://kingledvietnam.com","address":{"@type":"PostalAddress","streetAddress":"33 Hoàng Quốc Việt, Nghĩa Đô","addressLocality":"Cầu Giấy","postalCode":"100000","addressRegion":"Hà Nội","addressCountry":"VN"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"5","reviewCount":"55"},"priceRange":"100000","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday"],"opens":"08:00","closes":"17:45"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday"],"opens":"08:00","closes":"17:45"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Wednesday"],"opens":"08:00","closes":"17:45"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Thursday"],"opens":"08:00","closes":"17:45"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Friday"],"opens":"08:00","closes":"17:45"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday"],"opens":"08:00","closes":"17:45"}],"geo":{"@type":"GeoCoordinates","latitude":"105.8017824","longitude":"21.0459367"}}
@@ -204,7 +205,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
             </script><!-- / site-navigation-element Schema optimized by Schema Pro -->
             <!-- breadcrumb Schema optimized by Schema Pro -->
             <script type="application/ld+json">
-                {"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/kingledvietnam.com\/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/kingledvietnam.com\/hinh-thuc-thanh-toan\/","name":"H\u00ecnh th\u1ee9c thanh to\u00e1n"}}]}
+                {"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/kingledvietnam.com\/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/kingledvietnam.com\/dieu-khoan-dich-vu\/","name":"\u0110i\u1ec1u kho\u1ea3n d\u1ecbch v\u1ee5"}}]}
             </script><!-- / breadcrumb Schema optimized by Schema Pro --> <noscript>
                 <style>
                     .woocommerce-product-gallery {
@@ -981,7 +982,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
         </head>
 
         <body data-rsssl=1
-            class="page-template-default page page-id-4517 theme-flatsome woocommerce-no-js wp-schema-pro-2.7.10 lightbox nav-dropdown-has-arrow nav-dropdown-has-shadow nav-dropdown-has-border">
+            class="page-template-default page page-id-4527 theme-flatsome woocommerce-no-js wp-schema-pro-2.7.10 lightbox nav-dropdown-has-arrow nav-dropdown-has-shadow nav-dropdown-has-border">
 
 
             <a class="skip-link screen-reader-text" href="#main">Bỏ qua nội dung</a>
@@ -1000,24 +1001,128 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 
 
 
-                                    <p><span style="color: #000000;"><a style="color: #000000;"
-                                                href="http://denled.com.vn/">Nhà phân phối VINALIGHT</a> hiện đang hỗ
-                                            trợ khách hàng khi sử dụng dịch vụ mua hàng tại website với các hình thức
-                                            thanh toán như sau :</span></p>
-                                    <p><span style="color: #000000;">1. Thanh toán tiền mặt trực tiếp tại một trong các
-                                            địa điểm sau :</span></p>
-                                    <p><span style="color: #000000;">– Hà Nội : Số 31 Hoàng Quốc Việt – Phường Nghĩa Đô
-                                            – Quận Cầu Giấy – Hà Nội <strong>hoặc</strong> Số 5/85 Phố Hạ Đình, Phường
-                                            Thanh Xuân Trung, Quận Thanh Xuân, Hà Nội.</span></p>
-                                    <p><span style="color: #000000;">– TP Hồ Chí Minh : Số 50/1 Quang Trung – Phường 10
-                                            – Quận Gò Vấp – TP Hồ Chí Minh .</span></p>
-                                    <p><span style="color: #000000;">2. Thanh toán chuyển khoản theo thông tin sau
-                                            :</span></p>
-                                    <p><span style="color: #000000;">Công ty cổ phần thiết bị điện và chiếu sáng
-                                            Vinalight</span></p>
-                                    <p><span style="color: #000000;">Tài khoản số : <strong>26110009999666 tại Ngân hàng
-                                                BIDV Chi nhánh Tràng An – Hà Nội.</strong></span></p>
-                                    <p><span style="color: #000000;">Trân trọng cảm ơn.</span></p>
+                                    <h3><strong><span style="color: #000000;">1. Giới thiệu</span></strong></h3>
+                                    <p><span style="color: #000000;">Chào mừng quý khách hàng đến với website chúng
+                                            tôi.</span></p>
+                                    <p><span style="color: #000000;">Khi quý khách hàng truy cập vào trang website của
+                                            chúng tôi có nghĩa là quý khách đồng ý với các điều khoản này. Trang web có
+                                            quyền thay đổi, chỉnh sửa, thêm hoặc lược bỏ bất kỳ phần nào trong Điều
+                                            khoản mua bán hàng hóa này, vào bất cứ lúc nào. Các thay đổi có hiệu lực
+                                            ngay khi được đăng trên trang web mà không cần thông báo trước. Và khi quý
+                                            khách tiếp tục sử dụng trang web, sau khi các thay đổi về Điều khoản này
+                                            được đăng tải, có nghĩa là quý khách chấp nhận với những thay đổi đó.</span>
+                                    </p>
+                                    <p><span style="color: #000000;">Quý khách hàng vui lòng kiểm tra thường xuyên để
+                                            cập nhật những thay đổi của chúng tôi.</span></p>
+                                    <h3><strong><span style="color: #000000;">2. Hướng dẫn sử dụng
+                                                website</span></strong></h3>
+                                    <p><span style="color: #000000;">Khi vào web của chúng tôi, khách hàng phải đảm bảo
+                                            đủ 18 tuổi, hoặc truy cập dưới sự giám sát của cha mẹ hay người giám hộ hợp
+                                            pháp. Khách hàng đảm bảo có đầy đủ hành vi dân sự để thực hiện các giao dịch
+                                            mua bán hàng hóa theo quy định hiện hành của pháp luật Việt Nam.</span></p>
+                                    <p><span style="color: #000000;">Trong suốt quá trình đăng ký, quý khách đồng ý nhận
+                                            email quảng cáo từ website. Nếu không muốn tiếp tục nhận mail, quý khách có
+                                            thể từ chối bằng cách nhấp vào đường link ở dưới cùng trong mọi email quảng
+                                            cáo.</span></p>
+                                    <h3><strong><span style="color: #000000;">3. Thanh toán an toàn và tiện
+                                                lợi</span></strong></h3>
+                                    <p><span style="color: #000000;">Người mua có thể tham khảo các phương thức thanh
+                                            toán sau đây và lựa chọn áp dụng phương thức phù hợp:</span></p>
+                                    <p><span style="color: #000000;">Cách 1: Thanh toán trực tiếp (người mua nhận hàng
+                                            tại địa chỉ người bán)</span><br />
+                                        <span style="color: #000000;">Cách 2: Thanh toán sau (COD – giao hàng và thu
+                                            tiền tận nơi). Chỉ áp dụng tại Hà Nội.</span><br />
+                                        <span style="color: #000000;">Cách 3: Thanh toán online qua thẻ tín dụng, chuyển
+                                            khoản</span>
+                                    </p>
+                                    <h3><strong><span style="color: #000000;">4. Ý kiến khách hàng</span></strong></h3>
+                                    <p><span style="color: #000000;">Chúng tôi có quyền hạn với bất kỳ nội dung nào được
+                                            đăng tải trên website. Nếu như phát hiện các sai phạm từ tài khoản của quý
+                                            khách, chúng tôi sẽ buộc phải dùng các biện pháp pháp lý theo quy định của
+                                            pháp luật Việt Nam</span></p>
+                                    <h3><strong><span style="color: #000000;">5. Chấp nhận đơn hàng và giá
+                                                cả</span></strong></h3>
+                                    <p><span style="color: #000000;">Chúng tôi có quyền từ chối hoặc hủy đơn hàng của
+                                            quý khách vì bất kỳ lý do gì vào bất kỳ lúc nào. Chúng tôi có thể hỏi thêm
+                                            về số điện thoại và địa chỉ trước khi nhận đơn hàng.</span><br />
+                                        <span style="color: #000000;">Chúng tôi cam kết giá sản phẩm tại website là
+                                            chính xác. Tuy nhiên, nếu trường hợp mà chúng tôi chưa kịp thay đổi giá thì
+                                            chúng tôi sẽ liên hệ với quý khách để hướng dẫn về việc mua hàng tiếp hay
+                                            hủy hàng.</span>
+                                    </p>
+                                    <h3><strong><span style="color: #000000;">6. Thương hiệu và bản
+                                                quyền</span></strong></h3>
+                                    <p><span style="color: #000000;">Mọi quyền sở hữu trí tuệ (đã đăng ký hoặc chưa đăng
+                                            ký), nội dung thông tin và tất cả các thiết kế, văn bản, đồ họa, phần mềm,
+                                            hình ảnh, video, âm nhạc, âm thanh, biên dịch phần mềm, mã nguồn và phần mềm
+                                            cơ bản đều là tài sản của chúng tôi. Toàn bộ nội dung của trang web được bảo
+                                            vệ bởi luật bản quyền của Việt Nam và các công ước quốc tế. Bản quyền đã
+                                            được bảo lưu.</span></p>
+                                    <h3><strong><span style="color: #000000;">7. Quyền pháp lý</span></strong></h3>
+                                    <p><span style="color: #000000;">Các điều kiện, điều khoản và nội dung của trang web
+                                            này được điều chỉnh bởi luật pháp Việt Nam và Tòa án có thẩm quyền tại Việt
+                                            Nam sẽ giải quyết bất kỳ tranh chấp nào phát sinh từ việc sử dụng trái phép
+                                            trang web này.</span></p>
+                                    <h3><strong><span style="color: #000000;">8. Quy định về bảo mật</span></strong>
+                                    </h3>
+                                    <p><span style="color: #000000;">Trang web của chúng tôi coi trọng việc bảo mật
+                                            thông tin và sử dụng các biện pháp tốt nhất bảo vệ thông tin và việc thanh
+                                            toán của quý khách. Thông tin của quý khách trong quá trình thanh toán sẽ
+                                            được mã hóa để đảm bảo an toàn. Sau khi quý khách hoàn thành quá trình đặt
+                                            hàng, quý khách sẽ thoát khỏi chế độ an toàn.</span><br />
+                                        <span style="color: #000000;">Quý khách không được sử dụng bất kỳ chương trình,
+                                            công cụ hay hình thức nào khác để can thiệp vào hệ thống hay làm thay đổi
+                                            cấu trúc dữ liệu. Trang web cũng nghiêm cấm việc phát tán, truyền bá hay cổ
+                                            vũ cho bất kỳ hoạt động nào nhằm can thiệp, phá hoại hay xâm nhập vào dữ
+                                            liệu của hệ thống. Cá nhân hay tổ chức vi phạm sẽ bị tước bỏ mọi quyền lợi
+                                            cũng như sẽ bị truy tố trước pháp luật nếu cần thiết.</span><br />
+                                        <span style="color: #000000;">Mọi thông tin giao dịch sẽ được bảo mật nhưng
+                                            trong trường hợp cơ quan pháp luật yêu cầu, chúng tôi sẽ buộc phải cung cấp
+                                            những thông tin này cho các cơ quan pháp luật.</span>
+                                    </p>
+                                    <h3><strong><span style="color: #000000;">9. Giao dịch tại website</span></strong>
+                                    </h3>
+                                    <p><span style="color: #000000;">Khách hàng khi mua sắm tại website của chúng tôi
+                                            phải thực hiện các thao tác đặt hàng và nhận hàng theo trình tự sau:</span>
+                                    </p>
+                                    <p><span style="color: #000000;">Cách 1: Thanh toán trước online qua chuyển khoản
+                                            ngân hàng..</span><br />
+                                        <span style="color: #000000;">Bước 1: Khách hàng đặt hàng, cung cấp thông tin
+                                            đầy đủ, xác thực thông tin</span><br />
+                                        <span style="color: #000000;">Bước 2: Khách hàng thanh toán trước bằng cách
+                                            chuyển khoản</span><br />
+                                        <span style="color: #000000;">Bước 3: Chúng tôi tiến hành kiểm tra, xác nhận đơn
+                                            hàng và chuyển hàng;</span><br />
+                                        <span style="color: #000000;">Bước 4: Khách hàng kiểm tra và nhận hàng;</span>
+                                    </p>
+                                    <p><span style="color: #000000;">Cách 2: Thanh toán sau (COD)- chỉ áp dụng tại Hà
+                                            Nội</span><br />
+                                        <span style="color: #000000;">Bước 1: Khách hàng đặt hàng; cung cấp thông tin
+                                            đầy đủ, xác nhận đơn hàng</span><br />
+                                        <span style="color: #000000;">Bước 2: Chúng tôi xác thực đơn hàng;</span><br />
+                                        <span style="color: #000000;">Bước 3: Chúng tôi gọi điện xác nhận thông tin
+                                            khách hàng.</span><br />
+                                        <span style="color: #000000;">Bước 4: Bắt đầu chuyển hàng;</span><br />
+                                        <span style="color: #000000;">Bước 5: Khách hàng nhận hàng và thanh toán;</span>
+                                    </p>
+                                    <h3><strong><span style="color: #000000;">10. Thay đổi, hủy bỏ giao
+                                                dịch</span></strong></h3>
+                                    <p><span style="color: #000000;">Trong mọi trường hợp, khách hàng đều có quyền chấm
+                                            dứt giao dịch nếu đã thực hiện các biện pháp sau đây:</span><br />
+                                        <span style="color: #000000;">1. Thông báo cho chúng tôi về việc hủy hàng qua
+                                            đường hotline 0989 487 999</span><br />
+                                        <span style="color: #000000;">2. Trả lại hàng hoá đã nhận nhưng chưa sử dụng
+                                            hoặc hưởng bất kỳ lợi ích nào từ hàng hóa đó (theo quy định của chính sách
+                                            đổi trả hàng tại Chính sách đổi trả)</span>
+                                    </p>
+                                    <h3><strong><span style="color: #000000;">11. Giải quyết tranh chấp</span></strong>
+                                    </h3>
+                                    <p><span style="color: #000000;">Bất kỳ tranh cãi, khiếu nại hoặc tranh chấp phát
+                                            sinh từ hoặc liên quan đến giao dịch tại kingledvietnam.com hoặc các Điều
+                                            khoản dịch vụ này đều sẽ được giải quyết bằng hình thức thương lượng, hòa
+                                            giải, trọng tài và/hoặc Tòa án theo Luật bảo vệ Người tiêu dùng Chương 4 về
+                                            Giải quyết tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh
+                                            hàng hóa, dịch vụ.</span></p>
 
 
                                 </div>
@@ -1027,6 +1132,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 
 
                 </main>
+
                 @livewire('inc.footer')
 
             </div>
@@ -1072,7 +1178,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                     </label>
                                     <input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce"
                                         value="55328d0a92" /><input type="hidden" name="_wp_http_referer"
-                                        value="/hinh-thuc-thanh-toan/" /> <button type="submit"
+                                        value="/dieu-khoan-dich-vu/" /> <button type="submit"
                                         class="woocommerce-button button woocommerce-form-login__submit" name="login"
                                         value="Đăng nhập">Đăng nhập</button>
                                 </p>
@@ -1650,6 +1756,6 @@ var wc_password_strength_meter_params = {"min_password_strength":"3","stop_check
 
         </html>
 
-        <!-- Page cached by LiteSpeed Cache 6.5.1 on 2024-11-07 09:24:37 -->
+        <!-- Page cached by LiteSpeed Cache 6.5.1 on 2024-11-07 08:54:50 -->
     </div>
 </div>

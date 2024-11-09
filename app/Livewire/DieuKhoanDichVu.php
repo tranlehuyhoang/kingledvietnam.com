@@ -4,10 +4,10 @@ namespace App\Livewire;
 
 use Livewire\Component;
 
-class PrivacyPolicy extends Component
+class DieuKhoanDichVu extends Component
 {
     public function render()
     {
-        return view('livewire.privacy-policy');
+        return view('livewire.dieu-khoan-dich-vu');
     }
 }
