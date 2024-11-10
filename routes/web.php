@@ -55,7 +55,7 @@ Route::get('/san-pham/{slug}/', ProductDetail::class);
 Route::get('/bao-gia', BaoGia::class);
 Route::get('/lien-he', Contact::class);
 Route::get('/tin-tuc', Blog::class);
-Route::get('/tin-tuc/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/', BlogPost::class);
+Route::get('/tin-tuc/{slug}/', BlogPost::class);
 
 
 Route::get('/chinh-sach-van-chuyen', ShippingPolicy::class);

@@ -1,8 +1,9 @@
 <div>
     <div>
+        @php
+        $settings = App\Models\Setting::first(); // Truy vấn model Settings
+        @endphp
 
-        <!DOCTYPE html>
-        <html lang="vi" class="loading-site no-js">
 
         <head>
             <meta charset="UTF-8" />
@@ -36,14 +37,14 @@
                 content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <!-- This site is optimized with the Yoast SEO Premium plugin v23.4 (Yoast SEO v23.4) - https://yoast.com/wordpress/plugins/seo/ -->
-            <title>Kingledvietnam : Thông báo lịch nghỉ tết dương 2024</title>
+            <title>{{ $post->title }} | {{ $settings->web_name}}</title>
             <meta name="description"
                 content="Thông báo lịch nghỉ tết 2024 của cty CP Thiết bị điện và Chiếu sáng Vinalight để quý khách hàng nắm bắt được thời gian nghỉ và thời gian hoạt động trở lại." />
             <link rel="canonical"
                 href="https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/" />
             <meta property="og:locale" content="vi_VN" />
             <meta property="og:type" content="article" />
-            <meta property="og:title" content="Kingledvietnam : Thông báo lịch nghỉ tết dương 2024" />
+            <meta property="og:title" content="{{ $post->title }} | {{ $settings->web_name}}" />
             <meta property="og:description"
                 content="Thông báo lịch nghỉ tết 2024 của cty CP Thiết bị điện và Chiếu sáng Vinalight để quý khách hàng nắm bắt được thời gian nghỉ và thời gian hoạt động trở lại." />
             <meta property="og:url"
@@ -51,8 +52,7 @@
             <meta property="og:site_name" content="Đèn LED KingLED" />
             <meta property="article:publisher" content="https://www.facebook.com/kingled.info/" />
             <meta property="article:published_time" content="2023-12-29T08:17:35+00:00" />
-            <meta property="og:image"
-                content="/assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024.jpg" />
+            <meta property="og:image" content="/assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024.jpg" />
             <meta name="author" content="@dmin" />
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:label1" content="Được viết bởi" />
@@ -60,7 +60,7 @@
             <meta name="twitter:label2" content="Ước tính thời gian đọc" />
             <meta name="twitter:data2" content="2 phút" />
             <script type="application/ld+json" class="yoast-schema-graph">
-                {"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#article","isPartOf":{"@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/"},"author":{"name":"@dmin","@id":"https://kingledvietnam.com/#/schema/person/4cdc3f880851195b4efcf53ae44b2deb"},"headline":"Kingledvietnam : Thông báo lịch nghỉ tết dương 2024","datePublished":"2023-12-29T08:17:35+00:00","dateModified":"2023-12-29T08:17:35+00:00","mainEntityOfPage":{"@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/"},"wordCount":265,"commentCount":0,"publisher":{"@id":"https://kingledvietnam.com/#organization"},"image":{"@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#primaryimage"},"thumbnailUrl":"/assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024.jpg","articleSection":["Tin Tức"],"inLanguage":"vi","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#respond"]}]},{"@type":"WebPage","@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/","url":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/","name":"Kingledvietnam : Thông báo lịch nghỉ tết dương 2024","isPartOf":{"@id":"https://kingledvietnam.com/#website"},"primaryImageOfPage":{"@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#primaryimage"},"image":{"@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#primaryimage"},"thumbnailUrl":"/assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024.jpg","datePublished":"2023-12-29T08:17:35+00:00","dateModified":"2023-12-29T08:17:35+00:00","description":"Thông báo lịch nghỉ tết 2024 của cty CP Thiết bị điện và Chiếu sáng Vinalight để quý khách hàng nắm bắt được thời gian nghỉ và thời gian hoạt động trở lại.","breadcrumb":{"@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#breadcrumb"},"inLanguage":"vi","potentialAction":[{"@type":"ReadAction","target":["https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/"]}]},{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#primaryimage","url":"/assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024.jpg","contentUrl":"/assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024.jpg","width":1000,"height":1000,"caption":"lich ngi tet duong"},{"@type":"BreadcrumbList","@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kingledvietnam.com/"},{"@type":"ListItem","position":2,"name":"Kingledvietnam : Thông báo lịch nghỉ tết dương 2024"}]},{"@type":"WebSite","@id":"https://kingledvietnam.com/#website","url":"https://kingledvietnam.com/","name":"Đèn LED KingLED","description":"Nhà Phân Phối Đèn KingLED Việt Nam 2024","publisher":{"@id":"https://kingledvietnam.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kingledvietnam.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"vi"},{"@type":"Organization","@id":"https://kingledvietnam.com/#organization","name":"Công ty thiết bị điện và chiếu sáng Vinalight","url":"https://kingledvietnam.com/","logo":{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/#/schema/logo/image/","url":"/assets/wp-content/uploads/2023/10/logo.jpg","contentUrl":"/assets/wp-content/uploads/2023/10/logo.jpg","width":708,"height":484,"caption":"Công ty thiết bị điện và chiếu sáng Vinalight"},"image":{"@id":"https://kingledvietnam.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/kingled.info/","https://profile.hatena.ne.jp/denkingled/"]},{"@type":"Person","@id":"https://kingledvietnam.com/#/schema/person/4cdc3f880851195b4efcf53ae44b2deb","name":"@dmin","image":{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/4b7e02ce66abbdcaa46818d9845fde43?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/4b7e02ce66abbdcaa46818d9845fde43?s=96&d=mm&r=g","caption":"@dmin"}}]}
+                {"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#article","isPartOf":{"@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/"},"author":{"name":"@dmin","@id":"https://kingledvietnam.com/#/schema/person/4cdc3f880851195b4efcf53ae44b2deb"},"headline":"{{ $post->title }} | {{ $settings->web_name}}","datePublished":"2023-12-29T08:17:35+00:00","dateModified":"2023-12-29T08:17:35+00:00","mainEntityOfPage":{"@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/"},"wordCount":265,"commentCount":0,"publisher":{"@id":"https://kingledvietnam.com/#organization"},"image":{"@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#primaryimage"},"thumbnailUrl":"/assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024.jpg","articleSection":["Tin Tức"],"inLanguage":"vi","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#respond"]}]},{"@type":"WebPage","@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/","url":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/","name":"{{ $post->title }} | {{ $settings->web_name}}","isPartOf":{"@id":"https://kingledvietnam.com/#website"},"primaryImageOfPage":{"@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#primaryimage"},"image":{"@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#primaryimage"},"thumbnailUrl":"/assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024.jpg","datePublished":"2023-12-29T08:17:35+00:00","dateModified":"2023-12-29T08:17:35+00:00","description":"Thông báo lịch nghỉ tết 2024 của cty CP Thiết bị điện và Chiếu sáng Vinalight để quý khách hàng nắm bắt được thời gian nghỉ và thời gian hoạt động trở lại.","breadcrumb":{"@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#breadcrumb"},"inLanguage":"vi","potentialAction":[{"@type":"ReadAction","target":["https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/"]}]},{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#primaryimage","url":"/assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024.jpg","contentUrl":"/assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024.jpg","width":1000,"height":1000,"caption":"lich ngi tet duong"},{"@type":"BreadcrumbList","@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kingledvietnam.com/"},{"@type":"ListItem","position":2,"name":"{{ $post->title }} | {{ $settings->web_name}}"}]},{"@type":"WebSite","@id":"https://kingledvietnam.com/#website","url":"https://kingledvietnam.com/","name":"Đèn LED KingLED","description":"Nhà Phân Phối Đèn KingLED Việt Nam 2024","publisher":{"@id":"https://kingledvietnam.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kingledvietnam.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"vi"},{"@type":"Organization","@id":"https://kingledvietnam.com/#organization","name":"Công ty thiết bị điện và chiếu sáng Vinalight","url":"https://kingledvietnam.com/","logo":{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/#/schema/logo/image/","url":"/assets/wp-content/uploads/2023/10/logo.jpg","contentUrl":"/assets/wp-content/uploads/2023/10/logo.jpg","width":708,"height":484,"caption":"Công ty thiết bị điện và chiếu sáng Vinalight"},"image":{"@id":"https://kingledvietnam.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/kingled.info/","https://profile.hatena.ne.jp/denkingled/"]},{"@type":"Person","@id":"https://kingledvietnam.com/#/schema/person/4cdc3f880851195b4efcf53ae44b2deb","name":"@dmin","image":{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/4b7e02ce66abbdcaa46818d9845fde43?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/4b7e02ce66abbdcaa46818d9845fde43?s=96&d=mm&r=g","caption":"@dmin"}}]}
             </script>
             <!-- / Yoast SEO Premium plugin. -->
 
@@ -68,12 +68,9 @@
             <link rel='dns-prefetch' href='//use.fontawesome.com' />
             <link rel='prefetch'
                 href='/assets/wp-content/themes/flatsome/assets/js/flatsome.js?ver=8e60d746741250b4dd4e' />
-            <link rel='prefetch'
-                href='/assets/wp-content/themes/flatsome/assets/js/chunk.slider.js?ver=3.19.6' />
-            <link rel='prefetch'
-                href='/assets/wp-content/themes/flatsome/assets/js/chunk.popups.js?ver=3.19.6' />
-            <link rel='prefetch'
-                href='/assets/wp-content/themes/flatsome/assets/js/chunk.tooltips.js?ver=3.19.6' />
+            <link rel='prefetch' href='/assets/wp-content/themes/flatsome/assets/js/chunk.slider.js?ver=3.19.6' />
+            <link rel='prefetch' href='/assets/wp-content/themes/flatsome/assets/js/chunk.popups.js?ver=3.19.6' />
+            <link rel='prefetch' href='/assets/wp-content/themes/flatsome/assets/js/chunk.tooltips.js?ver=3.19.6' />
             <link rel='prefetch'
                 href='/assets/wp-content/themes/flatsome/assets/js/woocommerce.js?ver=dd6035ce106022a74757' />
             <link rel="alternate" type="application/rss+xml" title="Dòng thông tin Đèn LED KingLED &raquo;"
@@ -81,7 +78,7 @@
             <link rel="alternate" type="application/rss+xml" title="Đèn LED KingLED &raquo; Dòng bình luận"
                 href="https://kingledvietnam.com/comments/feed/" />
             <link rel="alternate" type="application/rss+xml"
-                title="Đèn LED KingLED &raquo; Kingledvietnam : Thông báo lịch nghỉ tết dương 2024 Dòng bình luận"
+                title="Đèn LED KingLED &raquo; {{ $post->title }} | {{ $settings->web_name}} Dòng bình luận"
                 href="https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/feed/" />
             <script type="text/javascript">
                 /* <![CDATA[ */
@@ -105,22 +102,21 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                 }
             </style>
             <link rel='stylesheet' id='contact-form-7-css'
-                href='/assets/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8'
-                type='text/css' media='all' />
-            <link rel='stylesheet' id='toc-screen-css'
-                href='/assets/wp-content/plugins/table-of-contents-plus/screen.min.css?ver=2408'
-                type='text/css' media='all' />
-            <link rel='stylesheet' id='uaf_client_css-css'
-                href='/assets/wp-content/uploads/useanyfont/uaf.css?ver=1727411199' type='text/css'
+                href='/assets/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8' type='text/css'
                 media='all' />
+            <link rel='stylesheet' id='toc-screen-css'
+                href='/assets/wp-content/plugins/table-of-contents-plus/screen.min.css?ver=2408' type='text/css'
+                media='all' />
+            <link rel='stylesheet' id='uaf_client_css-css'
+                href='/assets/wp-content/uploads/useanyfont/uaf.css?ver=1727411199' type='text/css' media='all' />
             <style id='woocommerce-inline-inline-css' type='text/css'>
                 .woocommerce form .form-row .required {
                     visibility: visible;
                 }
             </style>
             <link rel='stylesheet' id='dashicons-css'
-                href='/assets/wp-includes/css/dashicons.min.css?ver=c22ab06377899eb7bf167f0522305700'
-                type='text/css' media='all' />
+                href='/assets/wp-includes/css/dashicons.min.css?ver=c22ab06377899eb7bf167f0522305700' type='text/css'
+                media='all' />
             <link rel='stylesheet' id='bfa-font-awesome-css'
                 href='https://use.fontawesome.com/releases/v5.15.4/css/all.css?ver=2.0.3' type='text/css' media='all' />
             <link rel='stylesheet' id='bfa-font-awesome-v4-shim-css'
@@ -159,8 +155,8 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                 }
             </style>
             <link rel='stylesheet' id='flatsome-main-css'
-                href='/assets/wp-content/themes/flatsome/assets/css/flatsome.css?ver=3.19.6'
-                type='text/css' media='all' />
+                href='/assets/wp-content/themes/flatsome/assets/css/flatsome.css?ver=3.19.6' type='text/css'
+                media='all' />
             <style id='flatsome-main-inline-css' type='text/css'>
                 @font-face {
                     font-family: "fl-icons";
@@ -175,16 +171,14 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                 }
             </style>
             <link rel='stylesheet' id='flatsome-shop-css'
-                href='/assets/wp-content/themes/flatsome/assets/css/flatsome-shop.css?ver=3.19.6'
-                type='text/css' media='all' />
-            <link rel='stylesheet' id='flatsome-style-css'
-                href='/assets/wp-content/themes/flatsome-child/style.css?ver=3.0' type='text/css'
+                href='/assets/wp-content/themes/flatsome/assets/css/flatsome-shop.css?ver=3.19.6' type='text/css'
                 media='all' />
-            <script type="text/javascript"
-                src="/assets/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
+            <link rel='stylesheet' id='flatsome-style-css'
+                href='/assets/wp-content/themes/flatsome-child/style.css?ver=3.0' type='text/css' media='all' />
+            <script type="text/javascript" src="/assets/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+                id="jquery-core-js">
             </script>
-            <script type="text/javascript"
-                src="/assets/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+            <script type="text/javascript" src="/assets/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
                 id="jquery-migrate-js"></script>
             <script type="text/javascript"
                 src="/assets/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.9.3.3"
@@ -201,8 +195,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                 src="/assets/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.9.3.3"
                 id="js-cookie-js" data-wp-strategy="defer"></script>
             <link rel="https://api.w.org/" href="/assets/wp-json/" />
-            <link rel="alternate" title="JSON" type="application/json"
-                href="/assets/wp-json/wp/v2/posts/6543" />
+            <link rel="alternate" title="JSON" type="application/json" href="/assets/wp-json/wp/v2/posts/6543" />
             <link rel="alternate" title="oNhúng (JSON)" type="application/json+oembed"
                 href="/assets/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkingledvietnam.com%2Fkingledvietnam-thong-bao-lich-nghi-tet-duong-2024%2F" />
             <link rel="alternate" title="oNhúng (XML)" type="text/xml+oembed"
@@ -217,7 +210,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
             </script><!-- / Schema optimized by Schema Pro -->
             <!-- Schema optimized by Schema Pro -->
             <script type="application/ld+json">
-                {"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/"},"headline":"Kingledvietnam : Thông báo lịch nghỉ tết dương 2024","datePublished":"2023-12-29T08:17:35+0000","dateModified":"2023-12-29T08:17:35+0000","author":{"@type":"Person","name":"@dmin","url":"https://kingledvietnam.com/author/kingled"},"publisher":{"@type":"Organization","name":"Đèn LED KingLED","logo":{"@type":"ImageObject","url":"/assets/wp-content/uploads/2023/10/logo.jpg"}},"description":null}
+                {"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/"},"headline":"{{ $post->title }} | {{ $settings->web_name}}","datePublished":"2023-12-29T08:17:35+0000","dateModified":"2023-12-29T08:17:35+0000","author":{"@type":"Person","name":"@dmin","url":"https://kingledvietnam.com/author/kingled"},"publisher":{"@type":"Organization","name":"Đèn LED KingLED","logo":{"@type":"ImageObject","url":"/assets/wp-content/uploads/2023/10/logo.jpg"}},"description":null}
             </script><!-- / Schema optimized by Schema Pro -->
             <!-- site-navigation-element Schema optimized by Schema Pro -->
             <script type="application/ld+json">
@@ -252,11 +245,9 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                 }
             </style>
             <style id="wpsp-style-frontend"></style>
-            <link rel="icon"
-                href="/assets/wp-content/uploads/2020/03/cropped-cropped-logo-kingled-32x32.jpg"
+            <link rel="icon" href="/assets/wp-content/uploads/2020/03/cropped-cropped-logo-kingled-32x32.jpg"
                 sizes="32x32" />
-            <link rel="icon"
-                href="/assets/wp-content/uploads/2020/03/cropped-cropped-logo-kingled-192x192.jpg"
+            <link rel="icon" href="/assets/wp-content/uploads/2020/03/cropped-cropped-logo-kingled-192x192.jpg"
                 sizes="192x192" />
             <link rel="apple-touch-icon"
                 href="/assets/wp-content/uploads/2020/03/cropped-cropped-logo-kingled-180x180.jpg" />
@@ -1022,7 +1013,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                         <div class="flex-col flex-center text-center">
                             <h6 class="entry-category is-xsmall"><a href="https://kingledvietnam.com/tin-tuc/"
                                     rel="category tag">Tin Tức</a></h6>
-                            <h1 class="entry-title">Kingledvietnam : Thông báo lịch nghỉ tết dương 2024</h1>
+                            <h1 class="entry-title">{{ $post->title }} | {{ $settings->web_name}}</h1>
                             <div class="entry-divider is-divider small"></div>
                         </div>
                     </div>
@@ -1040,61 +1031,16 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                 <article id="post-6543"
                                     class="post-6543 post type-post status-publish format-standard hentry category-tin-tuc">
                                     <div class="article-inner has-shadow box-shadow-2">
-                                        <div class="entry-content single-page">
-
-                                            <p><span class="fontstyle0" style="font-family: avo; color: #000000;">Kính
-                                                    gửi: Quý khách hàng</span></p>
-                                            <p><span class="fontstyle2"
-                                                    style="font-family: avo; color: #000000;"><strong>Công ty Cổ phần
-                                                        Thiết bị điện và Chiếu sáng Vinalight</strong> xin chân thành
-                                                    cảm ơn Quý khách hàng đã tin tưởng, lựa chọn sản phẩm và dịch vụ của
-                                                    chúng tôi trong suốt thời gian qua.</span></p>
-                                            <p><span class="fontstyle2" style="font-family: avo; color: #000000;">Chúng
-                                                    tôi xin thông báo lịch nghỉ Tết dương lịch tới Quý khách hàng như
-                                                    sau:</span></p>
-                                            <p><span style="font-family: avo; color: #000000;"><span
-                                                        class="fontstyle3">– </span><span class="fontstyle2">Thời gian
-                                                        nghỉ: </span><span class="fontstyle4">Ngày
-                                                        <strong>31/12/2023</strong> đến
-                                                        <strong>1/1/2024</strong>.</span></span></p>
-                                            <p><span style="font-family: avo; color: #000000;"><span
-                                                        class="fontstyle3">– </span><span class="fontstyle2">Thời gian
-                                                        đi làm trở lại</span><span class="fontstyle4">: Ngày
-                                                        <strong>2/1/2024</strong>.</span></span></p>
-                                            <p><span style="font-family: avo; color: #000000;"><span
-                                                        class="fontstyle2">Trong thời gian Nghỉ lễ, Quý khách hàng cần
-                                                        thông tin về hàng hóa có thể liên hệ với chúng tôi qua số điện
-                                                        thoại: </span><span
-                                                        class="fontstyle4"><strong>0989.04.3239</strong> hoặc
-                                                        <strong>0912.595.868</strong>. </span><span
-                                                        class="fontstyle2">Bằng thông báo này chúng tôi xin thông báo để
-                                                        Quý khách hàng biết để thuận tiện cho việc liên
-                                                        hệ.</span></span></p>
-                                            <p><span class="fontstyle2" style="font-family: avo; color: #000000;">Nhân
-                                                    dịp năm mới, chúng tôi xin gửi tới Quý khách hàng lời chúc một năm
-                                                    mới Hạnh phúc-Bình an-Thịnh vượng.</span></p>
-                                            <p><span class="fontstyle2" style="font-family: avo; color: #000000;">Xin
-                                                    chân thành cám ơn!!!</span></p>
-                                            <figure id="attachment_6544" aria-describedby="caption-attachment-6544"
-                                                style="width: 1000px" class="wp-caption aligncenter"><img
-                                                    fetchpriority="high" decoding="async"
-                                                    class="wp-image-6544 size-full" title="lich ngi tet duong"
-                                                    src="/assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024.jpg"
-                                                    alt="Thông báo lịch nghỉ tết dương 2024" width="1000" height="1000"
-                                                    srcset="/assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024.jpg 1000w, /assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024-300x300.jpg 300w, /assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024-150x150.jpg 150w, /assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024-768x768.jpg 768w, /assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024-247x247.jpg 247w, /assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024-510x510.jpg 510w, /assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024-100x100.jpg 100w"
-                                                    sizes="(max-width: 1000px) 100vw, 1000px" />
-                                                <figcaption id="caption-attachment-6544" class="wp-caption-text"></span>
-                                                    Thông báo lịch nghỉ tết dương 2024</figcaption>
-                                            </figure>
-
-
+                                        <div class="entry-content single-page"> 
+                                            {!! $post->description !!} 
+                                        
                                         </div>
 
                                         <footer class="entry-meta text-left">
                                             Bài viết này được đăng trong <a href="https://kingledvietnam.com/tin-tuc/"
                                                 rel="category tag">Tin Tức</a>. Đánh dấu <a
                                                 href="https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/"
-                                                title="Liên kết thường trực đến Kingledvietnam : Thông báo lịch nghỉ tết dương 2024"
+                                                title="Liên kết thường trực đến {{ $post->title }} | {{ $settings->web_name}}"
                                                 rel="bookmark">liên kết thường trực</a>. </footer>
 
 
@@ -1104,7 +1050,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 
 
 
-                                <div id="comments" class="comments-area">
+                                {{-- <div id="comments" class="comments-area">
 
 
 
@@ -1114,8 +1060,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                     rel="nofollow" id="cancel-comment-reply-link"
                                                     href="/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#respond"
                                                     style="display:none;">Hủy</a></small></h3>
-                                        <form action="/assets/wp-comments-post.php" method="post"
-                                            id="commentform" class="comment-form" novalidate>
+                                        <form action="/assets/wp-comments-post.php" method="post" id="commentform"
+                                            class="comment-form" novalidate>
                                             <p class="comment-notes"><span id="email-notes">Email của bạn sẽ không được
                                                     hiển thị công khai.</span> <span class="required-field-message">Các
                                                     trường bắt buộc được đánh dấu <span class="required">*</span></span>
@@ -1154,7 +1100,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                         </form>
                                     </div><!-- #respond -->
 
-                                </div>
+                                </div> --}}
                             </div>
 
                         </div>
@@ -1666,11 +1612,9 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                     font-family: var(--wp--preset--font-family--cardo) !important;
                 }
             </style>
-            <script type="text/javascript"
-                src="/assets/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18"
+            <script type="text/javascript" src="/assets/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18"
                 id="wp-hooks-js"></script>
-            <script type="text/javascript"
-                src="/assets/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
+            <script type="text/javascript" src="/assets/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
                 id="wp-i18n-js"></script>
             <script type="text/javascript" id="wp-i18n-js-after">
                 /* <![CDATA[ */
@@ -1678,8 +1622,7 @@ wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 /* ]]> */
             </script>
             <script type="text/javascript"
-                src="/assets/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.8"
-                id="swv-js"></script>
+                src="/assets/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.8" id="swv-js"></script>
             <script type="text/javascript" id="contact-form-7-js-extra">
                 /* <![CDATA[ */
 var wpcf7 = {"api":{"root":"https:\/\/kingledvietnam.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -1695,15 +1638,14 @@ var wpcf7 = {"api":{"root":"https:\/\/kingledvietnam.com\/wp-json\/","namespace"
 /* ]]> */
             </script>
             <script type="text/javascript"
-                src="/assets/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.8"
-                id="contact-form-7-js"></script>
+                src="/assets/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.8" id="contact-form-7-js">
+            </script>
             <script type="text/javascript" id="toc-front-js-extra">
                 /* <![CDATA[ */
 var tocplus = {"visibility_show":"show","visibility_hide":"hide","width":"Auto"};
 /* ]]> */
             </script>
-            <script type="text/javascript"
-                src="/assets/wp-content/plugins/table-of-contents-plus/front.min.js?ver=2408"
+            <script type="text/javascript" src="/assets/wp-content/plugins/table-of-contents-plus/front.min.js?ver=2408"
                 id="toc-front-js"></script>
             <script type="text/javascript" id="woocommerce-js-extra">
                 /* <![CDATA[ */
@@ -1790,7 +1732,6 @@ var wc_password_strength_meter_params = {"min_password_strength":"3","stop_check
 
         </body>
 
-        </html>
 
         <!-- Page cached by LiteSpeed Cache 6.5.1 on 2024-11-07 09:11:43 -->
     </div>
