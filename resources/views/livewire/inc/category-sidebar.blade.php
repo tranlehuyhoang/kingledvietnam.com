@@ -5,14 +5,14 @@
         <ul class="product-categories">
             @foreach($categories as $category)
                 <li class="cat-item cat-item-{{ $category->id }} {{ $category->subcategories->isNotEmpty() ? 'cat-parent' : '' }}">
-                    <a href="/shop?category={{ $category->slug }}" title="{{ $category->name }}">
+                    <a href="/cua-hang/{{ $category->slug }}" title="{{ $category->name }}">
                         {{ $category->name }}
                     </a>
                     @if ($category->subcategories->isNotEmpty())
                         <ul class='children'>
                             @foreach($category->subcategories as $subcategory)
                                 <li class="cat-item cat-item-{{ $subcategory->id }}">
-                                    <a href="/shop?subcategory={{ $subcategory->slug }}" title="{{ $subcategory->name }}">
+                                    <a href="/cua-hang/{{$category->slug}}/{{ $subcategory->slug }}" title="{{ $subcategory->name }}">
                                         {{ $subcategory->name }}
                                     </a>
                                 </li>

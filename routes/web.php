@@ -49,7 +49,7 @@ Route::get('/', Home::class);
 Route::get('/gioi-thieu', About::class);
 Route::get('/cua-hang', Shop::class);
 Route::get('/cua-hang/{slug}', Category::class);
-Route::get('/cua-hang/{slug}/{sub}', Subcategory::class);
+Route::get('/cua-hang/{category}/{slug}', Subcategory::class);
 Route::get('/san-pham/{slug}/', ProductDetail::class);
 
 Route::get('/bao-gia', BaoGia::class);
