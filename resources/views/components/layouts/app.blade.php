@@ -9,8 +9,7 @@ $settings = App\Models\Setting::first(); // Truy vấn model Settings
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="{{ Storage::url($settings->web_icon)}}" type="image/png">
     <meta name="google" content="notranslate">
-
-
+ 
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ request()->fullUrl() }}">
     <meta name="twitter:url" content="{{ request()->fullUrl() }}">
