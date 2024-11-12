@@ -36,14 +36,10 @@
                              alt="{{ $product->name }}" decoding="async" />
                         <span class="product-title">{{ $product->name }}</span>
                     </a>
-                    <del aria-hidden="true">
-                        <span class="woocommerce-Price-amount amount">
-                            <bdi>{{ number_format($product->price, 0, ',', '.') }}&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi>
-                        </span>
                     </del>
                     <ins aria-hidden="true">
                         <span class="woocommerce-Price-amount amount">
-                            <bdi>{{ number_format($product->discount_price, 0, ',', '.') }}&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi>
+                            <bdi>Liên hệ</bdi>
                         </span>
                     </ins>
                 </li>

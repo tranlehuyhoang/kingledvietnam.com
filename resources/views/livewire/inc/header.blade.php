@@ -129,7 +129,7 @@
                 </div>
 
                 <!-- Right Elements -->
-                <div class="flex-col hide-for-medium flex-right">
+                {{-- <div class="flex-col hide-for-medium flex-right">
                     <ul class="header-nav header-nav-main nav nav-right  nav-uppercase">
                         <li class="cart-item has-icon has-dropdown">
 
@@ -176,10 +176,10 @@
 
                         </li>
                     </ul>
-                </div>
+                </div> --}}
 
                 <!-- Mobile Right Elements -->
-                <div class="flex-col show-for-medium flex-right">
+                <div style="opacity: 0" class="flex-col show-for-medium flex-right">
                     <ul class="mobile-nav nav nav-right ">
                         <li class="cart-item has-icon">
 

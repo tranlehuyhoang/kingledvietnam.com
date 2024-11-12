@@ -69,10 +69,24 @@ class ProductResource extends Resource
                                     ->maxLength(255)
                                     ->label('Slug'),
 
+                                    TextInput::make('code')
+                                    ->columnSpanFull()
+                                    ->unique(Product::class, 'code', ignoreRecord: true)
+                                    ->required()
+                                    ->label('Mã Sản Phẩm'),
+
                                 Textarea::make('short_description')
                                     ->columnSpanFull()
                                     ->label('Mô Tả Ngắn'),
 
+                                RichEditor::make('info')
+                                    ->columnSpanFull()
+                                    ->fileAttachmentsDirectory('products')
+                                    ->label('Thông Số Sản Phẩm'),
+                                RichEditor::make('info_bonus')
+                                    ->columnSpanFull()
+                                    ->fileAttachmentsDirectory('products')
+                                    ->label('Thông Tin Bổ Sung'),
                                 RichEditor::make('description')
                                     ->columnSpanFull()
                                     ->fileAttachmentsDirectory('products')
@@ -80,49 +94,7 @@ class ProductResource extends Resource
                             ])->columns(2),
 
                     
-                        Section::make('Biến Thể Sản Phẩm')
-                        ->collapsible()
-                            ->schema([
-                                Repeater::make('variants')
-                                    ->label('Biến Thể Sản Phẩm')
-                                    ->relationship()
-                                    ->schema([
-                                        TextInput::make('sku')
-                                            ->required()
-                                            ->label('SKU')
-                                            ->default(function () {
-                                                return strtoupper(Str::random(3)) . random_int(1000, 9999);
-                                            })
-                                            ->unique(ProductVariant::class, 'sku', ignoreRecord: true),
-
-                                        TextInput::make('name')
-                                            ->label('Tên'),
-
-                                        TextInput::make('price')
-                                            ->numeric()
-                                            ->label('Giá Bán'),
-
-                                        TextInput::make('discount_price')
-                                            ->numeric()
-                                            ->label('Giá Nhập')
-                                            ->nullable(),
-
-                                        Select::make('stock')
-                                            ->options([
-                                                'in_stock' => 'Còn hàng',
-                                                'out_of_stock' => 'Hết hàng',
-                                            ])
-                                            ->default('in_stock')
-                                            ->label('Trạng thái'),
-
-                                        FileUpload::make('image')
-                                            ->label('Ảnh')
-                                            ->directory('product_variants')
-                                            ->nullable()
-                                    ])
-                                    ->columns(6)
-                                    ->minItems(1) // Số lượng tối thiểu biến thể
-                            ])
+                    
                     ])->columnSpan(2),
 
                 Group::make()
@@ -142,22 +114,6 @@ class ProductResource extends Resource
                                     ->preload()
                                     ->relationship('subcategory', 'name')
                                     ->label('Danh Mục Con'),
-
-                                Select::make('brand_id')
-                                    ->searchable()
-                                    ->preload()
-                                    ->relationship('brand', 'name')
-                                    ->label('Thương Hiệu'),
-                                    TextInput::make('price')
-                                    ->numeric()
-                                    ->required()
-                                    ->default(0)
-                                    ->label('Giá Bán'),
-                                    TextInput::make('discount_price')
-                                    ->numeric()
-                                    ->required()
-                                    ->default(0)
-                                    ->label('Giá Giảm'),
                             ]),
                             Section::make('Hình Ảnh')
                             ->collapsible()
@@ -194,20 +150,11 @@ class ProductResource extends Resource
 
 
 
-                Tables\Columns\TextColumn::make('price')
-                    ->label('Giá') // Đổi nhãn sang tiếng Việt
-                    ->money('VND')
-                    ->sortable(),
+               
                 Tables\Columns\TextColumn::make('slug')
                     ->label('Slug') // Đổi nhãn sang tiếng Việt
                     ->sortable()
                     ->searchable(),
-                    Tables\Columns\TextColumn::make('variants.sku') // Thêm cột SKU
-                    ->label('SKU') // Đổi nhãn sang tiếng Việt
-                    ->sortable()
-                    ->searchable()
-                    ->toggleable(isToggledHiddenByDefault: true),
-              
 
                 Tables\Columns\TextColumn::make('created_at')
                     ->label('Ngày Tạo') // Đổi nhãn sang tiếng Việt
@@ -227,10 +174,6 @@ class ProductResource extends Resource
                     ->relationship('category', 'name')
                     ->preload(),
 
-                SelectFilter::make('brand')
-                    ->label('Thương Hiệu') // Đổi nhãn sang tiếng Việt
-                    ->relationship('brand', 'name')
-                    ->preload()
             ])
             ->actions([
                 Tables\Actions\ActionGroup::make([

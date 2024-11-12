@@ -51,8 +51,7 @@
             <meta property="og:site_name" content="Đèn LED KingLED" />
             <meta property="article:publisher" content="https://www.facebook.com/kingled.info/" />
             <meta property="article:modified_time" content="2024-07-09T03:21:29+00:00" />
-            <meta property="og:image"
-                content="/assets/wp-content/uploads/2024/07/dai-dien-sau.jpg" />
+            <meta property="og:image" content="/assets/wp-content/uploads/2024/07/dai-dien-sau.jpg" />
             <meta property="og:image:width" content="800" />
             <meta property="og:image:height" content="800" />
             <meta property="og:image:type" content="image/jpeg" />
@@ -68,12 +67,9 @@
             <link rel='dns-prefetch' href='//use.fontawesome.com' />
             <link rel='prefetch'
                 href='/assets/wp-content/themes/flatsome/assets/js/flatsome.js?ver=8e60d746741250b4dd4e' />
-            <link rel='prefetch'
-                href='/assets/wp-content/themes/flatsome/assets/js/chunk.slider.js?ver=3.19.6' />
-            <link rel='prefetch'
-                href='/assets/wp-content/themes/flatsome/assets/js/chunk.popups.js?ver=3.19.6' />
-            <link rel='prefetch'
-                href='/assets/wp-content/themes/flatsome/assets/js/chunk.tooltips.js?ver=3.19.6' />
+            <link rel='prefetch' href='/assets/wp-content/themes/flatsome/assets/js/chunk.slider.js?ver=3.19.6' />
+            <link rel='prefetch' href='/assets/wp-content/themes/flatsome/assets/js/chunk.popups.js?ver=3.19.6' />
+            <link rel='prefetch' href='/assets/wp-content/themes/flatsome/assets/js/chunk.tooltips.js?ver=3.19.6' />
             <link rel='prefetch'
                 href='/assets/wp-content/themes/flatsome/assets/js/woocommerce.js?ver=dd6035ce106022a74757' />
             <link rel="alternate" type="application/rss+xml" title="Dòng thông tin Đèn LED KingLED &raquo;"
@@ -105,14 +101,13 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                 }
             </style>
             <link rel='stylesheet' id='contact-form-7-css'
-                href='/assets/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8'
-                type='text/css' media='all' />
-            <link rel='stylesheet' id='toc-screen-css'
-                href='/assets/wp-content/plugins/table-of-contents-plus/screen.min.css?ver=2408'
-                type='text/css' media='all' />
-            <link rel='stylesheet' id='uaf_client_css-css'
-                href='/assets/wp-content/uploads/useanyfont/uaf.css?ver=1727411199' type='text/css'
+                href='/assets/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8' type='text/css'
                 media='all' />
+            <link rel='stylesheet' id='toc-screen-css'
+                href='/assets/wp-content/plugins/table-of-contents-plus/screen.min.css?ver=2408' type='text/css'
+                media='all' />
+            <link rel='stylesheet' id='uaf_client_css-css'
+                href='/assets/wp-content/uploads/useanyfont/uaf.css?ver=1727411199' type='text/css' media='all' />
             <link rel='stylesheet' id='photoswipe-css'
                 href='/assets/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css?ver=9.3.3'
                 type='text/css' media='all' />
@@ -125,8 +120,8 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                 }
             </style>
             <link rel='stylesheet' id='dashicons-css'
-                href='/assets/wp-includes/css/dashicons.min.css?ver=c22ab06377899eb7bf167f0522305700'
-                type='text/css' media='all' />
+                href='/assets/wp-includes/css/dashicons.min.css?ver=c22ab06377899eb7bf167f0522305700' type='text/css'
+                media='all' />
             <link rel='stylesheet' id='bfa-font-awesome-css'
                 href='https://use.fontawesome.com/releases/v5.15.4/css/all.css?ver=2.0.3' type='text/css' media='all' />
             <link rel='stylesheet' id='bfa-font-awesome-v4-shim-css'
@@ -165,8 +160,8 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                 }
             </style>
             <link rel='stylesheet' id='flatsome-main-css'
-                href='/assets/wp-content/themes/flatsome/assets/css/flatsome.css?ver=3.19.6'
-                type='text/css' media='all' />
+                href='/assets/wp-content/themes/flatsome/assets/css/flatsome.css?ver=3.19.6' type='text/css'
+                media='all' />
             <style id='flatsome-main-inline-css' type='text/css'>
                 @font-face {
                     font-family: "fl-icons";
@@ -181,16 +176,14 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                 }
             </style>
             <link rel='stylesheet' id='flatsome-shop-css'
-                href='/assets/wp-content/themes/flatsome/assets/css/flatsome-shop.css?ver=3.19.6'
-                type='text/css' media='all' />
-            <link rel='stylesheet' id='flatsome-style-css'
-                href='/assets/wp-content/themes/flatsome-child/style.css?ver=3.0' type='text/css'
+                href='/assets/wp-content/themes/flatsome/assets/css/flatsome-shop.css?ver=3.19.6' type='text/css'
                 media='all' />
-            <script type="text/javascript"
-                src="/assets/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
+            <link rel='stylesheet' id='flatsome-style-css'
+                href='/assets/wp-content/themes/flatsome-child/style.css?ver=3.0' type='text/css' media='all' />
+            <script type="text/javascript" src="/assets/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+                id="jquery-core-js">
             </script>
-            <script type="text/javascript"
-                src="/assets/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+            <script type="text/javascript" src="/assets/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
                 id="jquery-migrate-js"></script>
             <script type="text/javascript"
                 src="/assets/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.9.3.3"
@@ -221,8 +214,7 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
                 src="/assets/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.9.3.3"
                 id="js-cookie-js" data-wp-strategy="defer"></script>
             <link rel="https://api.w.org/" href="/assets/wp-json/" />
-            <link rel="alternate" title="JSON" type="application/json"
-                href="/assets/wp-json/wp/v2/product/6642" />
+            <link rel="alternate" title="JSON" type="application/json" href="/assets/wp-json/wp/v2/product/6642" />
             <link rel="alternate" title="oNhúng (JSON)" type="application/json+oembed"
                 href="/assets/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkingledvietnam.com%2Fden-led-am-tran-diamond-sau-15w-doi-mau-ddls-15ss-t140-dm-kingled%2F" />
             <link rel="alternate" title="oNhúng (XML)" type="text/xml+oembed"
@@ -268,11 +260,9 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
                 }
             </style>
             <style id="wpsp-style-frontend"></style>
-            <link rel="icon"
-                href="/assets/wp-content/uploads/2020/03/cropped-cropped-logo-kingled-32x32.jpg"
+            <link rel="icon" href="/assets/wp-content/uploads/2020/03/cropped-cropped-logo-kingled-32x32.jpg"
                 sizes="32x32" />
-            <link rel="icon"
-                href="/assets/wp-content/uploads/2020/03/cropped-cropped-logo-kingled-192x192.jpg"
+            <link rel="icon" href="/assets/wp-content/uploads/2020/03/cropped-cropped-logo-kingled-192x192.jpg"
                 sizes="192x192" />
             <link rel="apple-touch-icon"
                 href="/assets/wp-content/uploads/2020/03/cropped-cropped-logo-kingled-180x180.jpg" />
@@ -1046,427 +1036,92 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
                                 <div class="row content-row row-divided row-large">
 
                                     <div id="product-sidebar" class="col large-3 hide-for-medium shop-sidebar ">
-                                        <aside id="text-3" class="widget widget_text">
-                                            <div class="textwidget">
-                                                <div class="yentam-muahang">
-                                                    <h4><span style="font-size: 18px;">Tư vấn bán hàng</span></h4>
-                                                    <p><strong><span style="font-size: 14px; color: #01aef2;"><i
-                                                                    class="fa fa-check" aria-hidden="true"></i>
-                                                                VINALIGHT HÀ NỘI </span></strong></p>
-                                                    <p><span style="font-size: 14px;">Hà Nội 1 : <a
-                                                                href="tel:0989043239">0989.043.239</a> </span></p>
-                                                    <p><span style="font-size: 14px;">Hà Nội 2 : <a
-                                                                href="tel:0904678922">0904.678.922</a> </span></p>
-                                                    <p><span style="font-size: 14px;">Hà Nội 3 : <a
-                                                                href="tel:0982051651">0982.051.651</a> </span></p>
-                                                    <p><span style="font-size: 14px;">Hà Nội 4 : <a
-                                                                href="tel:0912595868">0912.595.868</a> </span></p>
-                                                    <p><span style="font-size: 14px;">Hà Nội 5 : <a
-                                                                href="tel:0936515888">0936.515.888</a> </span></p>
-                                                    <p><span style="font-size: 14px; color: #01aef2;"><strong><i
-                                                                    class="fa fa-check" aria-hidden="true"></i>
-                                                                VINALIGHT SÀI GÒN</strong> </span></p>
-                                                    <p><span style="font-size: 16px;">Sài Gòn 1 : <a
-                                                                href="tel:0909961962">0909.961.962</a> </span></p>
-                                                    <p><span style="font-size: 14px;">Sài Gòn 2 : <a
-                                                                href="tel:0964611699">0964.611.699</a> </span></p>
-                                                    <p><span style="font-size: 14px; color: #01aef2;"><strong><i
-                                                                    class="fa fa-check" aria-hidden="true"></i> KHIẾU
-                                                                NẠI DỊCH VỤ</strong> </span></p>
-                                                    <p><span style="font-size: 16px;">Mr. Toán: <a
-                                                                href="tel:0989487999">0989.487.999</a> </span></p>
-                                                </div>
-                                            </div>
-                                        </aside>
-                                        <aside id="woocommerce_product_categories-4"
-                                            class="widget woocommerce widget_product_categories"><span
-                                                class="widget-title shop-sidebar">Danh mục sản phẩm</span>
-                                            <div class="is-divider small"></div>
-                                            <ul class="product-categories">
-                                                <li class="cat-item cat-item-543"><a
-                                                        href="https://kingledvietnam.com/den-am-bac-cau-thang/">ĐÈN ÂM
-                                                        BẬC CẦU THANG</a></li>
-                                                <li class="cat-item cat-item-541"><a
-                                                        href="https://kingledvietnam.com/den-am-dat-kingled/">ĐÈN ÂM ĐẤT
-                                                        KINGLED</a></li>
-                                                <li class="cat-item cat-item-307"><a
-                                                        href="https://kingledvietnam.com/den-cot-san-vuon/">ĐÈN CỘT SÂN
-                                                        VƯỜN</a></li>
-                                                <li class="cat-item cat-item-549"><a
-                                                        href="https://kingledvietnam.com/den-duong-led-kingled/">ĐÈN
-                                                        ĐƯỜNG LED KINGLED</a></li>
-                                                <li class="cat-item cat-item-551"><a
-                                                        href="https://kingledvietnam.com/den-exit-chi-huong/">ĐÈN EXIT
-                                                        CHỈ HƯỚNG</a></li>
-                                                <li class="cat-item cat-item-552"><a
-                                                        href="https://kingledvietnam.com/den-khan-cap-kingled/">ĐÈN KHẨN
-                                                        CẤP KINGLED</a></li>
-                                                <li class="cat-item cat-item-312 cat-parent"><a
-                                                        href="https://kingledvietnam.com/den-led-am-tran-kingeco/">ĐÈN
-                                                        LED ÂM TRẦN KINGECO</a>
-                                                    <ul class='children'>
-                                                        <li class="cat-item cat-item-615"><a
-                                                                href="https://kingledvietnam.com/den-led-am-tran-kingeco/am-tran-mat-trang/">ÂM
-                                                                TRẦN MẶT TRẮNG</a></li>
-                                                        <li class="cat-item cat-item-616"><a
-                                                                href="https://kingledvietnam.com/den-led-am-tran-kingeco/am-tran-vien-mau-mat-cong/">ÂM
-                                                                TRẦN VIỀN MÀU MẶT CONG</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="cat-item cat-item-295 cat-parent current-cat-parent"><a
-                                                        href="https://kingledvietnam.com/den-led-am-tran-kingled/">ĐÈN
-                                                        LED ÂM TRẦN KINGLED</a>
-                                                    <ul class='children'>
-                                                        <li class="cat-item cat-item-614 current-cat"><a
-                                                                href="https://kingledvietnam.com/den-led-am-tran-kingled/tan-quang-doi-mau/">TÁN
-                                                                QUANG ĐỔI MÀU</a></li>
-                                                        <li class="cat-item cat-item-613"><a
-                                                                href="https://kingledvietnam.com/den-led-am-tran-kingled/tan-quang-don-sac/">TÁN
-                                                                QUANG ĐƠN SẮC</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="cat-item cat-item-298"><a
-                                                        href="https://kingledvietnam.com/den-led-bup-kingled/">ĐÈN LED
-                                                        BÚP KINGLED</a></li>
-                                                <li class="cat-item cat-item-302"><a
-                                                        href="https://kingledvietnam.com/den-led-day-kingled/">ĐÈN LED
-                                                        DÂY KINGLED</a></li>
-                                                <li class="cat-item cat-item-306"><a
-                                                        href="https://kingledvietnam.com/den-led-ong-bo-kingled/">ĐÈN
-                                                        LED ỐNG BƠ KINGLED</a></li>
-                                                <li class="cat-item cat-item-299"><a
-                                                        href="https://kingledvietnam.com/den-led-op-tran-kingled/">ĐÈN
-                                                        LED ỐP TRẦN KINGLED</a></li>
-                                                <li class="cat-item cat-item-297"><a
-                                                        href="https://kingledvietnam.com/den-led-panel-kingled/">ĐÈN LED
-                                                        PANEL KINGLED</a></li>
-                                                <li class="cat-item cat-item-300"><a
-                                                        href="https://kingledvietnam.com/den-led-roi-ray-kingled/">ĐÈN
-                                                        LED RỌI RAY KINGLED</a></li>
-                                                <li class="cat-item cat-item-310"><a
-                                                        href="https://kingledvietnam.com/den-led-spot-light/">ĐÈN LED
-                                                        SPOT LIGHT</a></li>
-                                                <li class="cat-item cat-item-296"><a
-                                                        href="https://kingledvietnam.com/den-led-tuyp-kingled/">ĐÈN LED
-                                                        TUÝP KINGLED</a></li>
-                                                <li class="cat-item cat-item-547"><a
-                                                        href="https://kingledvietnam.com/den-nha-xuong/">ĐÈN NHÀ
-                                                        XƯỞNG</a></li>
-                                                <li class="cat-item cat-item-303"><a
-                                                        href="https://kingledvietnam.com/den-pha-led-kingled/">ĐÈN PHA
-                                                        LED KINGLED</a></li>
-                                                <li class="cat-item cat-item-540"><a
-                                                        href="https://kingledvietnam.com/den-ray-nam-cham/">ĐÈN RAY NAM
-                                                        CHÂM</a></li>
-                                                <li class="cat-item cat-item-301"><a
-                                                        href="https://kingledvietnam.com/den-soi-tranh-kingled/">ĐÈN SOI
-                                                        TRANH KINGLED</a></li>
-                                                <li class="cat-item cat-item-304"><a
-                                                        href="https://kingledvietnam.com/den-tha-trang-tri-kingled/">ĐÈN
-                                                        THẢ TRANG TRÍ KINGLED</a></li>
-                                                <li class="cat-item cat-item-305"><a
-                                                        href="https://kingledvietnam.com/den-tuong-trang-tri/">ĐÈN TƯỜNG
-                                                        TRANG TRÍ</a></li>
-                                                <li class="cat-item cat-item-539"><a
-                                                        href="https://kingledvietnam.com/phu-kien-den-led-day/">PHỤ KIỆN
-                                                        ĐÈN LED DÂY</a></li>
-                                                <li class="cat-item cat-item-556"><a
-                                                        href="https://kingledvietnam.com/phu-kien-den-ray-nam-cham/">PHỤ
-                                                        KIỆN ĐÈN RAY NAM CHÂM</a></li>
-                                                <li class="cat-item cat-item-550"><a
-                                                        href="https://kingledvietnam.com/quat-suoi-dieu-hoa/">QUẠT SƯỞI
-                                                        ĐIỀU HÒA</a></li>
-                                                <li class="cat-item cat-item-548"><a
-                                                        href="https://kingledvietnam.com/san-pham-moi-ra-mat/">SẢN PHẨM
-                                                        MỚI RA MẮT</a></li>
-                                                <li class="cat-item cat-item-555"><a
-                                                        href="https://kingledvietnam.com/thanh-ray-nam-cham-mong/">THANH
-                                                        RAY NAM CHÂM MỎNG</a></li>
-                                            </ul>
-                                        </aside>
-                                        <aside id="woocommerce_products-4" class="widget woocommerce widget_products">
-                                            <span class="widget-title shop-sidebar">Sản phẩm</span>
-                                            <div class="is-divider small"></div>
-                                            <ul class="product_list_widget">
-                                                <li>
-
-                                                    <a
-                                                        href="https://kingledvietnam.com/den-led-op-tran-tron-den-18w-ec-onl-18-t215-t-d-kingeco/">
-                                                        <img width="100" height="100"
-                                                            src="/assets/wp-content/uploads/2024/07/EC-onl-T-D-100x100.jpg"
-                                                            class="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail"
-                                                            alt="EC onl T Đ" decoding="async"
-                                                            srcset="/assets/wp-content/uploads/2024/07/EC-onl-T-D-100x100.jpg 100w, /assets/wp-content/uploads/2024/07/EC-onl-T-D-300x300.jpg 300w, /assets/wp-content/uploads/2024/07/EC-onl-T-D-150x150.jpg 150w, /assets/wp-content/uploads/2024/07/EC-onl-T-D-768x768.jpg 768w, /assets/wp-content/uploads/2024/07/EC-onl-T-D-247x247.jpg 247w, /assets/wp-content/uploads/2024/07/EC-onl-T-D-510x510.jpg 510w, /assets/wp-content/uploads/2024/07/EC-onl-T-D.jpg 800w"
-                                                            sizes="(max-width: 100px) 100vw, 100px" /> <span
-                                                            class="product-title">Đèn LED ốp trần tròn đen 18W
-                                                            EC-ONL-18-T215-T-Đ KingEco</span>
-                                                    </a>
-
-
-                                                    <del aria-hidden="true"><span
-                                                            class="woocommerce-Price-amount amount"><bdi>301.000&nbsp;<span
-                                                                    class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del>
-                                                    <span class="screen-reader-text">Giá gốc là:
-                                                        301.000&nbsp;&#8363;.</span><ins aria-hidden="true"><span
-                                                            class="woocommerce-Price-amount amount"><bdi>195.650&nbsp;<span
-                                                                    class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins><span
-                                                        class="screen-reader-text">Giá hiện tại là:
-                                                        195.650&nbsp;&#8363;.</span>
-                                                </li>
-                                                <li>
-
-                                                    <a
-                                                        href="https://kingledvietnam.com/den-led-op-tran-tron-den-12w-ec-onl-12-t170-t-d-kingeco/">
-                                                        <img width="100" height="100"
-                                                            src="/assets/wp-content/uploads/2024/07/EC-onl-T-D-100x100.jpg"
-                                                            class="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail"
-                                                            alt="EC onl T Đ" decoding="async"
-                                                            srcset="/assets/wp-content/uploads/2024/07/EC-onl-T-D-100x100.jpg 100w, /assets/wp-content/uploads/2024/07/EC-onl-T-D-300x300.jpg 300w, /assets/wp-content/uploads/2024/07/EC-onl-T-D-150x150.jpg 150w, /assets/wp-content/uploads/2024/07/EC-onl-T-D-768x768.jpg 768w, /assets/wp-content/uploads/2024/07/EC-onl-T-D-247x247.jpg 247w, /assets/wp-content/uploads/2024/07/EC-onl-T-D-510x510.jpg 510w, /assets/wp-content/uploads/2024/07/EC-onl-T-D.jpg 800w"
-                                                            sizes="(max-width: 100px) 100vw, 100px" /> <span
-                                                            class="product-title">Đèn LED ốp trần tròn đen 12W
-                                                            EC-ONL-12-T170-T-Đ KingEco</span>
-                                                    </a>
-
-
-                                                    <del aria-hidden="true"><span
-                                                            class="woocommerce-Price-amount amount"><bdi>235.000&nbsp;<span
-                                                                    class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del>
-                                                    <span class="screen-reader-text">Giá gốc là:
-                                                        235.000&nbsp;&#8363;.</span><ins aria-hidden="true"><span
-                                                            class="woocommerce-Price-amount amount"><bdi>152.750&nbsp;<span
-                                                                    class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins><span
-                                                        class="screen-reader-text">Giá hiện tại là:
-                                                        152.750&nbsp;&#8363;.</span>
-                                                </li>
-                                                <li>
-
-                                                    <a
-                                                        href="https://kingledvietnam.com/den-led-op-tran-vuong-den-18w-ec-onl-18-v215-t-d-kingeco/">
-                                                        <img width="100" height="100"
-                                                            src="/assets/wp-content/uploads/2024/07/EC-onl-V-D-100x100.jpg"
-                                                            class="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail"
-                                                            alt="EC onl V Đ" decoding="async"
-                                                            srcset="/assets/wp-content/uploads/2024/07/EC-onl-V-D-100x100.jpg 100w, /assets/wp-content/uploads/2024/07/EC-onl-V-D-300x300.jpg 300w, /assets/wp-content/uploads/2024/07/EC-onl-V-D-150x150.jpg 150w, /assets/wp-content/uploads/2024/07/EC-onl-V-D-768x768.jpg 768w, /assets/wp-content/uploads/2024/07/EC-onl-V-D-247x247.jpg 247w, /assets/wp-content/uploads/2024/07/EC-onl-V-D-510x510.jpg 510w, /assets/wp-content/uploads/2024/07/EC-onl-V-D.jpg 800w"
-                                                            sizes="(max-width: 100px) 100vw, 100px" /> <span
-                                                            class="product-title">Đèn LED ốp trần vuông đen 18W
-                                                            EC-ONL-18-V215-T-Đ KingEco</span>
-                                                    </a>
-
-
-                                                    <del aria-hidden="true"><span
-                                                            class="woocommerce-Price-amount amount"><bdi>332.000&nbsp;<span
-                                                                    class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del>
-                                                    <span class="screen-reader-text">Giá gốc là:
-                                                        332.000&nbsp;&#8363;.</span><ins aria-hidden="true"><span
-                                                            class="woocommerce-Price-amount amount"><bdi>215.800&nbsp;<span
-                                                                    class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins><span
-                                                        class="screen-reader-text">Giá hiện tại là:
-                                                        215.800&nbsp;&#8363;.</span>
-                                                </li>
-                                                <li>
-
-                                                    <a
-                                                        href="https://kingledvietnam.com/den-led-op-tran-vuong-den-12w-ec-onl-12-v170-t-d-kingeco/">
-                                                        <img width="100" height="100"
-                                                            src="/assets/wp-content/uploads/2024/07/EC-onl-V-D-100x100.jpg"
-                                                            class="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail"
-                                                            alt="EC onl V Đ" decoding="async" loading="lazy"
-                                                            srcset="/assets/wp-content/uploads/2024/07/EC-onl-V-D-100x100.jpg 100w, /assets/wp-content/uploads/2024/07/EC-onl-V-D-300x300.jpg 300w, /assets/wp-content/uploads/2024/07/EC-onl-V-D-150x150.jpg 150w, /assets/wp-content/uploads/2024/07/EC-onl-V-D-768x768.jpg 768w, /assets/wp-content/uploads/2024/07/EC-onl-V-D-247x247.jpg 247w, /assets/wp-content/uploads/2024/07/EC-onl-V-D-510x510.jpg 510w, /assets/wp-content/uploads/2024/07/EC-onl-V-D.jpg 800w"
-                                                            sizes="(max-width: 100px) 100vw, 100px" /> <span
-                                                            class="product-title">Đèn LED ốp trần vuông đen 12W
-                                                            EC-ONL-12-V170-T-Đ KingEco</span>
-                                                    </a>
-
-
-                                                    <del aria-hidden="true"><span
-                                                            class="woocommerce-Price-amount amount"><bdi>256.000&nbsp;<span
-                                                                    class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del>
-                                                    <span class="screen-reader-text">Giá gốc là:
-                                                        256.000&nbsp;&#8363;.</span><ins aria-hidden="true"><span
-                                                            class="woocommerce-Price-amount amount"><bdi>166.400&nbsp;<span
-                                                                    class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins><span
-                                                        class="screen-reader-text">Giá hiện tại là:
-                                                        166.400&nbsp;&#8363;.</span>
-                                                </li>
-                                                <li>
-
-                                                    <a
-                                                        href="https://kingledvietnam.com/den-led-op-tran-vuong-trang-12w-ec-onl-12-v170-t-t-kingeco/">
-                                                        <img width="100" height="100"
-                                                            src="/assets/wp-content/uploads/2024/07/EC-onl-V-T-100x100.jpg"
-                                                            class="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail"
-                                                            alt="EC onl V T" decoding="async" loading="lazy"
-                                                            srcset="/assets/wp-content/uploads/2024/07/EC-onl-V-T-100x100.jpg 100w, /assets/wp-content/uploads/2024/07/EC-onl-V-T-300x300.jpg 300w, /assets/wp-content/uploads/2024/07/EC-onl-V-T-150x150.jpg 150w, /assets/wp-content/uploads/2024/07/EC-onl-V-T-768x768.jpg 768w, /assets/wp-content/uploads/2024/07/EC-onl-V-T-247x247.jpg 247w, /assets/wp-content/uploads/2024/07/EC-onl-V-T-510x510.jpg 510w, /assets/wp-content/uploads/2024/07/EC-onl-V-T.jpg 800w"
-                                                            sizes="(max-width: 100px) 100vw, 100px" /> <span
-                                                            class="product-title">Đèn LED ốp trần vuông trắng 12W
-                                                            EC-ONL-12-V170-T-T KingEco</span>
-                                                    </a>
-
-
-                                                    <del aria-hidden="true"><span
-                                                            class="woocommerce-Price-amount amount"><bdi>256.000&nbsp;<span
-                                                                    class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del>
-                                                    <span class="screen-reader-text">Giá gốc là:
-                                                        256.000&nbsp;&#8363;.</span><ins aria-hidden="true"><span
-                                                            class="woocommerce-Price-amount amount"><bdi>166.400&nbsp;<span
-                                                                    class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins><span
-                                                        class="screen-reader-text">Giá hiện tại là:
-                                                        166.400&nbsp;&#8363;.</span>
-                                                </li>
-                                            </ul>
-                                        </aside>
+                                        @livewire('inc.category-sidebar')
                                     </div>
+
 
                                     <div class="col large-9">
                                         <div class="row">
                                             <div class="product-gallery col large-6">
-
                                                 <div class="product-images relative mb-half has-hover woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images"
                                                     data-columns="4">
 
                                                     <div class="badge-container is-larger absolute left top z-1">
-
+                                                        <!-- Optional badge container -->
                                                     </div>
 
                                                     <div class="image-tools absolute top show-on-hover right z-3">
+                                                        <!-- Optional image tools -->
                                                     </div>
 
                                                     <div class="woocommerce-product-gallery__wrapper product-gallery-slider slider slider-nav-small mb-half"
-                                                        data-flickity-options='{
-                "cellAlign": "center",
-                "wrapAround": true,
-                "autoPlay": false,
-                "prevNextButtons":true,
-                "adaptiveHeight": true,
-                "imagesLoaded": true,
-                "lazyLoad": 1,
-                "dragThreshold" : 15,
-                "pageDots": false,
-                "rightToLeft": false       }'>
-                                                        <div data-thumb="/assets/wp-content/uploads/2024/07/dai-dien-sau-100x100.jpg"
-                                                            data-thumb-alt="dai dien sau"
-                                                            class="woocommerce-product-gallery__image slide first"><a
-                                                                href="/assets/wp-content/uploads/2024/07/dai-dien-sau.jpg"><img
-                                                                    width="510" height="510"
-                                                                    src="/assets/wp-content/uploads/2024/07/dai-dien-sau-510x510.jpg"
+                                                        data-flickity-options='{"cellAlign": "center","wrapAround": true,"autoPlay": false,"prevNextButtons":true,"adaptiveHeight": true,"imagesLoaded": true,"lazyLoad": 1,"dragThreshold" : 15,"pageDots": false,"rightToLeft": false}'>
+
+                                                        @foreach($product->images as $image)
+
+                                                        <div data-thumb="{{ Storage::url($image) }}"
+                                                            data-thumb-alt="{{ $product->name }}"
+                                                            class="woocommerce-product-gallery__image slide {{ $loop->first ? 'first' : '' }}">
+                                                            <a href="{{ Storage::url($image) }}">
+                                                                <img width="510" height="510"
+                                                                    src="{{ Storage::url($image) }}"
                                                                     class="wp-post-image ux-skip-lazy"
-                                                                    alt="dai dien sau" data-caption="dai dien sau"
-                                                                    data-src="/assets/wp-content/uploads/2024/07/dai-dien-sau.jpg"
-                                                                    data-large_image="/assets/wp-content/uploads/2024/07/dai-dien-sau.jpg"
+                                                                    alt="{{$product->name }}"
+                                                                    data-src="{{ Storage::url($image) }}"
+                                                                    data-large_image="{{ Storage::url($image) }}"
                                                                     data-large_image_width="800"
                                                                     data-large_image_height="800" decoding="async"
-                                                                    loading="lazy"
-                                                                    srcset="/assets/wp-content/uploads/2024/07/dai-dien-sau-510x510.jpg 510w, /assets/wp-content/uploads/2024/07/dai-dien-sau-300x300.jpg 300w, /assets/wp-content/uploads/2024/07/dai-dien-sau-150x150.jpg 150w, /assets/wp-content/uploads/2024/07/dai-dien-sau-768x768.jpg 768w, /assets/wp-content/uploads/2024/07/dai-dien-sau-247x247.jpg 247w, /assets/wp-content/uploads/2024/07/dai-dien-sau-100x100.jpg 100w, /assets/wp-content/uploads/2024/07/dai-dien-sau.jpg 800w"
-                                                                    sizes="(max-width: 510px) 100vw, 510px" /></a></div>
-                                                        <div data-thumb="/assets/wp-content/uploads/2024/07/z5615276060373_573283cff04231d901a4db598cc16b75-100x100.jpg"
-                                                            data-thumb-alt="z cffdadbccb"
-                                                            class="woocommerce-product-gallery__image slide"><a
-                                                                href="/assets/wp-content/uploads/2024/07/z5615276060373_573283cff04231d901a4db598cc16b75.jpg"><img
-                                                                    width="510" height="510"
-                                                                    src="/assets/wp-content/uploads/2024/07/z5615276060373_573283cff04231d901a4db598cc16b75-510x510.jpg"
-                                                                    class="" alt="z cffdadbccb"
-                                                                    data-caption="z cffdadbccb"
-                                                                    data-src="/assets/wp-content/uploads/2024/07/z5615276060373_573283cff04231d901a4db598cc16b75.jpg"
-                                                                    data-large_image="/assets/wp-content/uploads/2024/07/z5615276060373_573283cff04231d901a4db598cc16b75.jpg"
-                                                                    data-large_image_width="957"
-                                                                    data-large_image_height="957" decoding="async"
-                                                                    loading="lazy"
-                                                                    srcset="/assets/wp-content/uploads/2024/07/z5615276060373_573283cff04231d901a4db598cc16b75-510x510.jpg 510w, /assets/wp-content/uploads/2024/07/z5615276060373_573283cff04231d901a4db598cc16b75-300x300.jpg 300w, /assets/wp-content/uploads/2024/07/z5615276060373_573283cff04231d901a4db598cc16b75-150x150.jpg 150w, /assets/wp-content/uploads/2024/07/z5615276060373_573283cff04231d901a4db598cc16b75-768x768.jpg 768w, /assets/wp-content/uploads/2024/07/z5615276060373_573283cff04231d901a4db598cc16b75-247x247.jpg 247w, /assets/wp-content/uploads/2024/07/z5615276060373_573283cff04231d901a4db598cc16b75-100x100.jpg 100w, /assets/wp-content/uploads/2024/07/z5615276060373_573283cff04231d901a4db598cc16b75.jpg 957w"
-                                                                    sizes="(max-width: 510px) 100vw, 510px" /></a></div>
-                                                        <div data-thumb="/assets/wp-content/uploads/2024/07/z5615276047582_0256aa10342c887ec4b262eac2f5386e-100x100.jpg"
-                                                            data-thumb-alt="z aacecbeacfe"
-                                                            class="woocommerce-product-gallery__image slide"><a
-                                                                href="/assets/wp-content/uploads/2024/07/z5615276047582_0256aa10342c887ec4b262eac2f5386e.jpg"><img
-                                                                    width="510" height="510"
-                                                                    src="/assets/wp-content/uploads/2024/07/z5615276047582_0256aa10342c887ec4b262eac2f5386e-510x510.jpg"
-                                                                    class="" alt="z aacecbeacfe"
-                                                                    data-caption="z aacecbeacfe"
-                                                                    data-src="/assets/wp-content/uploads/2024/07/z5615276047582_0256aa10342c887ec4b262eac2f5386e.jpg"
-                                                                    data-large_image="/assets/wp-content/uploads/2024/07/z5615276047582_0256aa10342c887ec4b262eac2f5386e.jpg"
-                                                                    data-large_image_width="957"
-                                                                    data-large_image_height="957" decoding="async"
-                                                                    loading="lazy"
-                                                                    srcset="/assets/wp-content/uploads/2024/07/z5615276047582_0256aa10342c887ec4b262eac2f5386e-510x510.jpg 510w, /assets/wp-content/uploads/2024/07/z5615276047582_0256aa10342c887ec4b262eac2f5386e-300x300.jpg 300w, /assets/wp-content/uploads/2024/07/z5615276047582_0256aa10342c887ec4b262eac2f5386e-150x150.jpg 150w, /assets/wp-content/uploads/2024/07/z5615276047582_0256aa10342c887ec4b262eac2f5386e-768x768.jpg 768w, /assets/wp-content/uploads/2024/07/z5615276047582_0256aa10342c887ec4b262eac2f5386e-247x247.jpg 247w, /assets/wp-content/uploads/2024/07/z5615276047582_0256aa10342c887ec4b262eac2f5386e-100x100.jpg 100w, /assets/wp-content/uploads/2024/07/z5615276047582_0256aa10342c887ec4b262eac2f5386e.jpg 957w"
-                                                                    sizes="(max-width: 510px) 100vw, 510px" /></a></div>
-                                                        <div data-thumb="/assets/wp-content/uploads/2024/07/z5615276060259_22bb533d222038b81d58cc336210393d-100x100.jpg"
-                                                            data-thumb-alt="z bbdbdccd"
-                                                            class="woocommerce-product-gallery__image slide"><a
-                                                                href="/assets/wp-content/uploads/2024/07/z5615276060259_22bb533d222038b81d58cc336210393d.jpg"><img
-                                                                    width="510" height="510"
-                                                                    src="/assets/wp-content/uploads/2024/07/z5615276060259_22bb533d222038b81d58cc336210393d-510x510.jpg"
-                                                                    class="" alt="z bbdbdccd" data-caption="z bbdbdccd"
-                                                                    data-src="/assets/wp-content/uploads/2024/07/z5615276060259_22bb533d222038b81d58cc336210393d.jpg"
-                                                                    data-large_image="/assets/wp-content/uploads/2024/07/z5615276060259_22bb533d222038b81d58cc336210393d.jpg"
-                                                                    data-large_image_width="957"
-                                                                    data-large_image_height="957" decoding="async"
-                                                                    loading="lazy"
-                                                                    srcset="/assets/wp-content/uploads/2024/07/z5615276060259_22bb533d222038b81d58cc336210393d-510x510.jpg 510w, /assets/wp-content/uploads/2024/07/z5615276060259_22bb533d222038b81d58cc336210393d-300x300.jpg 300w, /assets/wp-content/uploads/2024/07/z5615276060259_22bb533d222038b81d58cc336210393d-150x150.jpg 150w, /assets/wp-content/uploads/2024/07/z5615276060259_22bb533d222038b81d58cc336210393d-768x768.jpg 768w, /assets/wp-content/uploads/2024/07/z5615276060259_22bb533d222038b81d58cc336210393d-247x247.jpg 247w, /assets/wp-content/uploads/2024/07/z5615276060259_22bb533d222038b81d58cc336210393d-100x100.jpg 100w, /assets/wp-content/uploads/2024/07/z5615276060259_22bb533d222038b81d58cc336210393d.jpg 957w"
-                                                                    sizes="(max-width: 510px) 100vw, 510px" /></a></div>
+                                                                    loading="lazy" srcset="{{ Storage::url($image) }}"
+                                                                    sizes="(max-width: 510px) 100vw, 510px" />
+                                                            </a>
+                                                        </div>
+                                                        @endforeach
                                                     </div>
 
                                                     <div class="image-tools absolute bottom left z-3">
                                                         <a href="#product-zoom"
                                                             class="zoom-button button is-outline circle icon tooltip hide-for-small"
                                                             title="Phóng to">
-                                                            <i class="icon-expand"></i> </a>
+                                                            <i class="icon-expand"></i>
+                                                        </a>
                                                     </div>
                                                 </div>
 
                                                 <div class="product-thumbnails thumbnails slider-no-arrows slider row row-small row-slider slider-nav-small small-columns-4"
-                                                    data-flickity-options='{
-			"cellAlign": "left",
-			"wrapAround": false,
-			"autoPlay": false,
-			"prevNextButtons": true,
-			"asNavFor": ".product-gallery-slider",
-			"percentPosition": true,
-			"imagesLoaded": true,
-			"pageDots": false,
-			"rightToLeft": false,
-			"contain": true
-		}'>
-                                                    <div class="col is-nav-selected first">
+                                                    data-flickity-options='{"cellAlign": "left","wrapAround": false,"autoPlay": false,"prevNextButtons": true,"asNavFor": ".product-gallery-slider","percentPosition": true,"imagesLoaded": true,"pageDots": false,"rightToLeft": false,"contain": true}'>
+                                                    @foreach($product->images as $image)
+                                                    <div class="col {{ $loop->first ? 'is-nav-selected first' : '' }}">
                                                         <a>
-                                                            <img src="/assets/wp-content/uploads/2024/07/dai-dien-sau-247x247.jpg"
-                                                                alt="dai dien sau" width="247" height="247"
-                                                                class="attachment-woocommerce_thumbnail" /> </a>
+                                                            <img src="{{ Storage::url($image) }}"
+                                                                alt="{{$product->name }}" width="247" height="247"
+                                                                class="attachment-woocommerce_thumbnail" />
+                                                        </a>
                                                     </div>
-                                                    <div class="col"><a><img
-                                                                src="/assets/wp-content/uploads/2024/07/z5615276060373_573283cff04231d901a4db598cc16b75-247x247.jpg"
-                                                                alt="z cffdadbccb" width="247" height="247"
-                                                                class="attachment-woocommerce_thumbnail" /></a></div>
-                                                    <div class="col"><a><img
-                                                                src="/assets/wp-content/uploads/2024/07/z5615276047582_0256aa10342c887ec4b262eac2f5386e-247x247.jpg"
-                                                                alt="z aacecbeacfe" width="247" height="247"
-                                                                class="attachment-woocommerce_thumbnail" /></a></div>
-                                                    <div class="col"><a><img
-                                                                src="/assets/wp-content/uploads/2024/07/z5615276060259_22bb533d222038b81d58cc336210393d-247x247.jpg"
-                                                                alt="z bbdbdccd" width="247" height="247"
-                                                                class="attachment-woocommerce_thumbnail" /></a></div>
+                                                    @endforeach
                                                 </div>
                                             </div>
 
 
                                             <div
                                                 class="product-info summary entry-summary col col-fit product-summary text-left">
-                                                <nav class="woocommerce-breadcrumb breadcrumbs uppercase"><a
-                                                        href="https://kingledvietnam.com">Trang chủ</a> <span
-                                                        class="divider">&#47;</span> <a
-                                                        href="https://kingledvietnam.com/den-led-am-tran-kingled/">ĐÈN
-                                                        LED ÂM TRẦN KINGLED</a> <span class="divider">&#47;</span> <a
-                                                        href="https://kingledvietnam.com/den-led-am-tran-kingled/tan-quang-doi-mau/">TÁN
-                                                        QUANG ĐỔI MÀU</a></nav>
+                                                <nav class="woocommerce-breadcrumb breadcrumbs uppercase">
+                                                    <a href="{{ url('/') }}">Trang chủ</a>
+                                                    <span class="divider">/</span>
+                                                    <a href="/cua-hang/{{  $product->category->slug }}">{{
+                                                        $product->category->name }}</a>
+                                                    @if ($product->subcategory)
+                                                    <span class="divider">/</span>
+                                                    <a href="/cua-hang/category/{{  $product->subcategory->slug }}">{{
+                                                        $product->subcategory->name }}</a>
+                                                    @endif
+
+                                                </nav>
                                                 <h1 class="product-title product_title entry-title">
-                                                    Đèn LED âm trần Diamond sâu 15W đổi màu DDLS-15SS-T140-ĐM KingLED
+                                                    {{ $product->name }}
                                                 </h1>
 
                                                 <div class="is-divider small"></div>
-                                                <div class="price-wrapper">
-                                                    <p class="price product-page-price ">
-                                                        <span class="woocommerce-Price-amount amount"><bdi>372.000&nbsp;<span
-                                                                    class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span>
-                                                    </p>
-                                                </div>
+
                                                 <div class="product-short-description">
                                                     <p><span style="font-family: avo; color: #000000;"><strong>Mã SP
                                                                 :</strong> DDLS-15SS-T140-ĐM</span></p>
@@ -1485,27 +1140,11 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
                                                 </div>
 
 
-                                                <form class="cart"
-                                                    action="https://kingledvietnam.com/den-led-am-tran-diamond-sau-15w-doi-mau-ddls-15ss-t140-dm-kingled/"
-                                                    method="post" enctype='multipart/form-data'>
+                                                <form class="cart">
 
-                                                    <div class="ux-quantity quantity buttons_added">
-                                                        <input type="button" value="-"
-                                                            class="ux-quantity__button ux-quantity__button--minus button minus is-form">
-                                                        <label class="screen-reader-text"
-                                                            for="quantity_672c82554c942">Đèn LED âm trần Diamond sâu 15W
-                                                            đổi màu DDLS-15SS-T140-ĐM KingLED số lượng</label>
-                                                        <input type="number" id="quantity_672c82554c942"
-                                                            class="input-text qty text" name="quantity" value="1"
-                                                            aria-label="Số lượng sản phẩm" size="4" min="1" max=""
-                                                            step="1" placeholder="" inputmode="numeric"
-                                                            autocomplete="off" />
-                                                        <input type="button" value="+"
-                                                            class="ux-quantity__button ux-quantity__button--plus button plus is-form">
-                                                    </div>
 
                                                     <button type="submit" name="add-to-cart" value="6642"
-                                                        class="single_add_to_cart_button button alt">Thêm vào giỏ
+                                                        class="single_add_to_cart_button button alt">Liên hệ để mua
                                                         hàng</button>
 
                                                 </form>
@@ -1518,12 +1157,16 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
                                                     <span class="sku_wrapper">Mã: <span
                                                             class="sku">DDLS-15SS-T140-ĐM</span></span>
 
+                                                    <span class="posted_in">
+                                                        Danh mục:
+                                                        <a href="/cua-hang/{{ $product->category->slug }}">{{
+                                                            $product->category->name }}</a>
 
-                                                    <span class="posted_in">Danh mục: <a
-                                                            href="https://kingledvietnam.com/den-led-am-tran-kingled/"
-                                                            rel="tag">ĐÈN LED ÂM TRẦN KINGLED</a>, <a
-                                                            href="https://kingledvietnam.com/den-led-am-tran-kingled/tan-quang-doi-mau/"
-                                                            rel="tag">TÁN QUANG ĐỔI MÀU</a></span>
+                                                        @if ($product->subcategory)
+                                                        <a href="/cua-hang/category/{{ $product->subcategory->slug }}">{{
+                                                            $product->subcategory->name }}</a>
+                                                        @endif
+                                                    </span>
 
 
                                                 </div>
@@ -1550,11 +1193,12 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
                                                             aria-controls="tab-additional_information" tabindex="-1">
                                                             Thông tin bổ sung </a>
                                                     </li>
-                                                    <li class="reviews_tab " id="tab-title-reviews" role="presentation">
+                                                    {{-- <li class="reviews_tab " id="tab-title-reviews"
+                                                        role="presentation">
                                                         <a href="#tab-reviews" role="tab" aria-selected="false"
                                                             aria-controls="tab-reviews" tabindex="-1">
                                                             Đánh giá (0) </a>
-                                                    </li>
+                                                    </li> --}}
                                                 </ul>
                                                 <div class="tab-panels">
                                                     <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content active"
@@ -1562,216 +1206,7 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
                                                         aria-labelledby="tab-title-description">
 
 
-                                                        <p><span style="color: #000000; font-family: avo;"><strong>Đèn
-                                                                    LED âm trần Diamond sâu 15W đổi màu
-                                                                    DDLS-15SS-T140-ĐM</strong> của KingLED là một sản
-                                                                phẩm chiếu sáng cao cấp, thiết kế hiện đại và tinh tế.
-                                                                Với công nghệ LED tiên tiến, đèn mang đến ánh sáng mạnh
-                                                                mẽ và tiết kiệm năng lượng, phù hợp cho nhiều không gian
-                                                                nội thất khác nhau.</span></p>
-                                                        <h2><span style="color: #000000; font-family: avo;">Tính Năng
-                                                                Nổi Bật</span></h2>
-                                                        <ol>
-                                                            <li><span style="color: #000000; font-family: avo;"><strong>Tiết
-                                                                        Kiệm Năng Lượng:</strong> Sử dụng công nghệ LED
-                                                                    tiên tiến, đèn giúp tiết kiệm điện năng một cách
-                                                                    hiệu quả, giảm chi phí hóa đơn tiền điện.</span>
-                                                            </li>
-                                                            <li><span style="color: #000000; font-family: avo;"><strong>Ánh
-                                                                        Sáng Chất Lượng:</strong> Cung cấp ánh sáng mạnh
-                                                                    mẽ, ổn định và không nhấp nháy, bảo vệ mắt và tạo
-                                                                    cảm giác thoải mái.</span></li>
-                                                            <li><span style="color: #000000; font-family: avo;"><strong>Thiết
-                                                                        Kế Sang Trọng:</strong> Với kiểu dáng sâu và
-                                                                    đường nét tinh tế, đèn phù hợp với nhiều phong cách
-                                                                    trang trí nội thất khác nhau.</span></li>
-                                                            <li><span style="color: #000000; font-family: avo;"><strong>Tuổi
-                                                                        Thọ Cao:</strong> Với tuổi thọ lên đến 50,000
-                                                                    giờ, đèn giảm tần suất thay thế và bảo trì, mang lại
-                                                                    sự tiện lợi cho người sử dụng.</span></li>
-                                                            <li><span style="color: #000000; font-family: avo;"><strong>Dễ
-                                                                        Dàng Lắp Đặt:</strong> Thiết kế âm trần dễ dàng
-                                                                    lắp đặt, tiết kiệm thời gian và công sức.</span>
-                                                            </li>
-                                                        </ol>
-                                                        <p><span style="color: #000000; font-family: avo;">Lắp đặt <span
-                                                                    style="color: #008000;"><strong><a
-                                                                            style="color: #008000;"
-                                                                            href="https://kingledvietnam.com/den-led-am-tran-kingled/">đèn
-                                                                            LED âm trần</a></strong></span> không chỉ
-                                                                giúp tiết kiệm không gian mà còn mang lại vẻ đẹp thẩm mỹ
-                                                                cho ngôi nhà của bạn. Dưới đây là các bước chi tiết để
-                                                                lắp đặt đèn LED âm trần Diamond sâu 15W đổi màu
-                                                                DDLS-15SS-T140 KingLED:</span></p>
-                                                        <h2><span style="color: #000000; font-family: avo;">Dụng Cụ Cần
-                                                                Chuẩn Bị</span></h2>
-                                                        <ul>
-                                                            <li><span style="color: #000000; font-family: avo;">Đèn LED
-                                                                    âm trần Diamond sâu 15W đổi màu
-                                                                    DDLS-15SS-T140</span></li>
-                                                            <li><span style="color: #000000; font-family: avo;">Khoan
-                                                                    điện và mũi khoan khoét lỗ trần</span></li>
-                                                            <li><span style="color: #000000; font-family: avo;">Bút chì
-                                                                    hoặc bút đánh dấu</span></li>
-                                                            <li><span style="color: #000000; font-family: avo;">Thước
-                                                                    đo</span></li>
-                                                            <li><span style="color: #000000; font-family: avo;">Tua
-                                                                    vít</span></li>
-                                                            <li><span style="color: #000000; font-family: avo;">Băng keo
-                                                                    cách điện</span></li>
-                                                            <li><span style="color: #000000; font-family: avo;">Bộ nguồn
-                                                                    (Driver) kèm theo đèn</span></li>
-                                                            <li><span
-                                                                    style="color: #000000; font-family: avo;">Thang</span>
-                                                            </li>
-                                                        </ul>
-                                                        <h2><span style="color: #000000; font-family: avo;">Các Bước Lắp
-                                                                Đặt</span></h2>
-                                                        <ol>
-                                                            <li>
-                                                                <h4><span
-                                                                        style="color: #000000; font-family: avo;"><strong>Xác
-                                                                            Định Vị Trí Lắp Đặt:</strong></span></h4>
-                                                                <ul>
-                                                                    <li><span
-                                                                            style="color: #000000; font-family: avo;">Chọn
-                                                                            vị trí lắp đặt trên trần nhà, đảm bảo không
-                                                                            có các vật cản hoặc dây điện nằm phía
-                                                                            trên.</span></li>
-                                                                    <li><span
-                                                                            style="color: #000000; font-family: avo;">Sử
-                                                                            dụng thước đo và bút đánh dấu để xác định
-                                                                            chính xác vị trí cần khoét lỗ.</span></li>
-                                                                </ul>
-                                                            </li>
-                                                            <li>
-                                                                <h4><span
-                                                                        style="color: #000000; font-family: avo;"><strong>Khoét
-                                                                            Lỗ Trần:</strong></span></h4>
-                                                                <ul>
-                                                                    <li><span
-                                                                            style="color: #000000; font-family: avo;">Sử
-                                                                            dụng khoan điện và mũi khoan khoét lỗ để
-                                                                            khoét một lỗ có đường kính từ 120-130mm (phù
-                                                                            hợp với kích thước đèn).</span></li>
-                                                                    <li><span
-                                                                            style="color: #000000; font-family: avo;">Hãy
-                                                                            cẩn thận trong quá trình khoan để tránh làm
-                                                                            hỏng các dây điện hoặc cấu trúc trần.</span>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                            <li>
-                                                                <h4><span
-                                                                        style="color: #000000; font-family: avo;"><strong>Kết
-                                                                            Nối Dây Điện:</strong></span></h4>
-                                                                <ul>
-                                                                    <li><span
-                                                                            style="color: #000000; font-family: avo;">Ngắt
-                                                                            nguồn điện trước khi bắt đầu kết nối dây
-                                                                            điện.</span></li>
-                                                                    <li><span
-                                                                            style="color: #000000; font-family: avo;">Kết
-                                                                            nối dây nguồn của đèn LED với nguồn điện gia
-                                                                            đình (220V) thông qua bộ nguồn (Driver). Đảm
-                                                                            bảo các kết nối được cách điện tốt bằng băng
-                                                                            keo cách điện.</span></li>
-                                                                    <li><span
-                                                                            style="color: #000000; font-family: avo;">Kiểm
-                                                                            tra kỹ lưỡng các mối nối để đảm bảo an
-                                                                            toàn.</span></li>
-                                                                </ul>
-                                                            </li>
-                                                            <li>
-                                                                <h4><span
-                                                                        style="color: #000000; font-family: avo;"><strong>Lắp
-                                                                            Đèn Vào Lỗ Khoét:</strong></span></h4>
-                                                                <ul>
-                                                                    <li><span
-                                                                            style="color: #000000; font-family: avo;">Đưa
-                                                                            bộ nguồn (Driver) lên phía trên trần thông
-                                                                            qua lỗ khoét.</span></li>
-                                                                    <li><span
-                                                                            style="color: #000000; font-family: avo;">Đặt
-                                                                            đèn LED vào lỗ khoét và nhẹ nhàng nhấn đèn
-                                                                            vào trần. Các lẫy cài trên đèn sẽ tự động
-                                                                            kẹp vào trần, giữ đèn chắc chắn.</span></li>
-                                                                </ul>
-                                                            </li>
-                                                            <li>
-                                                                <h4><span
-                                                                        style="color: #000000; font-family: avo;"><strong>Kiểm
-                                                                            Tra Và Bật Đèn:</strong></span></h4>
-                                                                <ul>
-                                                                    <li><span
-                                                                            style="color: #000000; font-family: avo;">Kiểm
-                                                                            tra lại toàn bộ hệ thống kết nối và đảm bảo
-                                                                            không có lỗi.</span></li>
-                                                                    <li><span
-                                                                            style="color: #000000; font-family: avo;">Bật
-                                                                            nguồn điện và kiểm tra đèn hoạt động bình
-                                                                            thường.</span></li>
-                                                                </ul>
-                                                            </li>
-                                                        </ol>
-                                                        <h3><span style="color: #000000; font-family: avo;">Lưu Ý</span>
-                                                        </h3>
-                                                        <ul>
-                                                            <li><span style="color: #000000; font-family: avo;">Luôn đảm
-                                                                    bảo ngắt nguồn điện trước khi tiến hành lắp đặt hoặc
-                                                                    bảo trì.</span></li>
-                                                            <li><span style="color: #000000; font-family: avo;">Nếu
-                                                                    không tự tin về kỹ thuật, nên nhờ đến sự giúp đỡ của
-                                                                    thợ điện chuyên nghiệp để đảm bảo an toàn.</span>
-                                                            </li>
-                                                        </ul>
-                                                        <p><span style="color: #000000; font-family: avo;">Với các bước
-                                                                lắp đặt trên, bạn có thể dễ dàng lắp đặt đèn LED âm trần
-                                                                Diamond sâu 15W đổi màu DDLS-15SS-T140 KingLED một cách
-                                                                an toàn và nhanh chóng.</span></p>
-                                                        <h2><span style="color: #000000; font-family: avo;">Ứng
-                                                                Dụng</span></h2>
-                                                        <p><span style="color: #000000; font-family: avo;">Đèn LED âm
-                                                                trần Diamond sâu 15W đổi màu DDLS-15SS-T140 thích hợp sử
-                                                                dụng trong các không gian như phòng khách, phòng ngủ,
-                                                                văn phòng, khách sạn, nhà hàng và các khu vực công cộng
-                                                                khác. Sản phẩm không chỉ cung cấp ánh sáng chất lượng mà
-                                                                còn góp phần nâng cao giá trị thẩm mỹ cho không gian
-                                                                sống và làm việc.</span></p>
-                                                        <h2><span style="color: #000000; font-family: avo;">Kết
-                                                                Luận</span></h2>
-                                                        <p><span style="color: #000000; font-family: avo;">Đèn LED âm
-                                                                trần Diamond sâu 15W đổi màu DDLS-15SS-T140 KingLED là
-                                                                sự lựa chọn hoàn hảo cho những ai đang tìm kiếm giải
-                                                                pháp chiếu sáng hiệu quả, tiết kiệm năng lượng và có
-                                                                tính thẩm mỹ cao. Với các tính năng và ưu điểm vượt
-                                                                trội, sản phẩm chắc chắn sẽ đáp ứng mọi nhu cầu của
-                                                                khách hàng.</span></p>
-                                                        <div class="aiosrs-rating-wrap" data-schema-id="6268">
-                                                            <div class="aiosrs-star-rating-wrap ">
-                                                                <span
-                                                                    class="aiosrs-star-rating dashicons dashicons-star-empty"
-                                                                    data-index="1"></span>
-                                                                <span
-                                                                    class="aiosrs-star-rating dashicons dashicons-star-empty"
-                                                                    data-index="2"></span>
-                                                                <span
-                                                                    class="aiosrs-star-rating dashicons dashicons-star-empty"
-                                                                    data-index="3"></span>
-                                                                <span
-                                                                    class="aiosrs-star-rating dashicons dashicons-star-empty"
-                                                                    data-index="4"></span>
-                                                                <span
-                                                                    class="aiosrs-star-rating dashicons dashicons-star-empty"
-                                                                    data-index="5"></span>
-                                                            </div>
-                                                            <div class="aiosrs-rating-summary-wrap">
-                                                                <span class="aiosrs-rating">
-                                                                    0/5 </span>
-                                                                <span class="aiosrs-rating-count">
-                                                                    (0 Reviews) </span>
-                                                            </div>
-                                                        </div>
+                                                        {!! $product->description !!}
                                                     </div>
                                                     <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--additional_information panel entry-content "
                                                         id="tab-additional_information" role="tabpanel"
@@ -1816,8 +1251,7 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
                                                                                         href="/den-led-am-tran-diamond-sau-15w-doi-mau-ddls-15ss-t140-dm-kingled/#respond"
                                                                                         style="display:none;">Hủy</a></small>
                                                                             </h3>
-                                                                            <form
-                                                                                action="/assets/wp-comments-post.php"
+                                                                            <form action="/assets/wp-comments-post.php"
                                                                                 method="post" id="commentform"
                                                                                 class="comment-form" novalidate>
                                                                                 <div class="comment-form-rating"><label
@@ -1914,107 +1348,40 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
                                                     data-flickity-options='{&quot;imagesLoaded&quot;: true, &quot;groupCells&quot;: &quot;100%&quot;, &quot;dragThreshold&quot; : 5, &quot;cellAlign&quot;: &quot;left&quot;,&quot;wrapAround&quot;: true,&quot;prevNextButtons&quot;: true,&quot;percentPosition&quot;: true,&quot;pageDots&quot;: false, &quot;rightToLeft&quot;: false, &quot;autoPlay&quot; : false}'>
 
 
-                                                    <div
-                                                        class="product-small col has-hover product type-product post-4845 status-publish instock product_cat-den-led-am-tran-kingled product_cat-den-led-am-tran-kingeco has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
+                                                    @foreach ($relatedProducts as $product)
+                                                    <div style="padding:0 2px "
+                                                        class="product-small col has-hover product type-product post-{{ $product->id }} status-publish instock product_cat-{{ $product->category->slug }} has-post-thumbnail {{ $product->discount_price > 0 ? 'sale' : '' }} shipping-taxable purchasable product-type-simple">
                                                         <div class="col-inner">
-
                                                             <div class="badge-container absolute left top z-1">
+                                                                @if($product->discount_price > 0)
                                                                 <div class="callout badge badge-circle">
                                                                     <div class="badge-inner secondary on-sale"><span
                                                                             class="onsale">Giảm giá!</span></div>
                                                                 </div>
+                                                                @endif
                                                             </div>
-                                                            <div class="product-small box ">
+                                                            <div class="product-small box">
                                                                 <div class="box-image">
                                                                     <div class="image-fade_in_back">
-                                                                        <a href="https://kingledvietnam.com/den-led-am-tran-mat-phang-09w-90-1-mau-ec-dlss-series/"
-                                                                            aria-label="Đèn Led Âm Trần Mặt Phẳng 09W/90, 1 Màu EC-DL-9SS-T118">
+                                                                        <a href="/product/{{ $product->slug }}"
+                                                                            aria-label="{{ $product->name }}">
                                                                             <img width="247" height="247"
-                                                                                src="/assets/wp-content/uploads/2022/01/357c4618bea0c6ba1af01d824abb2367-247x247.jpeg"
+                                                                                src="{{ Storage::url($product->images[0]) }}"
                                                                                 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                                                alt="357c4618bea0c6ba1af01d824abb2367"
-                                                                                decoding="async" loading="lazy"
-                                                                                srcset="/assets/wp-content/uploads/2022/01/357c4618bea0c6ba1af01d824abb2367-247x247.jpeg 247w, /assets/wp-content/uploads/2022/01/357c4618bea0c6ba1af01d824abb2367-100x100.jpeg 100w, /assets/wp-content/uploads/2022/01/357c4618bea0c6ba1af01d824abb2367-150x150.jpeg 150w"
+                                                                                alt="{{ $product->name }}"
+                                                                                decoding="async" fetchpriority="high"
+                                                                                srcset="{{ Storage::url($product->images[0]) }} 247w, {{ Storage::url($product->images[0]) }} 300w, {{ Storage::url($product->images[0]) }} 150w, {{ Storage::url($product->images[0]) }} 768w, {{ Storage::url($product->images[0]) }} 510w, {{ Storage::url($product->images[0]) }} 100w, {{ Storage::url($product->images[0]) }} 800w"
                                                                                 sizes="(max-width: 247px) 100vw, 247px" />
-                                                                        </a>
-                                                                    </div>
-                                                                    <div
-                                                                        class="image-tools is-small top right show-on-hover">
-                                                                    </div>
-                                                                    <div
-                                                                        class="image-tools is-small hide-for-small bottom left show-on-hover">
-                                                                    </div>
-                                                                    <div
-                                                                        class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
-                                                                    </div>
-                                                                </div>
-
-                                                                <div
-                                                                    class="box-text box-text-products text-center grid-style-2">
-                                                                    <div class="title-wrapper">
-                                                                        <p
-                                                                            class="name product-title woocommerce-loop-product__title">
-                                                                            <a href="https://kingledvietnam.com/den-led-am-tran-mat-phang-09w-90-1-mau-ec-dlss-series/"
-                                                                                class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                                Led Âm Trần Mặt Phẳng 09W/90, 1 Màu
-                                                                                EC-DL-9SS-T118</a></p>
-                                                                    </div>
-                                                                    <div class="price-wrapper">
-                                                                        <span class="price"><del
-                                                                                aria-hidden="true"><span
-                                                                                    class="woocommerce-Price-amount amount"><bdi>205.000&nbsp;<span
-                                                                                            class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del>
-                                                                            <span class="screen-reader-text">Giá gốc là:
-                                                                                205.000&nbsp;&#8363;.</span><ins
-                                                                                aria-hidden="true"><span
-                                                                                    class="woocommerce-Price-amount amount"><bdi>133.000&nbsp;<span
-                                                                                            class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins><span
-                                                                                class="screen-reader-text">Giá hiện tại
-                                                                                là: 133.000&nbsp;&#8363;.</span></span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div
-                                                        class="product-small col has-hover product type-product post-4091 status-publish instock product_cat-tan-quang-doi-mau product_cat-den-led-am-tran-kingled product_tag-den-led-am-tran product_tag-den-led-am-tran-8w product_tag-den-led-am-tran-doi-mau product_tag-den-led-am-tran-lo-khoet-90 product_tag-den-led-am-tran-ruby has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
-                                                        <div class="col-inner">
-
-                                                            <div class="badge-container absolute left top z-1">
-                                                                <div class="callout badge badge-circle">
-                                                                    <div class="badge-inner secondary on-sale"><span
-                                                                            class="onsale">Giảm giá!</span></div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="product-small box ">
-                                                                <div class="box-image">
-                                                                    <div class="image-fade_in_back">
-                                                                        <a href="https://kingledvietnam.com/den-led-am-tran-ruby-8w-doi-mau-dl-8ss-t120-dm/"
-                                                                            aria-label="Đèn LED Âm Trần Ruby 8W Đổi Màu (DL-8SS-T120-DM) Kingled">
+                                                                            @if(isset($product->images[1]))
                                                                             <img width="247" height="247"
-                                                                                src="/assets/wp-content/uploads/2020/11/den-am-tran-ruby-6w-kingled-2-247x247.png"
-                                                                                class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                                                alt="den am tran ruby 6w kingled 2"
-                                                                                decoding="async" loading="lazy"
-                                                                                srcset="/assets/wp-content/uploads/2020/11/den-am-tran-ruby-6w-kingled-2-247x247.png 247w, /assets/wp-content/uploads/2020/11/den-am-tran-ruby-6w-kingled-2-100x100.png 100w, /assets/wp-content/uploads/2020/11/den-am-tran-ruby-6w-kingled-2-150x150.png 150w"
-                                                                                sizes="(max-width: 247px) 100vw, 247px" /><img
-                                                                                width="247" height="247"
-                                                                                src="/assets/wp-content/uploads/2020/11/am-tran-de-den-kingled-ruby-247x247.png"
+                                                                                src="{{ Storage::url($product->images[1]) }}"
                                                                                 class="show-on-hover absolute fill hide-for-small back-image"
-                                                                                alt="am tran de den kingled ruby"
+                                                                                alt="{{ $product->name }} - 2"
                                                                                 decoding="async" loading="lazy"
-                                                                                srcset="/assets/wp-content/uploads/2020/11/am-tran-de-den-kingled-ruby-247x247.png 247w, /assets/wp-content/uploads/2020/11/am-tran-de-den-kingled-ruby-100x100.png 100w, /assets/wp-content/uploads/2020/11/am-tran-de-den-kingled-ruby-150x150.png 150w"
+                                                                                srcset="{{ Storage::url($product->images[1]) }} 247w, {{ Storage::url($product->images[1]) }} 300w, {{ Storage::url($product->images[1]) }} 150w"
                                                                                 sizes="(max-width: 247px) 100vw, 247px" />
+                                                                            @endif
                                                                         </a>
-                                                                    </div>
-                                                                    <div
-                                                                        class="image-tools is-small top right show-on-hover">
-                                                                    </div>
-                                                                    <div
-                                                                        class="image-tools is-small hide-for-small bottom left show-on-hover">
-                                                                    </div>
-                                                                    <div
-                                                                        class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
                                                                     </div>
                                                                 </div>
 
@@ -2023,228 +1390,20 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
                                                                     <div class="title-wrapper">
                                                                         <p
                                                                             class="name product-title woocommerce-loop-product__title">
-                                                                            <a href="https://kingledvietnam.com/den-led-am-tran-ruby-8w-doi-mau-dl-8ss-t120-dm/"
-                                                                                class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                                LED Âm Trần Ruby 8W Đổi Màu
-                                                                                (DL-8SS-T120-DM) Kingled</a></p>
-                                                                    </div>
-                                                                    <div class="price-wrapper">
-                                                                        <span class="price"><del
-                                                                                aria-hidden="true"><span
-                                                                                    class="woocommerce-Price-amount amount"><bdi>225.000&nbsp;<span
-                                                                                            class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del>
-                                                                            <span class="screen-reader-text">Giá gốc là:
-                                                                                225.000&nbsp;&#8363;.</span><ins
-                                                                                aria-hidden="true"><span
-                                                                                    class="woocommerce-Price-amount amount"><bdi>146.000&nbsp;<span
-                                                                                            class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins><span
-                                                                                class="screen-reader-text">Giá hiện tại
-                                                                                là: 146.000&nbsp;&#8363;.</span></span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div
-                                                        class="product-small col has-hover product type-product post-5613 status-publish last instock product_cat-tan-quang-don-sac product_cat-den-led-am-tran-kingled has-post-thumbnail sale shipping-taxable purchasable product-type-variable has-default-attributes">
-                                                        <div class="col-inner">
-
-                                                            <div class="badge-container absolute left top z-1">
-                                                                <div class="callout badge badge-circle">
-                                                                    <div class="badge-inner secondary on-sale"><span
-                                                                            class="onsale">Giảm giá!</span></div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="product-small box ">
-                                                                <div class="box-image">
-                                                                    <div class="image-fade_in_back">
-                                                                        <a href="https://kingledvietnam.com/den-led-am-tran-diamond-don-sac-mat-vien/"
-                                                                            aria-label="Đèn LED Âm Trần Diamond Đơn Sắc Mặt Viền DDL-10SS-T120">
-                                                                            <img width="247" height="247"
-                                                                                src="/assets/wp-content/uploads/2023/08/den-am-tran-tan-quang-don-sac-mat-cong-vien-bac-diamond-247x247.jpg"
-                                                                                class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                                                alt="den am tran tan quang don sac mat cong vien bac diamond"
-                                                                                decoding="async" loading="lazy"
-                                                                                srcset="/assets/wp-content/uploads/2023/08/den-am-tran-tan-quang-don-sac-mat-cong-vien-bac-diamond-247x247.jpg 247w, /assets/wp-content/uploads/2023/08/den-am-tran-tan-quang-don-sac-mat-cong-vien-bac-diamond-300x300.jpg 300w, /assets/wp-content/uploads/2023/08/den-am-tran-tan-quang-don-sac-mat-cong-vien-bac-diamond-150x150.jpg 150w, /assets/wp-content/uploads/2023/08/den-am-tran-tan-quang-don-sac-mat-cong-vien-bac-diamond-510x510.jpg 510w, /assets/wp-content/uploads/2023/08/den-am-tran-tan-quang-don-sac-mat-cong-vien-bac-diamond-100x100.jpg 100w, /assets/wp-content/uploads/2023/08/den-am-tran-tan-quang-don-sac-mat-cong-vien-bac-diamond.jpg 600w"
-                                                                                sizes="(max-width: 247px) 100vw, 247px" /><img
-                                                                                width="247" height="247"
-                                                                                src="/assets/wp-content/uploads/2023/08/den-am-tran-kim-cuong-mat-cong-kingled-2-2-DS-247x247.jpg"
-                                                                                class="show-on-hover absolute fill hide-for-small back-image"
-                                                                                alt="den am tran kim cuong mat cong kingled 2 2 DS"
-                                                                                decoding="async" loading="lazy"
-                                                                                srcset="/assets/wp-content/uploads/2023/08/den-am-tran-kim-cuong-mat-cong-kingled-2-2-DS-247x247.jpg 247w, /assets/wp-content/uploads/2023/08/den-am-tran-kim-cuong-mat-cong-kingled-2-2-DS-300x300.jpg 300w, /assets/wp-content/uploads/2023/08/den-am-tran-kim-cuong-mat-cong-kingled-2-2-DS-150x150.jpg 150w, /assets/wp-content/uploads/2023/08/den-am-tran-kim-cuong-mat-cong-kingled-2-2-DS-510x510.jpg 510w, /assets/wp-content/uploads/2023/08/den-am-tran-kim-cuong-mat-cong-kingled-2-2-DS-100x100.jpg 100w, /assets/wp-content/uploads/2023/08/den-am-tran-kim-cuong-mat-cong-kingled-2-2-DS.jpg 600w"
-                                                                                sizes="(max-width: 247px) 100vw, 247px" />
-                                                                        </a>
-                                                                    </div>
-                                                                    <div
-                                                                        class="image-tools is-small top right show-on-hover">
-                                                                    </div>
-                                                                    <div
-                                                                        class="image-tools is-small hide-for-small bottom left show-on-hover">
-                                                                    </div>
-                                                                    <div
-                                                                        class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
-                                                                    </div>
-                                                                </div>
-
-                                                                <div
-                                                                    class="box-text box-text-products text-center grid-style-2">
-                                                                    <div class="title-wrapper">
-                                                                        <p
-                                                                            class="name product-title woocommerce-loop-product__title">
-                                                                            <a href="https://kingledvietnam.com/den-led-am-tran-diamond-don-sac-mat-vien/"
-                                                                                class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                                LED Âm Trần Diamond Đơn Sắc Mặt Viền
-                                                                                DDL-10SS-T120</a></p>
-                                                                    </div>
-                                                                    <div class="price-wrapper">
-                                                                        <span class="price"><del
-                                                                                aria-hidden="true"><span
-                                                                                    class="woocommerce-Price-amount amount"><bdi>268.000&nbsp;<span
-                                                                                            class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del>
-                                                                            <span class="screen-reader-text">Giá gốc là:
-                                                                                268.000&nbsp;&#8363;.</span><ins
-                                                                                aria-hidden="true"><span
-                                                                                    class="woocommerce-Price-amount amount"><bdi>174.200&nbsp;<span
-                                                                                            class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins><span
-                                                                                class="screen-reader-text">Giá hiện tại
-                                                                                là: 174.200&nbsp;&#8363;.</span></span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div
-                                                        class="product-small col has-hover product type-product post-3483 status-publish first instock product_cat-den-led-am-tran-kingled product_tag-den-led-am-tran product_tag-den-led-am-tran-12w product_tag-den-led-am-tran-khoet-lo-110 has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
-                                                        <div class="col-inner">
-
-                                                            <div class="badge-container absolute left top z-1">
-                                                                <div class="callout badge badge-circle">
-                                                                    <div class="badge-inner secondary on-sale"><span
-                                                                            class="onsale">Giảm giá!</span></div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="product-small box ">
-                                                                <div class="box-image">
-                                                                    <div class="image-fade_in_back">
-                                                                        <a href="https://kingledvietnam.com/den-led-downlight-12w-1-mau-dl-12-t140/"
-                                                                            aria-label="ĐÈN LED DOWNLIGHT 12W 1 MÀU (DL-12-T140)">
-                                                                            <img width="247" height="247"
-                                                                                src="/assets/wp-content/uploads/2019/07/downlight-am-tran-12w-247x247.jpg"
-                                                                                class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                                                alt="downlight am tran 12w"
-                                                                                decoding="async" loading="lazy"
-                                                                                srcset="/assets/wp-content/uploads/2019/07/downlight-am-tran-12w-247x247.jpg 247w, /assets/wp-content/uploads/2019/07/downlight-am-tran-12w-100x100.jpg 100w, /assets/wp-content/uploads/2019/07/downlight-am-tran-12w-150x150.jpg 150w"
-                                                                                sizes="(max-width: 247px) 100vw, 247px" />
-                                                                        </a>
-                                                                    </div>
-                                                                    <div
-                                                                        class="image-tools is-small top right show-on-hover">
-                                                                    </div>
-                                                                    <div
-                                                                        class="image-tools is-small hide-for-small bottom left show-on-hover">
-                                                                    </div>
-                                                                    <div
-                                                                        class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
-                                                                    </div>
-                                                                </div>
-
-                                                                <div
-                                                                    class="box-text box-text-products text-center grid-style-2">
-                                                                    <div class="title-wrapper">
-                                                                        <p
-                                                                            class="name product-title woocommerce-loop-product__title">
-                                                                            <a href="https://kingledvietnam.com/den-led-downlight-12w-1-mau-dl-12-t140/"
-                                                                                class="woocommerce-LoopProduct-link woocommerce-loop-product__link">ĐÈN
-                                                                                LED DOWNLIGHT 12W 1 MÀU (DL-12-T140)</a>
+                                                                            <a href="/product/{{ $product->slug }}"
+                                                                                class="woocommerce-LoopProduct-link woocommerce-loop-product__link">{{
+                                                                                $product->name }}</a>
                                                                         </p>
                                                                     </div>
                                                                     <div class="price-wrapper">
-                                                                        <span class="price"><del
-                                                                                aria-hidden="true"><span
-                                                                                    class="woocommerce-Price-amount amount"><bdi>200.000&nbsp;<span
-                                                                                            class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del>
-                                                                            <span class="screen-reader-text">Giá gốc là:
-                                                                                200.000&nbsp;&#8363;.</span><ins
-                                                                                aria-hidden="true"><span
-                                                                                    class="woocommerce-Price-amount amount"><bdi>130.000&nbsp;<span
-                                                                                            class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins><span
-                                                                                class="screen-reader-text">Giá hiện tại
-                                                                                là: 130.000&nbsp;&#8363;.</span></span>
+                                                                        <span class="price">Liên hệ</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div
-                                                        class="product-small col has-hover product type-product post-4082 status-publish instock product_cat-tan-quang-doi-mau product_cat-den-led-am-tran-kingled product_tag-den-led-am-tran product_tag-den-led-am-tran-15w product_tag-den-led-am-tran-diamond product_tag-den-led-am-tran-doi-mau product_tag-den-led-am-tran-khoet-lo-110 has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
-                                                        <div class="col-inner">
+                                                    @endforeach
 
-                                                            <div class="badge-container absolute left top z-1">
-                                                                <div class="callout badge badge-circle">
-                                                                    <div class="badge-inner secondary on-sale"><span
-                                                                            class="onsale">Giảm giá!</span></div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="product-small box ">
-                                                                <div class="box-image">
-                                                                    <div class="image-fade_in_back">
-                                                                        <a href="https://kingledvietnam.com/den-led-am-tran-diamond-15w-doi-mau-ddl-15ss-t140-dm-kingled/"
-                                                                            aria-label="Đèn LED Âm Trần Diamond 15W Đổi Màu (DDL-15SS-T140-DM) Kingled">
-                                                                            <img width="247" height="247"
-                                                                                src="/assets/wp-content/uploads/2020/11/den-am-tran-diamond-10w-kingled-247x247.png"
-                                                                                class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                                                alt="den am tran diamond 10w kingled"
-                                                                                decoding="async" loading="lazy"
-                                                                                srcset="/assets/wp-content/uploads/2020/11/den-am-tran-diamond-10w-kingled-247x247.png 247w, /assets/wp-content/uploads/2020/11/den-am-tran-diamond-10w-kingled-100x100.png 100w, /assets/wp-content/uploads/2020/11/den-am-tran-diamond-10w-kingled-150x150.png 150w"
-                                                                                sizes="(max-width: 247px) 100vw, 247px" /><img
-                                                                                width="247" height="247"
-                                                                                src="/assets/wp-content/uploads/2020/11/den-am-tran-diamond-10w-kingled-1-247x247.png"
-                                                                                class="show-on-hover absolute fill hide-for-small back-image"
-                                                                                alt="den am tran diamond 10w kingled 1"
-                                                                                decoding="async" loading="lazy"
-                                                                                srcset="/assets/wp-content/uploads/2020/11/den-am-tran-diamond-10w-kingled-1-247x247.png 247w, /assets/wp-content/uploads/2020/11/den-am-tran-diamond-10w-kingled-1-100x100.png 100w, /assets/wp-content/uploads/2020/11/den-am-tran-diamond-10w-kingled-1-150x150.png 150w"
-                                                                                sizes="(max-width: 247px) 100vw, 247px" />
-                                                                        </a>
-                                                                    </div>
-                                                                    <div
-                                                                        class="image-tools is-small top right show-on-hover">
-                                                                    </div>
-                                                                    <div
-                                                                        class="image-tools is-small hide-for-small bottom left show-on-hover">
-                                                                    </div>
-                                                                    <div
-                                                                        class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
-                                                                    </div>
-                                                                </div>
-
-                                                                <div
-                                                                    class="box-text box-text-products text-center grid-style-2">
-                                                                    <div class="title-wrapper">
-                                                                        <p
-                                                                            class="name product-title woocommerce-loop-product__title">
-                                                                            <a href="https://kingledvietnam.com/den-led-am-tran-diamond-15w-doi-mau-ddl-15ss-t140-dm-kingled/"
-                                                                                class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Đèn
-                                                                                LED Âm Trần Diamond 15W Đổi Màu
-                                                                                (DDL-15SS-T140-DM) Kingled</a></p>
-                                                                    </div>
-                                                                    <div class="price-wrapper">
-                                                                        <span class="price"><del
-                                                                                aria-hidden="true"><span
-                                                                                    class="woocommerce-Price-amount amount"><bdi>372.000&nbsp;<span
-                                                                                            class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del>
-                                                                            <span class="screen-reader-text">Giá gốc là:
-                                                                                372.000&nbsp;&#8363;.</span><ins
-                                                                                aria-hidden="true"><span
-                                                                                    class="woocommerce-Price-amount amount"><bdi>242.000&nbsp;<span
-                                                                                            class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins><span
-                                                                                class="screen-reader-text">Giá hiện tại
-                                                                                là: 242.000&nbsp;&#8363;.</span></span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
 
@@ -2825,11 +1984,9 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
                     font-family: var(--wp--preset--font-family--cardo) !important;
                 }
             </style>
-            <script type="text/javascript"
-                src="/assets/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18"
+            <script type="text/javascript" src="/assets/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18"
                 id="wp-hooks-js"></script>
-            <script type="text/javascript"
-                src="/assets/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
+            <script type="text/javascript" src="/assets/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
                 id="wp-i18n-js"></script>
             <script type="text/javascript" id="wp-i18n-js-after">
                 /* <![CDATA[ */
@@ -2837,8 +1994,7 @@ wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 /* ]]> */
             </script>
             <script type="text/javascript"
-                src="/assets/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.8"
-                id="swv-js"></script>
+                src="/assets/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.8" id="swv-js"></script>
             <script type="text/javascript" id="contact-form-7-js-extra">
                 /* <![CDATA[ */
 var wpcf7 = {"api":{"root":"https:\/\/kingledvietnam.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
@@ -2854,15 +2010,14 @@ var wpcf7 = {"api":{"root":"https:\/\/kingledvietnam.com\/wp-json\/","namespace"
 /* ]]> */
             </script>
             <script type="text/javascript"
-                src="/assets/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.8"
-                id="contact-form-7-js"></script>
+                src="/assets/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.8" id="contact-form-7-js">
+            </script>
             <script type="text/javascript" id="toc-front-js-extra">
                 /* <![CDATA[ */
 var tocplus = {"visibility_show":"show","visibility_hide":"hide","width":"Auto"};
 /* ]]> */
             </script>
-            <script type="text/javascript"
-                src="/assets/wp-content/plugins/table-of-contents-plus/front.min.js?ver=2408"
+            <script type="text/javascript" src="/assets/wp-content/plugins/table-of-contents-plus/front.min.js?ver=2408"
                 id="toc-front-js"></script>
             <script type="text/javascript" id="woocommerce-js-extra">
                 /* <![CDATA[ */

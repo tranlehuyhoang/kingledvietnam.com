@@ -21,8 +21,9 @@ class Category extends Model
     }
     public function products()
     {
-        return $this->hasManyThrough(Product::class, Subcategory::class);
+        return $this->hasMany(Product::class,'category_id');
     }
+ 
     public function getRandomProducts($limit = 8)
     {
         // Lấy tất cả sản phẩm từ các subcategories

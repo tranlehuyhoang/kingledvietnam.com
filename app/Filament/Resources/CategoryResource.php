@@ -8,6 +8,7 @@ use App\Models\Category;
 use Filament\Forms;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Grid;
+use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Section;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
@@ -61,10 +62,9 @@ class CategoryResource extends Resource
                             ->unique(Category::class, ignoreRecord: true)
                             ->helperText('Slug tự động được tạo từ tên danh mục. Không cần nhập thủ công.'),
 
-                        Textarea::make('description')
+                        RichEditor::make('description')
                             ->label('Mô tả') // Đổi nhãn sang tiếng Việt
                             ->required()
-                            ->maxLength(255)
                             ->helperText('Nhập mô tả ngắn về danh mục này.'),
 
                         // Thêm banner ở đây

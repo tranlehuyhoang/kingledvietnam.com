@@ -1062,15 +1062,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                         </p>
                                                     </div>
                                                     <div class="price-wrapper">
-                                                        <span class="price"><del aria-hidden="true"><span
-                                                                    class="woocommerce-Price-amount amount"><bdi>{{ number_format($product->price) }}&nbsp;<span
-                                                                            class="woocommerce-Price-currencySymbol">₫</span></bdi></span></del>
-                                                            <span class="screen-reader-text">Giá gốc là:
-                                                                370.000&nbsp;₫.</span><ins aria-hidden="true"><span
-                                                                    class="woocommerce-Price-amount amount"><bdi>{{ number_format($product->discount_price) }}&nbsp;<span
-                                                                            class="woocommerce-Price-currencySymbol">₫</span></bdi></span></ins><span
-                                                                class="screen-reader-text">Giá hiện tại là:
-                                                                240.500&nbsp;₫.</span></span>
+                                                        <span class="price">Liên hệ</span>
                                                     </div>
                                                 </div>
                                             </div>

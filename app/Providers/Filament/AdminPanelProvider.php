@@ -4,6 +4,7 @@ namespace App\Providers\Filament;
 
 use App\Filament\Resources\OrderResource\Widgets\OrderStat;
 use App\Filament\Widgets\OrderStatistics;
+use App\Filament\Widgets\ProductCategoryChart;
 use App\Filament\Widgets\UserActivity24HourChart;
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\DisableBladeIconComponents;
@@ -42,7 +43,7 @@ class AdminPanelProvider extends PanelProvider
             ->widgets([
                 OrderStat::class,
                 UserActivity24HourChart::class,
-                OrderStatistics::class,
+                ProductCategoryChart::class,
             ])
             ->middleware([
                 EncryptCookies::class,

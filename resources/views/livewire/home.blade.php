@@ -1205,16 +1205,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                             </p>
                                                         </div>
                                                         <div class="price-wrapper">
-                                                            <span class="price">
-                                                                <strong>{{ number_format($product->price, 0, ',', '.')
-                                                                    }}₫</strong>
-                                                                @if ($product->discount_price > 0)
-                                                                <del aria-hidden="true"><span
-                                                                        class="woocommerce-Price-amount amount">{{
-                                                                        number_format($product->discount_price, 0, ',',
-                                                                        '.') }}₫</span></del>
-                                                                @endif
-                                                            </span>
+                                                            <span class="price">Liên hệ</span>
                                                         </div>
                                                     </div>
                                                 </div>

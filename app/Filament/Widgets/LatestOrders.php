@@ -3,103 +3,83 @@
 namespace App\Filament\Widgets;
 
 use App\Filament\Resources\OrderResource;
-use App\Models\Order;
+use App\Filament\Resources\ProductResource;
 use Filament\Tables;
 use Filament\Tables\Actions\Action;
 use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Filters\SelectFilter;
 use Filament\Tables\Table;
 use Filament\Widgets\TableWidget as BaseWidget;
 
 class LatestOrders extends BaseWidget
 {
    
-    protected static ?string $heading = 'Đơn Hàng Mới Nhất'; // Tiêu đề tiếng Việt
+    protected static ?string $heading = 'Sản phẩm Mới Nhất'; // Tiêu đề tiếng Việt
     protected int | string | array  $columnSpan = 'full';
     protected static ?int $sort = 2;
     public function table(Table $table): Table
     {
         return $table
-            ->query(OrderResource::getEloquentQuery())
+            ->query(ProductResource::getEloquentQuery())
             ->defaultPaginationPageOption(5)
             ->defaultSort('created_at', 'desc')
             ->columns([
-                TextColumn::make('id')
+                Tables\Columns\TextColumn::make('id')
                     ->label('ID') // Đổi nhãn sang tiếng Việt
                     ->searchable(),
-    
-                TextColumn::make('order_code')
-                    ->label('Mã Đơn Hàng') // Đổi nhãn sang tiếng Việt
+                Tables\Columns\ImageColumn::make('images')
+                    ->label('Ảnh') // Đổi nhãn sang tiếng Việt
                     ->searchable(),
-                    TextColumn::make('address.phone')
-                    ->label('Số Điện Thoại')
+                Tables\Columns\TextColumn::make('name')
+                    ->label('Tên Sản Phẩm') // Đổi nhãn sang tiếng Việt
                     ->searchable(),
-                
-                TextColumn::make('user.name')
-                    ->label('Khách Hàng') // Đổi nhãn sang tiếng Việt
-                    ->searchable(),
-    
-                TextColumn::make('grand_total')
-                    ->label('Tổng Tiền') // Đổi nhãn sang tiếng Việt
-                    ->money('VND'),
-                TextColumn::make('profit_loss')
-                    ->label('Lợi nhuận') // Đổi nhãn sang tiếng Việt
-                    ->money('VND'),
-    
-                TextColumn::make('status')
-                    ->label('Trạng Thái') // Đổi nhãn sang tiếng Việt
-                    ->badge()
-                    ->color(fn (string $state): string => match ($state) {
-                        'new' => 'info',
-                        'processing' => 'warning',
-                        'shipped' => 'success',
-                        'delivered' => 'success',
-                        'canceled' => 'danger'
-                    })
-                    ->icon(fn (string $state): string => match ($state) {
-                        'new' => 'heroicon-m-sparkles',
-                        'processing' => 'heroicon-m-arrow-path',
-                        'shipped' => 'heroicon-m-truck',
-                        'delivered' => 'heroicon-m-check-badge',
-                        'canceled' => 'heroicon-m-x-circle'
-                    })
-                    ->sortable(),
-    
-                TextColumn::make('payment_method')
-                    ->label('Phương Thức Thanh Toán') // Đổi nhãn sang tiếng Việt
-                    ->sortable()
-                    ->searchable(),
-    
-                TextColumn::make('payment_status')
-                    ->label('Trạng Thái Thanh Toán') // Đổi nhãn sang tiếng Việt
-                    ->sortable()
-                    ->searchable()
-                    ->badge(),
-    
-                    TextColumn::make('shipping_method')
-                    ->label('Phương Thức Vận Chuyển')
-                    ->sortable()
-                    ->searchable()
-                    ->formatStateUsing(fn($state) => match ($state) {
-                        'in_store_pickup' => 'Nhận tại cửa hàng',
-                        'home_delivery' => 'Giao hàng tận nơi',
-                        default => 'Chưa xác định',
-                    }),
 
-    
-                TextColumn::make('shipping_amount') // Thêm tiền vận chuyển
-                    ->label('Phí Vận Chuyển') // Nhãn tiếng Việt
-                    ->money('VND'),
-    
-                TextColumn::make('created_at')
-                    ->label('Ngày Đặt Hàng') // Đổi nhãn sang tiếng Việt
-                    ->dateTime('d/m/Y H:i:s') // Định dạng ngày giờ (ngày/tháng/năm giờ:phút:giây)
-                    ->formatStateUsing(fn ($state) => $state->setTimezone('Asia/Ho_Chi_Minh')->format('d/m/Y H:i:s')) // Chuyển đổi sang múi giờ Việt Nam
+                Tables\Columns\TextColumn::make('category.name')
+                    ->label('Danh Mục') // Đổi nhãn sang tiếng Việt
+                    ->sortable(),
+
+
+
+               
+                Tables\Columns\TextColumn::make('slug')
+                    ->label('Slug') // Đổi nhãn sang tiếng Việt
+                    ->sortable()
+                    ->searchable(),
+
+                Tables\Columns\TextColumn::make('created_at')
+                    ->label('Ngày Tạo') // Đổi nhãn sang tiếng Việt
+                    ->dateTime()
+                    ->sortable()
+                    ->toggleable(isToggledHiddenByDefault: true),
+
+                Tables\Columns\TextColumn::make('updated_at')
+                    ->label('Ngày Cập Nhật') // Đổi nhãn sang tiếng Việt
+                    ->dateTime()
+                    ->sortable()
+                    ->toggleable(isToggledHiddenByDefault: true),
+            ])
+            ->filters([
+                SelectFilter::make('category')
+                    ->label('Danh Mục') // Đổi nhãn sang tiếng Việt
+                    ->relationship('category', 'name')
+                    ->preload(),
+
             ])
             ->actions([
-                Action::make('view Order')
-                    ->label('Xem Đơn Hàng') // Đổi nhãn sang tiếng Việt
-                    ->url(fn (Order $record): string => OrderResource::getUrl('view', ['record' => $record]))
-                    ->icon('heroicon-m-eye')
+                Tables\Actions\ActionGroup::make([
+                    Tables\Actions\ViewAction::make()
+                        ->label('Xem'), // Đổi nhãn sang tiếng Việt
+                    Tables\Actions\EditAction::make()
+                        ->label('Chỉnh Sửa'), // Đổi nhãn sang tiếng Việt
+                    Tables\Actions\DeleteAction::make()
+                        ->label('Xóa'), // Đổi nhãn sang tiếng Việt
+                ])
+            ])
+            ->bulkActions([
+                Tables\Actions\BulkActionGroup::make([
+                    Tables\Actions\DeleteBulkAction::make()
+                        ->label('Xóa Nhiều'), // Đổi nhãn sang tiếng Việt
+                ]),
             ]);
     }
 }
