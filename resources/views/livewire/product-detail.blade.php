@@ -332,7 +332,7 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
                 }
 
                 .header-bottom {
-                    background-color: #61b846
+                    background-color: #737373
                 }
 
                 .stuck .header-main .nav>li>a {
@@ -354,7 +354,7 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
                 }
 
                 .header-top {
-                    background-color: #61b846 !important;
+                    background-color: #737373 !important;
                 }
 
                 .blog-wrapper {
@@ -498,7 +498,7 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
                 }
 
                 .text-chem-no a:hover {
-                    color: #61B846 !important;
+                    color: #737373 !important;
                 }
 
                 .chem-no {
@@ -649,7 +649,7 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
                 }
 
                 .row-small>.col:hover {
-                    border-color: #61B846;
+                    border-color: #737373;
                 }
 
                 div.rows-info-product-detail {
@@ -669,7 +669,7 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
                 }
 
                 .title_dacbiet>span {
-                    background: #8DC63F;
+                    background: #737373;
                     margin-right: 15px;
                     padding: 4px 10px 4px 15px;
                 }
@@ -784,11 +784,11 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
                 .searchform .button.icon {
                     min-width: 70px;
                     min-height: 33px;
-                    background: #61B846;
+                    background: #737373;
                 }
 
                 li.html input {
-                    border: 1px solid #61B846;
+                    border: 1px solid #737373;
                 }
 
                 input[type='search'] {
@@ -796,7 +796,7 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
                 }
 
                 .search_categories.resize-select.mb-0 {
-                    border: 1px solid #61B846;
+                    border: 1px solid #737373;
                 }
 
                 .box-text.text-center {
@@ -870,7 +870,7 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
 
                 span.widget-title.shop-sidebar,
                 span.widget-title {
-                    background: #8DC63F;
+                    background: #737373;
                     color: white;
                     padding: 14px 20px;
                     display: block;
@@ -894,7 +894,7 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
                 }
 
                 .widget>ul>li:hover {
-                    background: #8DC63F;
+                    background: #737373;
                 }
 
                 .widget>ul>li>a:hover {
