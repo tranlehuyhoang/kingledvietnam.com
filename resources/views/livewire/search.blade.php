@@ -5,22 +5,6 @@
         <html lang="vi" class="loading-site no-js">
 
         <head>
-            <meta charset="UTF-8" />
-            <meta name="viewport"
-                content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-            <meta name="keywords"
-                content="đèn kingled, đèn kingled việt nam, đèn led kingled chính hãng, đèn led KingLED, đèn led KingLED vietnam, KingLED việt nam, cửa hàng đèn led KingLED, bóng đèn led KingLED tại hà nội, đại lý đèn led KingLED, mua đèn led KingLED, den kingled, den kingled viet nam, den led kingled" />
-            <meta name="robots" content="index, follow" />
-            <meta name="author" content="kingledvietnam" />
-            <meta name="copyright" content="kingledvietnam" />
-            <meta name='revisit-after' content='1 days' />
-            <meta name="geo.placename" content="Hanoi, Hoàn Kiếm, Hanoi, Vietnam" />
-            <meta name="geo.region" content="VN-Hanoi" />
-            <meta name="distribution" content="global" />
-            <meta name='dmca-site-verification'
-                content='RkcxbFJweEs3U3lkNUEydnVaVEhhZ3lieXZYU3VSelM0eEYxUjZDR2U3dz01' />
-            <link rel="profile" href="https://gmpg.org/xfn/11" />
-            <link rel="pingback" href="https://kingledvietnam.com/xmlrpc.php" />
 
             <script>
                 (function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);
@@ -32,16 +16,7 @@
                     top: 2px;
                 }
             </style>
-            <meta name='robots' content='noindex, follow' />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <!-- This site is optimized with the Yoast SEO Premium plugin v23.4 (Yoast SEO v23.4) - https://yoast.com/wordpress/plugins/seo/ -->
-            <title>You searched for | Đèn LED KingLED</title>
-            <meta property="og:locale" content="vi_VN" />
-            <meta property="og:type" content="article" />
-            <meta property="og:title" content="You searched for  | Đèn LED KingLED" />
-            <meta property="og:site_name" content="Đèn LED KingLED" />
-            <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:title" content="You searched for  | Đèn LED KingLED" />
+            <title>Tìm kiếm | {{ $settings->web_name }}</title>
             <script type="application/ld+json" class="yoast-schema-graph">
                 {"@context":"https://schema.org","@graph":[{"@type":["CollectionPage","SearchResultsPage"],"@id":"https://kingledvietnam.com/?s","url":"https://kingledvietnam.com/?s=","name":"You searched for | Đèn LED KingLED","isPartOf":{"@id":"https://kingledvietnam.com/#website"},"primaryImageOfPage":{"@id":"#primaryimage"},"image":{"@id":"#primaryimage"},"thumbnailUrl":"/assets/wp-content/uploads/2024/07/EC-onl-T-D.jpg","breadcrumb":{"@id":"#breadcrumb"},"inLanguage":"vi"},{"@type":"ImageObject","inLanguage":"vi","@id":"#primaryimage","url":"/assets/wp-content/uploads/2024/07/EC-onl-T-D.jpg","contentUrl":"/assets/wp-content/uploads/2024/07/EC-onl-T-D.jpg","width":800,"height":800,"caption":"EC onl T Đ"},{"@type":"BreadcrumbList","@id":"#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kingledvietnam.com/"},{"@type":"ListItem","position":2,"name":"You searched for"}]},{"@type":"WebSite","@id":"https://kingledvietnam.com/#website","url":"https://kingledvietnam.com/","name":"Đèn LED KingLED","description":"Nhà Phân Phối Đèn KingLED Việt Nam 2024","publisher":{"@id":"https://kingledvietnam.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kingledvietnam.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"vi"},{"@type":"Organization","@id":"https://kingledvietnam.com/#organization","name":"Công ty thiết bị điện và chiếu sáng Vinalight","url":"https://kingledvietnam.com/","logo":{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/#/schema/logo/image/","url":"/assets/wp-content/uploads/2023/10/logo.jpg","contentUrl":"/assets/wp-content/uploads/2023/10/logo.jpg","width":708,"height":484,"caption":"Công ty thiết bị điện và chiếu sáng Vinalight"},"image":{"@id":"https://kingledvietnam.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/kingled.info/","https://profile.hatena.ne.jp/denkingled/"]}]}
             </script>
@@ -1009,7 +984,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                     <div class="row category-page-row">
 
                         <div class="col large-3 hide-for-medium ">
-                       @livewire('inc.category-sidebar')
+                            @livewire('inc.category-sidebar')
                         </div>
 
                         <div class="col large-9">
@@ -1065,8 +1040,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                         </div>
                                     </div>
                                     @endforeach
-                                   
-                                   
+
+
                                 </div><!-- row -->
                                 {{-- <div class="container">
                                     <nav class="woocommerce-pagination" aria-label="Phân trang sản phẩm">

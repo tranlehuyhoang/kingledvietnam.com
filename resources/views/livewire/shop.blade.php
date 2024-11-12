@@ -1,26 +1,10 @@
 <div>
     <div>
-
-        <!DOCTYPE html>
-        <html lang="vi" class="loading-site no-js">
+        @php
+        $settings = App\Models\Setting::first(); // Truy vấn model Settings
+        @endphp
 
         <head>
-            <meta charset="UTF-8" />
-            <meta name="viewport"
-                content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-            <meta name="keywords"
-                content="đèn kingled, đèn kingled việt nam, đèn led kingled chính hãng, đèn led KingLED, đèn led KingLED vietnam, KingLED việt nam, cửa hàng đèn led KingLED, bóng đèn led KingLED tại hà nội, đại lý đèn led KingLED, mua đèn led KingLED, den kingled, den kingled viet nam, den led kingled" />
-            <meta name="robots" content="index, follow" />
-            <meta name="author" content="kingledvietnam" />
-            <meta name="copyright" content="kingledvietnam" />
-            <meta name='revisit-after' content='1 days' />
-            <meta name="geo.placename" content="Hanoi, Hoàn Kiếm, Hanoi, Vietnam" />
-            <meta name="geo.region" content="VN-Hanoi" />
-            <meta name="distribution" content="global" />
-            <meta name='dmca-site-verification'
-                content='RkcxbFJweEs3U3lkNUEydnVaVEhhZ3lieXZYU3VSelM0eEYxUjZDR2U3dz01' />
-            <link rel="profile" href="https://gmpg.org/xfn/11" />
-            <link rel="pingback" href="https://kingledvietnam.com/xmlrpc.php" />
 
             <script>
                 (function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);
@@ -32,20 +16,7 @@
                     top: 2px;
                 }
             </style>
-            <meta name='robots'
-                content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <!-- This site is optimized with the Yoast SEO Premium plugin v23.4 (Yoast SEO v23.4) - https://yoast.com/wordpress/plugins/seo/ -->
-            <title>Sản phẩm | Đèn LED KingLED</title>
-            <link rel="canonical" href="https://kingledvietnam.com/cua-hang/" />
-            <link rel="next" href="https://kingledvietnam.com/cua-hang/page/2/" />
-            <meta property="og:locale" content="vi_VN" />
-            <meta property="og:type" content="article" />
-            <meta property="og:title" content="Cửa hàng" />
-            <meta property="og:url" content="https://kingledvietnam.com/cua-hang/" />
-            <meta property="og:site_name" content="Đèn LED KingLED" />
-            <meta property="article:publisher" content="https://www.facebook.com/kingled.info/" />
-            <meta name="twitter:card" content="summary_large_image" />
+            <title>Cửa hàng | {{ $settings->web_name }}</title>
             <script type="application/ld+json" class="yoast-schema-graph">
                 {"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://kingledvietnam.com/cua-hang/","url":"https://kingledvietnam.com/cua-hang/","name":"Sản phẩm | Đèn LED KingLED","isPartOf":{"@id":"https://kingledvietnam.com/#website"},"primaryImageOfPage":{"@id":"https://kingledvietnam.com/cua-hang/#primaryimage"},"image":{"@id":"https://kingledvietnam.com/cua-hang/#primaryimage"},"thumbnailUrl":"/assets/wp-content/uploads/2024/07/EC-onl-T-D.jpg","datePublished":"2018-04-16T09:07:27+00:00","dateModified":"2018-04-16T09:07:27+00:00","breadcrumb":{"@id":"https://kingledvietnam.com/cua-hang/#breadcrumb"},"inLanguage":"vi","potentialAction":[{"@type":"ReadAction","target":["https://kingledvietnam.com/cua-hang/"]}]},{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/cua-hang/#primaryimage","url":"/assets/wp-content/uploads/2024/07/EC-onl-T-D.jpg","contentUrl":"/assets/wp-content/uploads/2024/07/EC-onl-T-D.jpg","width":800,"height":800,"caption":"EC onl T Đ"},{"@type":"BreadcrumbList","@id":"https://kingledvietnam.com/cua-hang/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kingledvietnam.com/"},{"@type":"ListItem","position":2,"name":"Cửa hàng"}]},{"@type":"WebSite","@id":"https://kingledvietnam.com/#website","url":"https://kingledvietnam.com/","name":"Đèn LED KingLED","description":"Nhà Phân Phối Đèn KingLED Việt Nam 2024","publisher":{"@id":"https://kingledvietnam.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kingledvietnam.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"vi"},{"@type":"Organization","@id":"https://kingledvietnam.com/#organization","name":"Công ty thiết bị điện và chiếu sáng Vinalight","url":"https://kingledvietnam.com/","logo":{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/#/schema/logo/image/","url":"/assets/wp-content/uploads/2023/10/logo.jpg","contentUrl":"/assets/wp-content/uploads/2023/10/logo.jpg","width":708,"height":484,"caption":"Công ty thiết bị điện và chiếu sáng Vinalight"},"image":{"@id":"https://kingledvietnam.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/kingled.info/","https://profile.hatena.ne.jp/denkingled/"]}]}
             </script>
@@ -989,15 +960,22 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                         </div>
                         <div class="flex-col medium-text-center">
                             <p class="woocommerce-result-count hide-for-medium">
-                                Hiển thị {{ $products->firstItem() }}&ndash;{{ $products->lastItem() }} của {{ $products->total() }} kết quả
+                                Hiển thị {{ $products->firstItem() }}&ndash;{{ $products->lastItem() }} của {{
+                                $products->total() }} kết quả
                             </p>
                             <form class="woocommerce-ordering" method="get" action="{{ request()->url() }}">
-                                <select name="orderby" class="orderby" aria-label="Đơn hàng của cửa hàng" onchange="this.form.submit()">
-                                    <option value="popularity" {{ request('orderby') == 'popularity' ? 'selected' : '' }}>Thứ tự theo mức độ phổ biến</option>
-                                    <option value="rating" {{ request('orderby') == 'rating' ? 'selected' : '' }}>Thứ tự theo điểm đánh giá</option>
-                                    <option value="date" {{ request('orderby') == 'date' ? 'selected' : 'selected' }}>Mới nhất</option>
-                                    <option value="price" {{ request('orderby') == 'price' ? 'selected' : '' }}>Thứ tự theo giá: thấp đến cao</option>
-                                    <option value="price-desc" {{ request('orderby') == 'price-desc' ? 'selected' : '' }}>Thứ tự theo giá: cao xuống thấp</option>
+                                <select name="orderby" class="orderby" aria-label="Đơn hàng của cửa hàng"
+                                    onchange="this.form.submit()">
+                                    <option value="popularity" {{ request('orderby')=='popularity' ? 'selected' : '' }}>
+                                        Thứ tự theo mức độ phổ biến</option>
+                                    <option value="rating" {{ request('orderby')=='rating' ? 'selected' : '' }}>Thứ tự
+                                        theo điểm đánh giá</option>
+                                    <option value="date" {{ request('orderby')=='date' ? 'selected' : 'selected' }}>Mới
+                                        nhất</option>
+                                    <option value="price" {{ request('orderby')=='price' ? 'selected' : '' }}>Thứ tự
+                                        theo giá: thấp đến cao</option>
+                                    <option value="price-desc" {{ request('orderby')=='price-desc' ? 'selected' : '' }}>
+                                        Thứ tự theo giá: cao xuống thấp</option>
                                 </select>
                                 <input type="hidden" name="paged" value="1" />
                             </form>
@@ -1009,7 +987,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                     <div class="row category-page-row">
 
                         <div class="col large-3 hide-for-medium ">
-                        @livewire('inc.category-sidebar')
+                            @livewire('inc.category-sidebar')
                         </div>
 
                         <div class="col large-9">
@@ -1017,67 +995,77 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                 <div class="woocommerce-notices-wrapper"></div>
                                 <div class="products row row-small large-columns-4 medium-columns-3 small-columns-2">
                                     @foreach ($products as $product)
-                                        <div class="product-small col has-hover product type-product post-{{ $product->id }} status-publish instock product_cat-{{ $product->category->slug }} has-post-thumbnail {{ $product->discount_price > 0 ? 'sale' : '' }} shipping-taxable purchasable product-type-simple">
-                                            <div class="col-inner">
-                                                <div class="badge-container absolute left top z-1">
-                                                    @if($product->discount_price > 0)
-                                                        <div class="callout badge badge-circle">
-                                                            <div class="badge-inner secondary on-sale"><span class="onsale">Giảm giá!</span></div>
-                                                        </div>
-                                                    @endif
+                                    <div
+                                        class="product-small col has-hover product type-product post-{{ $product->id }} status-publish instock product_cat-{{ $product->category->slug }} has-post-thumbnail {{ $product->discount_price > 0 ? 'sale' : '' }} shipping-taxable purchasable product-type-simple">
+                                        <div class="col-inner">
+                                            <div class="badge-container absolute left top z-1">
+                                                @if($product->discount_price > 0)
+                                                <div class="callout badge badge-circle">
+                                                    <div class="badge-inner secondary on-sale"><span class="onsale">Giảm
+                                                            giá!</span></div>
                                                 </div>
-                                                <div class="product-small box">
-                                                    <div class="box-image">
-                                                        <div class="image-fade_in_back">
-                                                            <a href="/product/{{ $product->slug }}" aria-label="{{ $product->name }}">
-                                                                <img width="247" height="247"
-                                                                     src="{{ Storage::url($product->images[0]) }}"
-                                                                     class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                                     alt="{{ $product->name }}" decoding="async" fetchpriority="high"
-                                                                     srcset="{{ Storage::url($product->images[0]) }} 247w, {{ Storage::url($product->images[0]) }} 300w, {{ Storage::url($product->images[0]) }} 150w, {{ Storage::url($product->images[0]) }} 768w, {{ Storage::url($product->images[0]) }} 510w, {{ Storage::url($product->images[0]) }} 100w, {{ Storage::url($product->images[0]) }} 800w"
-                                                                     sizes="(max-width: 247px) 100vw, 247px" />
-                                                                @if(isset($product->images[1]))
-                                                                    <img width="247" height="247"
-                                                                         src="{{ Storage::url($product->images[1]) }}"
-                                                                         class="show-on-hover absolute fill hide-for-small back-image"
-                                                                         alt="{{ $product->name }} - 2" decoding="async" loading="lazy"
-                                                                         srcset="{{ Storage::url($product->images[1]) }} 247w, {{ Storage::url($product->images[1]) }} 300w, {{ Storage::url($product->images[1]) }} 150w"
-                                                                         sizes="(max-width: 247px) 100vw, 247px" />
-                                                                @endif
-                                                            </a>
-                                                        </div>
+                                                @endif
+                                            </div>
+                                            <div class="product-small box">
+                                                <div class="box-image">
+                                                    <div class="image-fade_in_back">
+                                                        <a href="/product/{{ $product->slug }}"
+                                                            aria-label="{{ $product->name }}">
+                                                            <img width="247" height="247"
+                                                                src="{{ Storage::url($product->images[0]) }}"
+                                                                class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                                                                alt="{{ $product->name }}" decoding="async"
+                                                                fetchpriority="high"
+                                                                srcset="{{ Storage::url($product->images[0]) }} 247w, {{ Storage::url($product->images[0]) }} 300w, {{ Storage::url($product->images[0]) }} 150w, {{ Storage::url($product->images[0]) }} 768w, {{ Storage::url($product->images[0]) }} 510w, {{ Storage::url($product->images[0]) }} 100w, {{ Storage::url($product->images[0]) }} 800w"
+                                                                sizes="(max-width: 247px) 100vw, 247px" />
+                                                            @if(isset($product->images[1]))
+                                                            <img width="247" height="247"
+                                                                src="{{ Storage::url($product->images[1]) }}"
+                                                                class="show-on-hover absolute fill hide-for-small back-image"
+                                                                alt="{{ $product->name }} - 2" decoding="async"
+                                                                loading="lazy"
+                                                                srcset="{{ Storage::url($product->images[1]) }} 247w, {{ Storage::url($product->images[1]) }} 300w, {{ Storage::url($product->images[1]) }} 150w"
+                                                                sizes="(max-width: 247px) 100vw, 247px" />
+                                                            @endif
+                                                        </a>
                                                     </div>
-                                
-                                                    <div class="box-text box-text-products text-center grid-style-2">
-                                                        <div class="title-wrapper">
-                                                            <p class="name product-title woocommerce-loop-product__title">
-                                                                <a href="/product/{{ $product->slug }}" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">{{ $product->name }}</a>
-                                                            </p>
-                                                        </div>
-                                                        <div class="price-wrapper">
-                                                            <span class="price">Liên hệ</span>
-                                                        </div>
+                                                </div>
+
+                                                <div class="box-text box-text-products text-center grid-style-2">
+                                                    <div class="title-wrapper">
+                                                        <p class="name product-title woocommerce-loop-product__title">
+                                                            <a href="/product/{{ $product->slug }}"
+                                                                class="woocommerce-LoopProduct-link woocommerce-loop-product__link">{{
+                                                                $product->name }}</a>
+                                                        </p>
+                                                    </div>
+                                                    <div class="price-wrapper">
+                                                        <span class="price">Liên hệ</span>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
                                     @endforeach
                                 </div>
                                 <div class="container">
                                     <nav class="woocommerce-pagination" aria-label="Phân trang sản phẩm">
                                         <ul class="page-numbers nav-pagination links text-center">
                                             @if ($products->onFirstPage())
-                                                <li><span aria-current="page" class="page-number current">1</span></li>
+                                            <li><span aria-current="page" class="page-number current">1</span></li>
                                             @else
-                                                <li><a class="page-number" href="{{ $products->url(1) }}">1</a></li>
+                                            <li><a class="page-number" href="{{ $products->url(1) }}">1</a></li>
                                             @endif
-                                        
-                                            @foreach ($products->getUrlRange(2, $products->lastPage() - 1) as $page => $url)
-                                                <li><a class="page-number" href="{{ $url }}">{{ $page }}</a></li>
+
+                                            @foreach ($products->getUrlRange(2, $products->lastPage() - 1) as $page =>
+                                            $url)
+                                            <li><a class="page-number" href="{{ $url }}">{{ $page }}</a></li>
                                             @endforeach
-                                        
+
                                             @if ($products->hasMorePages())
-                                                <li><a aria-label="Tiếp theo" class="next page-number" href="{{ $products->nextPageUrl() }}"><i class="icon-angle-right"></i></a></li>
+                                            <li><a aria-label="Tiếp theo" class="next page-number"
+                                                    href="{{ $products->nextPageUrl() }}"><i
+                                                        class="icon-angle-right"></i></a></li>
                                             @endif
                                         </ul>
                                     </nav>
@@ -1708,8 +1696,6 @@ var wc_password_strength_meter_params = {"min_password_strength":"3","stop_check
             <script type="text/javascript" id="wpsp-script-frontend"></script>
 
         </body>
-
-        </html>
 
         <!-- Page cached by LiteSpeed Cache 6.5.1 on 2024-11-07 07:52:45 -->
     </div>

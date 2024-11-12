@@ -1,26 +1,7 @@
 <div>
     <div>
 
-        <!DOCTYPE html>
-        <html lang="vi" class="loading-site no-js">
-
         <head>
-            <meta charset="UTF-8" />
-            <meta name="viewport"
-                content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-            <meta name="keywords"
-                content="đèn kingled, đèn kingled việt nam, đèn led kingled chính hãng, đèn led KingLED, đèn led KingLED vietnam, KingLED việt nam, cửa hàng đèn led KingLED, bóng đèn led KingLED tại hà nội, đại lý đèn led KingLED, mua đèn led KingLED, den kingled, den kingled viet nam, den led kingled" />
-            <meta name="robots" content="index, follow" />
-            <meta name="author" content="kingledvietnam" />
-            <meta name="copyright" content="kingledvietnam" />
-            <meta name='revisit-after' content='1 days' />
-            <meta name="geo.placename" content="Hanoi, Hoàn Kiếm, Hanoi, Vietnam" />
-            <meta name="geo.region" content="VN-Hanoi" />
-            <meta name="distribution" content="global" />
-            <meta name='dmca-site-verification'
-                content='RkcxbFJweEs3U3lkNUEydnVaVEhhZ3lieXZYU3VSelM0eEYxUjZDR2U3dz01' />
-            <link rel="profile" href="https://gmpg.org/xfn/11" />
-            <link rel="pingback" href="https://kingledvietnam.com/xmlrpc.php" />
 
             <script>
                 (function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);
@@ -32,19 +13,8 @@
                     top: 2px;
                 }
             </style>
-            <meta name='robots'
-                content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <!-- This site is optimized with the Yoast SEO Premium plugin v23.4 (Yoast SEO v23.4) - https://yoast.com/wordpress/plugins/seo/ -->
-            <title>Tin Tức | Đèn LED KingLED</title>
-            <link rel="canonical" href="https://kingledvietnam.com/tin-tuc/" />
-            <link rel="next" href="https://kingledvietnam.com/tin-tuc/page/2/" />
-            <meta property="og:locale" content="vi_VN" />
-            <meta property="og:type" content="article" />
-            <meta property="og:title" content="Tin Tức" />
-            <meta property="og:url" content="https://kingledvietnam.com/tin-tuc/" />
-            <meta property="og:site_name" content="Đèn LED KingLED" />
-            <meta name="twitter:card" content="summary_large_image" />
+            <title>Tin Tức </title>
+
             <script type="application/ld+json" class="yoast-schema-graph">
                 {"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"https://kingledvietnam.com/tin-tuc/","url":"https://kingledvietnam.com/tin-tuc/","name":"Tin Tức | Đèn LED KingLED","isPartOf":{"@id":"https://kingledvietnam.com/#website"},"breadcrumb":{"@id":"https://kingledvietnam.com/tin-tuc/#breadcrumb"},"inLanguage":"vi"},{"@type":"BreadcrumbList","@id":"https://kingledvietnam.com/tin-tuc/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kingledvietnam.com/"},{"@type":"ListItem","position":2,"name":"Tin Tức"}]},{"@type":"WebSite","@id":"https://kingledvietnam.com/#website","url":"https://kingledvietnam.com/","name":"Đèn LED KingLED","description":"Nhà Phân Phối Đèn KingLED Việt Nam 2024","publisher":{"@id":"https://kingledvietnam.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kingledvietnam.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"vi"},{"@type":"Organization","@id":"https://kingledvietnam.com/#organization","name":"Công ty thiết bị điện và chiếu sáng Vinalight","url":"https://kingledvietnam.com/","logo":{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/#/schema/logo/image/","url":"/assets/wp-content/uploads/2023/10/logo.jpg","contentUrl":"/assets/wp-content/uploads/2023/10/logo.jpg","width":708,"height":484,"caption":"Công ty thiết bị điện và chiếu sáng Vinalight"},"image":{"@id":"https://kingledvietnam.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/kingled.info/","https://profile.hatena.ne.jp/denkingled/"]}]}
             </script>
@@ -59,13 +29,6 @@
             <link rel='prefetch' href='/assets/wp-content/themes/flatsome/assets/js/chunk.tooltips.js?ver=3.19.6' />
             <link rel='prefetch'
                 href='/assets/wp-content/themes/flatsome/assets/js/woocommerce.js?ver=dd6035ce106022a74757' />
-            <link rel="alternate" type="application/rss+xml" title="Dòng thông tin Đèn LED KingLED &raquo;"
-                href="https://kingledvietnam.com/feed/" />
-            <link rel="alternate" type="application/rss+xml" title="Đèn LED KingLED &raquo; Dòng bình luận"
-                href="https://kingledvietnam.com/comments/feed/" />
-            <link rel="alternate" type="application/rss+xml"
-                title="Dòng thông tin danh mục Đèn LED KingLED &raquo; Tin Tức"
-                href="https://kingledvietnam.com/tin-tuc/feed/" />
             <script type="text/javascript">
                 /* <![CDATA[ */
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/kingledvietnam.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=c22ab06377899eb7bf167f0522305700"}};
@@ -1017,40 +980,43 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                     <ul class="page-numbers nav-pagination links text-center">
                                         {{-- Previous Page Link --}}
                                         @if ($posts->onFirstPage())
-                                            <li aria-disabled="true" class="page-number">
-                                                <span class="prev page-number"><i class="icon-angle-left"></i></span>
-                                            </li>
+                                        <li aria-disabled="true" class="page-number">
+                                            <span class="prev page-number"><i class="icon-angle-left"></i></span>
+                                        </li>
                                         @else
-                                            <li>
-                                                <a aria-label="Trước đó" class="prev page-number" href="{{ $posts->previousPageUrl() }}">
-                                                    <i class="icon-angle-left"></i>
-                                                </a>
-                                            </li>
+                                        <li>
+                                            <a aria-label="Trước đó" class="prev page-number"
+                                                href="{{ $posts->previousPageUrl() }}">
+                                                <i class="icon-angle-left"></i>
+                                            </a>
+                                        </li>
                                         @endif
-                                    
+
                                         {{-- Pagination Elements --}}
                                         @foreach ($posts->links()->elements[0] as $page => $url)
-                                            @if ($page == $posts->currentPage())
-                                                <li><span aria-current="page" class="page-number current">{{ $page }}</span></li>
-                                            @else
-                                                <li><a class="page-number" href="{{ $url }}">{{ $page }}</a></li>
-                                            @endif
+                                        @if ($page == $posts->currentPage())
+                                        <li><span aria-current="page" class="page-number current">{{ $page }}</span>
+                                        </li>
+                                        @else
+                                        <li><a class="page-number" href="{{ $url }}">{{ $page }}</a></li>
+                                        @endif
                                         @endforeach
-                                    
+
                                         {{-- Next Page Link --}}
                                         @if ($posts->hasMorePages())
-                                            <li>
-                                                <a aria-label="Tiếp theo" class="next page-number" href="{{ $posts->nextPageUrl() }}">
-                                                    <i class="icon-angle-right"></i>
-                                                </a>
-                                            </li>
+                                        <li>
+                                            <a aria-label="Tiếp theo" class="next page-number"
+                                                href="{{ $posts->nextPageUrl() }}">
+                                                <i class="icon-angle-right"></i>
+                                            </a>
+                                        </li>
                                         @else
-                                            <li aria-disabled="true" class="page-number">
-                                                <span class="next page-number"><i class="icon-angle-right"></i></span>
-                                            </li>
+                                        <li aria-disabled="true" class="page-number">
+                                            <span class="next page-number"><i class="icon-angle-right"></i></span>
+                                        </li>
                                         @endif
                                     </ul>
-                                    
+
 
                                 </div>
 

@@ -1,26 +1,10 @@
 <div>
     <div>
-
-        <!DOCTYPE html>
-        <html lang="vi" class="loading-site no-js">
+        @php
+        $settings = App\Models\Setting::first(); // Truy vấn model Settings
+        @endphp
 
         <head>
-            <meta charset="UTF-8" />
-            <meta name="viewport"
-                content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-            <meta name="keywords"
-                content="đèn kingled, đèn kingled việt nam, đèn led kingled chính hãng, đèn led KingLED, đèn led KingLED vietnam, KingLED việt nam, cửa hàng đèn led KingLED, bóng đèn led KingLED tại hà nội, đại lý đèn led KingLED, mua đèn led KingLED, den kingled, den kingled viet nam, den led kingled" />
-            <meta name="robots" content="index, follow" />
-            <meta name="author" content="kingledvietnam" />
-            <meta name="copyright" content="kingledvietnam" />
-            <meta name='revisit-after' content='1 days' />
-            <meta name="geo.placename" content="Hanoi, Hoàn Kiếm, Hanoi, Vietnam" />
-            <meta name="geo.region" content="VN-Hanoi" />
-            <meta name="distribution" content="global" />
-            <meta name='dmca-site-verification'
-                content='RkcxbFJweEs3U3lkNUEydnVaVEhhZ3lieXZYU3VSelM0eEYxUjZDR2U3dz01' />
-            <link rel="profile" href="https://gmpg.org/xfn/11" />
-            <link rel="pingback" href="https://kingledvietnam.com/xmlrpc.php" />
 
             <script>
                 (function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);
@@ -32,18 +16,7 @@
                     top: 2px;
                 }
             </style>
-            <meta name='robots'
-                content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <!-- This site is optimized with the Yoast SEO Premium plugin v23.4 (Yoast SEO v23.4) - https://yoast.com/wordpress/plugins/seo/ -->
-            <title>Lưu trữ TÁN QUANG ĐƠN SẮC | Đèn LED KingLED</title>
-            <link rel="canonical" href="https://kingledvietnam.com/den-led-am-tran-kingled/tan-quang-don-sac/" />
-            <meta property="og:locale" content="vi_VN" />
-            <meta property="og:type" content="article" />
-            <meta property="og:title" content="TÁN QUANG ĐƠN SẮC" />
-            <meta property="og:url" content="https://kingledvietnam.com/den-led-am-tran-kingled/tan-quang-don-sac/" />
-            <meta property="og:site_name" content="Đèn LED KingLED" />
-            <meta name="twitter:card" content="summary_large_image" />
+            <title>{{ $subcategory->name }} | {{ $settings->web_name }}</title>
             <script type="application/ld+json" class="yoast-schema-graph">
                 {"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"https://kingledvietnam.com/den-led-am-tran-kingled/tan-quang-don-sac/","url":"https://kingledvietnam.com/den-led-am-tran-kingled/tan-quang-don-sac/","name":"Lưu trữ TÁN QUANG ĐƠN SẮC | Đèn LED KingLED","isPartOf":{"@id":"https://kingledvietnam.com/#website"},"primaryImageOfPage":{"@id":"https://kingledvietnam.com/den-led-am-tran-kingled/tan-quang-don-sac/#primaryimage"},"image":{"@id":"https://kingledvietnam.com/den-led-am-tran-kingled/tan-quang-don-sac/#primaryimage"},"thumbnailUrl":"/assets/wp-content/uploads/2024/07/dai-dien-sau.jpg","breadcrumb":{"@id":"https://kingledvietnam.com/den-led-am-tran-kingled/tan-quang-don-sac/#breadcrumb"},"inLanguage":"vi"},{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/den-led-am-tran-kingled/tan-quang-don-sac/#primaryimage","url":"/assets/wp-content/uploads/2024/07/dai-dien-sau.jpg","contentUrl":"/assets/wp-content/uploads/2024/07/dai-dien-sau.jpg","width":800,"height":800,"caption":"dai dien sau"},{"@type":"BreadcrumbList","@id":"https://kingledvietnam.com/den-led-am-tran-kingled/tan-quang-don-sac/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kingledvietnam.com/"},{"@type":"ListItem","position":2,"name":"Cửa hàng","item":"https://kingledvietnam.com/cua-hang/"},{"@type":"ListItem","position":3,"name":"ĐÈN LED ÂM TRẦN KINGLED","item":"https://kingledvietnam.com/den-led-am-tran-kingled/"},{"@type":"ListItem","position":4,"name":"TÁN QUANG ĐƠN SẮC"}]},{"@type":"WebSite","@id":"https://kingledvietnam.com/#website","url":"https://kingledvietnam.com/","name":"Đèn LED KingLED","description":"Nhà Phân Phối Đèn KingLED Việt Nam 2024","publisher":{"@id":"https://kingledvietnam.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kingledvietnam.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"vi"},{"@type":"Organization","@id":"https://kingledvietnam.com/#organization","name":"Công ty thiết bị điện và chiếu sáng Vinalight","url":"https://kingledvietnam.com/","logo":{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/#/schema/logo/image/","url":"/assets/wp-content/uploads/2023/10/logo.jpg","contentUrl":"/assets/wp-content/uploads/2023/10/logo.jpg","width":708,"height":484,"caption":"Công ty thiết bị điện và chiếu sáng Vinalight"},"image":{"@id":"https://kingledvietnam.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/kingled.info/","https://profile.hatena.ne.jp/denkingled/"]}]}
             </script>
@@ -1785,7 +1758,6 @@ var wc_password_strength_meter_params = {"min_password_strength":"3","stop_check
 
         </body>
 
-        </html>
 
         <!-- Page cached by LiteSpeed Cache 6.5.1 on 2024-11-07 05:05:59 -->
     </div>

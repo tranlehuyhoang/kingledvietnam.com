@@ -5,23 +5,6 @@
         @endphp
 
         <head>
-            <meta charset="UTF-8" />
-            <meta name="viewport"
-                content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-            <meta name="keywords"
-                content="đèn kingled, đèn kingled việt nam, đèn led kingled chính hãng, đèn led KingLED, đèn led KingLED vietnam, KingLED việt nam, cửa hàng đèn led KingLED, bóng đèn led KingLED tại hà nội, đại lý đèn led KingLED, mua đèn led KingLED, den kingled, den kingled viet nam, den led kingled" />
-            <meta name="robots" content="index, follow" />
-            <meta name="author" content="kingledvietnam" />
-            <meta name="copyright" content="kingledvietnam" />
-            <meta name='revisit-after' content='1 days' />
-            <meta name="geo.placename" content="Hanoi, Hoàn Kiếm, Hanoi, Vietnam" />
-            <meta name="geo.region" content="VN-Hanoi" />
-            <meta name="distribution" content="global" />
-            <meta name='dmca-site-verification'
-                content='RkcxbFJweEs3U3lkNUEydnVaVEhhZ3lieXZYU3VSelM0eEYxUjZDR2U3dz01' />
-            <link rel="profile" href="https://gmpg.org/xfn/11" />
-            <link rel="pingback" href="https://kingledvietnam.com/xmlrpc.php" />
-
             <script>
                 (function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);
             </script>
@@ -32,29 +15,7 @@
                     top: 2px;
                 }
             </style>
-            <meta name='robots'
-                content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <!-- This site is optimized with the Yoast SEO Premium plugin v23.4 (Yoast SEO v23.4) - https://yoast.com/wordpress/plugins/seo/ -->
             <title>Đèn LED KingLED, Nhà Phân Phối Đèn KingLED Chính hãng</title>
-            <meta name="description"
-                content="KingLED sự lựa chọn hàng đầu của các công trình. Đèn kingled có sản phẩm đèn led chất lượng hàng đầu như: đèn led âm trần, đèn tuýp, đèn rọi ray,..." />
-            <link rel="canonical" href="https://kingledvietnam.com/" />
-            <meta property="og:locale" content="vi_VN" />
-            <meta property="og:type" content="website" />
-            <meta property="og:title" content="Đèn LED KINGLED" />
-            <meta property="og:description"
-                content="KingLED sự lựa chọn hàng đầu của các công trình. Đèn kingled có sản phẩm đèn led chất lượng hàng đầu như: đèn led âm trần, đèn tuýp, đèn rọi ray,..." />
-            <meta property="og:url" content="https://kingledvietnam.com/" />
-            <meta property="og:site_name" content="Đèn LED KingLED" />
-            <meta property="article:publisher" content="https://www.facebook.com/kingled.info/" />
-            <meta property="article:modified_time" content="2024-07-10T09:35:40+00:00" />
-            <meta property="og:image"
-                content="/assets/wp-content/uploads/2023/08/ong-bo-chieu-roi-12w-vo-trang-56.jpg" />
-            <meta property="og:image:width" content="1500" />
-            <meta property="og:image:height" content="1000" />
-            <meta property="og:image:type" content="image/jpeg" />
-            <meta name="twitter:card" content="summary_large_image" />
             <script type="application/ld+json" class="yoast-schema-graph">
                 {"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://kingledvietnam.com/","url":"https://kingledvietnam.com/","name":"Đèn LED KingLED, Nhà Phân Phối Đèn KingLED Chính hãng","isPartOf":{"@id":"https://kingledvietnam.com/#website"},"about":{"@id":"https://kingledvietnam.com/#organization"},"primaryImageOfPage":{"@id":"https://kingledvietnam.com/#primaryimage"},"image":{"@id":"https://kingledvietnam.com/#primaryimage"},"thumbnailUrl":"/assets/wp-content/uploads/2023/08/ong-bo-chieu-roi-12w-vo-trang-56.jpg","datePublished":"2018-04-16T03:17:50+00:00","dateModified":"2024-07-10T09:35:40+00:00","description":"KingLED sự lựa chọn hàng đầu của các công trình. Đèn kingled có sản phẩm đèn led chất lượng hàng đầu như: đèn led âm trần, đèn tuýp, đèn rọi ray,...","breadcrumb":{"@id":"https://kingledvietnam.com/#breadcrumb"},"inLanguage":"vi","potentialAction":[{"@type":"ReadAction","target":["https://kingledvietnam.com/"]}]},{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/#primaryimage","url":"/assets/wp-content/uploads/2023/08/ong-bo-chieu-roi-12w-vo-trang-56.jpg","contentUrl":"/assets/wp-content/uploads/2023/08/ong-bo-chieu-roi-12w-vo-trang-56.jpg","width":1500,"height":1000,"caption":"ong bo chieu roi 12w vo trang 56"},{"@type":"BreadcrumbList","@id":"https://kingledvietnam.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://kingledvietnam.com/#website","url":"https://kingledvietnam.com/","name":"Đèn LED KingLED","description":"Nhà Phân Phối Đèn KingLED Việt Nam 2024","publisher":{"@id":"https://kingledvietnam.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kingledvietnam.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"vi"},{"@type":"Organization","@id":"https://kingledvietnam.com/#organization","name":"Công ty thiết bị điện và chiếu sáng Vinalight","url":"https://kingledvietnam.com/","logo":{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/#/schema/logo/image/","url":"/assets/wp-content/uploads/2023/10/logo.jpg","contentUrl":"/assets/wp-content/uploads/2023/10/logo.jpg","width":708,"height":484,"caption":"Công ty thiết bị điện và chiếu sáng Vinalight"},"image":{"@id":"https://kingledvietnam.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/kingled.info/","https://profile.hatena.ne.jp/denkingled/"]}]}
             </script>
@@ -1073,7 +1034,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                                             <div class="icon">
                                                                 <div class="icon-inner">
                                                                     <img decoding="async" width="100" height="100"
-                                                                        src="{{ Storage::url($category->image) }}"
+                                                                        src="{{ Storage::url($category->icon) }}"
                                                                         class="attachment-medium size-medium"
                                                                         alt="{{ $category->name }}" />
                                                                 </div>

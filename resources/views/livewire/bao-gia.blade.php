@@ -5,22 +5,6 @@
         @endphp
 
 		<head>
-			<meta charset="UTF-8" />
-			<meta name="viewport"
-				content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-			<meta name="keywords"
-				content="đèn kingled, đèn kingled việt nam, đèn led kingled chính hãng, đèn led KingLED, đèn led KingLED vietnam, KingLED việt nam, cửa hàng đèn led KingLED, bóng đèn led KingLED tại hà nội, đại lý đèn led KingLED, mua đèn led KingLED, den kingled, den kingled viet nam, den led kingled" />
-			<meta name="robots" content="index, follow" />
-			<meta name="author" content="kingledvietnam" />
-			<meta name="copyright" content="kingledvietnam" />
-			<meta name='revisit-after' content='1 days' />
-			<meta name="geo.placename" content="Hanoi, Hoàn Kiếm, Hanoi, Vietnam" />
-			<meta name="geo.region" content="VN-Hanoi" />
-			<meta name="distribution" content="global" />
-			<meta name='dmca-site-verification'
-				content='RkcxbFJweEs3U3lkNUEydnVaVEhhZ3lieXZYU3VSelM0eEYxUjZDR2U3dz01' />
-			<link rel="profile" href="https://gmpg.org/xfn/11" />
-			<link rel="pingback" href="https://kingledvietnam.com/xmlrpc.php" />
 
 			<script>
 				(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);
@@ -32,26 +16,7 @@
 					top: 2px;
 				}
 			</style>
-			<meta name='robots'
-				content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-			<meta name="viewport" content="width=device-width, initial-scale=1" />
-			<!-- This site is optimized with the Yoast SEO Premium plugin v23.4 (Yoast SEO v23.4) - https://yoast.com/wordpress/plugins/seo/ -->
-			<title>Bảng báo giá đèn led KingLED 2019 - Catalogue Kingled 2019</title>
-			<meta name="description"
-				content="Bảng báo giá đèn led kingled 2019, bảng giá đèn led kingled, đèn led âm trần kingled, bóng đèn led bulb, bảng giá bóng đèn led kingled." />
-			<link rel="canonical" href="https://kingledvietnam.com/bao-gia/" />
-			<meta property="og:locale" content="vi_VN" />
-			<meta property="og:type" content="article" />
-			<meta property="og:title" content="Báo Giá" />
-			<meta property="og:description"
-				content="Bảng báo giá đèn led kingled 2019, bảng giá đèn led kingled, đèn led âm trần kingled, bóng đèn led bulb, bảng giá bóng đèn led kingled." />
-			<meta property="og:url" content="https://kingledvietnam.com/bao-gia/" />
-			<meta property="og:site_name" content="Đèn LED KingLED" />
-			<meta property="article:publisher" content="https://www.facebook.com/kingled.info/" />
-			<meta property="article:modified_time" content="2023-11-13T03:02:21+00:00" />
-			<meta name="twitter:card" content="summary_large_image" />
-			<meta name="twitter:label1" content="Ước tính thời gian đọc" />
-			<meta name="twitter:data1" content="1 phút" />
+			<title>Bảng báo giá </title>
 			<script type="application/ld+json" class="yoast-schema-graph">
 				{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://kingledvietnam.com/bao-gia/","url":"https://kingledvietnam.com/bao-gia/","name":"Bảng báo giá đèn led KingLED 2019 - Catalogue Kingled 2019","isPartOf":{"@id":"https://kingledvietnam.com/#website"},"datePublished":"2018-04-16T09:08:02+00:00","dateModified":"2023-11-13T03:02:21+00:00","description":"Bảng báo giá đèn led kingled 2019, bảng giá đèn led kingled, đèn led âm trần kingled, bóng đèn led bulb, bảng giá bóng đèn led kingled.","breadcrumb":{"@id":"https://kingledvietnam.com/bao-gia/#breadcrumb"},"inLanguage":"vi","potentialAction":[{"@type":"ReadAction","target":["https://kingledvietnam.com/bao-gia/"]}]},{"@type":"BreadcrumbList","@id":"https://kingledvietnam.com/bao-gia/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kingledvietnam.com/"},{"@type":"ListItem","position":2,"name":"Báo Giá"}]},{"@type":"WebSite","@id":"https://kingledvietnam.com/#website","url":"https://kingledvietnam.com/","name":"Đèn LED KingLED","description":"Nhà Phân Phối Đèn KingLED Việt Nam 2024","publisher":{"@id":"https://kingledvietnam.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kingledvietnam.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"vi"},{"@type":"Organization","@id":"https://kingledvietnam.com/#organization","name":"Công ty thiết bị điện và chiếu sáng Vinalight","url":"https://kingledvietnam.com/","logo":{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/#/schema/logo/image/","url":"/assets/wp-content/uploads/2023/10/logo.jpg","contentUrl":"/assets/wp-content/uploads/2023/10/logo.jpg","width":708,"height":484,"caption":"Công ty thiết bị điện và chiếu sáng Vinalight"},"image":{"@id":"https://kingledvietnam.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/kingled.info/","https://profile.hatena.ne.jp/denkingled/"]}]}
 			</script>

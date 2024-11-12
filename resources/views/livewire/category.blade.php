@@ -1,75 +1,11 @@
 <div>
     <div>
-
-        <!DOCTYPE html>
-        <html lang="vi" class="loading-site no-js">
+        @php
+        $settings = App\Models\Setting::first(); // Truy vấn model Settings
+        @endphp
 
         <head>
-            <meta charset="UTF-8" />
-            <meta name="viewport"
-                content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-            <meta name="keywords"
-                content="đèn kingled, đèn kingled việt nam, đèn led kingled chính hãng, đèn led KingLED, đèn led KingLED vietnam, KingLED việt nam, cửa hàng đèn led KingLED, bóng đèn led KingLED tại hà nội, đại lý đèn led KingLED, mua đèn led KingLED, den kingled, den kingled viet nam, den led kingled" />
-            <meta name="robots" content="index, follow" />
-            <meta name="author" content="kingledvietnam" />
-            <meta name="copyright" content="kingledvietnam" />
-            <meta name='revisit-after' content='1 days' />
-            <meta name="geo.placename" content="Hanoi, Hoàn Kiếm, Hanoi, Vietnam" />
-            <meta name="geo.region" content="VN-Hanoi" />
-            <meta name="distribution" content="global" />
-            <meta name='dmca-site-verification'
-                content='RkcxbFJweEs3U3lkNUEydnVaVEhhZ3lieXZYU3VSelM0eEYxUjZDR2U3dz01' />
-            <link rel="profile" href="https://gmpg.org/xfn/11" />
-            <link rel="pingback" href="https://kingledvietnam.com/xmlrpc.php" />
-
-            <script>
-                (function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);
-            </script>
-            <style>
-                #wpadminbar #wp-admin-bar-p404_free_top_button .ab-icon:before {
-                    content: "\f103";
-                    color: red;
-                    top: 2px;
-                }
-            </style>
-            <meta name='robots'
-                content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <!-- This site is optimized with the Yoast SEO Premium plugin v23.4 (Yoast SEO v23.4) - https://yoast.com/wordpress/plugins/seo/ -->
-            <title>Đèn LED Búp KingLED, Bóng LED Bulb KingLED</title>
-            <meta name="description"
-                content="Đèn led búp kingled hay gọi là bóng led Bulb KingLED được sản xuất theo công nghệ DOB siêu bền, siêu sáng, giá thành rẻ, bảo hành trong 24 tháng." />
-            <link rel="canonical" href="https://kingledvietnam.com/den-led-bup-kingled/" />
-            <meta property="og:locale" content="vi_VN" />
-            <meta property="og:type" content="article" />
-            <meta property="og:title" content="ĐÈN LED BÚP KINGLED" />
-            <meta property="og:description"
-                content="Đèn led búp kingled hay gọi là bóng led Bulb KingLED được sản xuất theo công nghệ DOB siêu bền, siêu sáng, giá thành rẻ, bảo hành trong 24 tháng." />
-            <meta property="og:url" content="https://kingledvietnam.com/den-led-bup-kingled/" />
-            <meta property="og:site_name" content="Đèn LED KingLED" />
-            <meta property="og:image" content="/assets/wp-content/uploads/2023/10/den-led-bulb-dob.jpg" />
-            <meta name="twitter:card" content="summary_large_image" />
-            <script type="application/ld+json" class="yoast-schema-graph">
-                {"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"https://kingledvietnam.com/den-led-bup-kingled/","url":"https://kingledvietnam.com/den-led-bup-kingled/","name":"Đèn LED Búp KingLED, Bóng LED Bulb KingLED","isPartOf":{"@id":"https://kingledvietnam.com/#website"},"primaryImageOfPage":{"@id":"https://kingledvietnam.com/den-led-bup-kingled/#primaryimage"},"image":{"@id":"https://kingledvietnam.com/den-led-bup-kingled/#primaryimage"},"thumbnailUrl":"/assets/wp-content/uploads/2019/07/bulb-led-3w-dob.jpg","description":"Đèn led búp kingled hay gọi là bóng led Bulb KingLED được sản xuất theo công nghệ DOB siêu bền, siêu sáng, giá thành rẻ, bảo hành trong 24 tháng.","breadcrumb":{"@id":"https://kingledvietnam.com/den-led-bup-kingled/#breadcrumb"},"inLanguage":"vi"},{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/den-led-bup-kingled/#primaryimage","url":"/assets/wp-content/uploads/2019/07/bulb-led-3w-dob.jpg","contentUrl":"/assets/wp-content/uploads/2019/07/bulb-led-3w-dob.jpg","width":1500,"height":1000,"caption":"bulb led 3w dob"},{"@type":"BreadcrumbList","@id":"https://kingledvietnam.com/den-led-bup-kingled/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kingledvietnam.com/"},{"@type":"ListItem","position":2,"name":"Cửa hàng","item":"https://kingledvietnam.com/cua-hang/"},{"@type":"ListItem","position":3,"name":"ĐÈN LED BÚP KINGLED"}]},{"@type":"WebSite","@id":"https://kingledvietnam.com/#website","url":"https://kingledvietnam.com/","name":"Đèn LED KingLED","description":"Nhà Phân Phối Đèn KingLED Việt Nam 2024","publisher":{"@id":"https://kingledvietnam.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kingledvietnam.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"vi"},{"@type":"Organization","@id":"https://kingledvietnam.com/#organization","name":"Công ty thiết bị điện và chiếu sáng Vinalight","url":"https://kingledvietnam.com/","logo":{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/#/schema/logo/image/","url":"/assets/wp-content/uploads/2023/10/logo.jpg","contentUrl":"/assets/wp-content/uploads/2023/10/logo.jpg","width":708,"height":484,"caption":"Công ty thiết bị điện và chiếu sáng Vinalight"},"image":{"@id":"https://kingledvietnam.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/kingled.info/","https://profile.hatena.ne.jp/denkingled/"]}]}
-            </script>
-            <!-- / Yoast SEO Premium plugin. -->
-
-
-            <link rel='dns-prefetch' href='//use.fontawesome.com' />
-            <link rel='prefetch'
-                href='/assets/wp-content/themes/flatsome/assets/js/flatsome.js?ver=8e60d746741250b4dd4e' />
-            <link rel='prefetch' href='/assets/wp-content/themes/flatsome/assets/js/chunk.slider.js?ver=3.19.6' />
-            <link rel='prefetch' href='/assets/wp-content/themes/flatsome/assets/js/chunk.popups.js?ver=3.19.6' />
-            <link rel='prefetch' href='/assets/wp-content/themes/flatsome/assets/js/chunk.tooltips.js?ver=3.19.6' />
-            <link rel='prefetch'
-                href='/assets/wp-content/themes/flatsome/assets/js/woocommerce.js?ver=dd6035ce106022a74757' />
-            <link rel="alternate" type="application/rss+xml" title="Dòng thông tin Đèn LED KingLED &raquo;"
-                href="https://kingledvietnam.com/feed/" />
-            <link rel="alternate" type="application/rss+xml" title="Đèn LED KingLED &raquo; Dòng bình luận"
-                href="https://kingledvietnam.com/comments/feed/" />
-            <link rel="alternate" type="application/rss+xml"
-                title="Nguồn cấp Đèn LED KingLED &raquo; ĐÈN LED BÚP KINGLED Danh mục"
-                href="https://kingledvietnam.com/den-led-bup-kingled/feed/" />
+            <title>{{ $category->name }} | {{ $settings->web_name }}</title>
             <script type="text/javascript">
                 /* <![CDATA[ */
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/kingledvietnam.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=c22ab06377899eb7bf167f0522305700"}};
@@ -976,12 +912,12 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                 <div class="shop-page-title category-page-title page-title ">
                     <div class="page-title-inner flex-row  medium-flex-wrap container">
                         <div class="flex-col flex-grow medium-text-center">
-                            <h1 class="shop-page-title is-xlarge">ĐÈN LED BÚP KINGLED</h1>
-                            <div class="is-large">
-                                <nav class="woocommerce-breadcrumb breadcrumbs uppercase"><a
-                                        href="https://kingledvietnam.com">Trang chủ</a> <span
-                                        class="divider">&#47;</span> ĐÈN LED BÚP KINGLED</nav>
-                            </div>
+                                <h1 class="shop-page-title is-xlarge">{{ $category->name }}</h1>
+                                <div class="is-large">
+                                    <nav class="woocommerce-breadcrumb breadcrumbs uppercase"><a
+                                            href="/">Trang chủ</a> <span
+                                            class="divider">&#47;</span> {{ $category->name }}</nav>
+                                </div>
                             <div class="category-filtering category-filter-row show-for-medium">
                                 <a href="#" data-open="#shop-sidebar" data-visible-after="true" data-pos="left"
                                     class="filter-button uppercase plain">
@@ -993,8 +929,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                             </div>
                         </div>
                         <div class="flex-col medium-text-center">
-                            <p class="woocommerce-result-count hide-for-medium">
-                                Hiển thị tất cả 14 kết quả</p>
+                                <p class="woocommerce-result-count hide-for-medium">
+                                    Hiển thị tất cả {{ $products->count() }} kết quả</p>
                             <form class="woocommerce-ordering" method="get">
                                 <select name="orderby" class="orderby" aria-label="Đơn hàng của cửa hàng">
                                     <option value="popularity">Thứ tự theo mức độ phổ biến</option>
@@ -1073,113 +1009,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 
 
                                 <div class="term-description">
-                                    <p><span style="font-family: avo;color: #000000"><span style="color: #008000"><a
-                                                    style="color: #008000"
-                                                    href="https://kingledvietnam.com/den-led-bup-kingled/"><strong>Đèn
-                                                        LED Búp KingLED</strong></a></span> hiện nay được sử dụng rộng
-                                            rãi để chiếu sáng trong các căn hộ, quán ăn hoặc các sự kiện lớn. Ngoài ra,
-                                            nó còn là một sản phẩm trang trí tuyệt đẹp cho không gian của bạn. Bạn có
-                                            biết đèn LED Búp là gì?</span></p>
-                                    <p><span style="color: #000000"><img class="aligncenter wp-image-6241 size-full"
-                                                src="/assets/wp-content/uploads/2023/10/den-led-bulb-dob.jpg"
-                                                alt="đèn led búp kingled" width="2000" height="877" /></span></p>
-                                    <p><span style="font-family: avo;color: #000000">Đèn LED Búp là một loại đèn được
-                                            thiết kế theo hình dạng trụ đứng hoặc dạng búp, giống với bóng sợi đốt
-                                            truyền thống. Như các loại đèn LED khác, đèn LED Búp sử dụng công nghệ LED
-                                            để chiếu sáng và trang trí.</span></p>
-                                    <p><span style="font-family: avo;color: #000000">Sản phẩm <strong>đèn LED Búp
-                                                Kingled</strong> có những đặc điểm nổi trội, khẳng định sự chất lượng và
-                                            vị trí hàng đầu trên thị trường, bao gồm:</span></p>
-                                    <p><span style="font-family: avo;color: #000000">&#8211; Sử dụng chip LED SMD
-                                            Samsung thế hệ mới nhất, giúp tăng tuổi thọ thiết bị và tiết kiệm
-                                            điện.</span></p>
-                                    <p><span style="font-family: avo;color: #000000">&#8211; Hệ số hoàn màu CRI &gt; 86
-                                            cao nhất trên thị trường, mang lại ánh sáng trung thực, tự nhiên.</span></p>
-                                    <p><span style="font-family: avo;color: #000000">&#8211; Có nhiều công suất và hiệu
-                                            suất phát sáng lớn, khách hàng có thể lựa chọn loại công suất phù hợp với
-                                            mục đích sử dụng.</span></p>
-                                    <p><span style="font-family: avo;color: #000000">&#8211; Có <strong>đèn LED Búp đổi
-                                                màu</strong>, phù hợp với mọi không gian sự kiện.</span></p>
-                                    <p><span style="font-family: avo;color: #000000">&#8211; An toàn cho người sử dụng
-                                            và thân thiện với môi trường.</span></p>
-                                    <p><span style="font-family: avo;color: #000000">&#8211; Ứng dụng rộng rãi trong
-                                            chiếu sáng và trang trí nội thất, ngoại thất.</span></p>
-                                    <p><span style="font-family: avo;color: #000000">&#8211; Chất lượng cao, bền bỉ
-                                            nhưng giá thành vô cùng hợp lý.</span></p>
-                                    <p><span style="font-family: avo;color: #000000">&#8211; Bảo hành đổi mới 1:1 trong
-                                            vòng 24 tháng cho bất kỳ lỗi nào từ nhà sản xuất.</span></p>
-                                    <h2><span style="font-family: avo;color: #000000">Các loại đèn led Búp Kingled phổ
-                                            biến nhất là:</span></h2>
-                                    <ol>
-                                        <li>
-                                            <h3><span style="font-family: avo;color: #000000">Đèn led Búp 50w:</span>
-                                            </h3>
-                                        </li>
-                                    </ol>
-                                    <p><span style="font-family: avo;color: #000000">Đèn led Búp 50w được ứng dụng rộng
-                                            rãi để nâng cao năng suất trong nông nghiệp và chiếu sáng vườn thanh long.
-                                            Đây là sản phẩm được khẳng định ưu thế của mình trong các công trình lớn cần
-                                            chiếu sáng, chiếu sáng sân vườn, công trình, nhà xưởng và nâng cao năng suất
-                                            nông nghiệp.</span></p>
-                                    <ol start="2">
-                                        <li>
-                                            <h3><span style="font-family: avo;color: #000000">Đèn led Búp 40w:</span>
-                                            </h3>
-                                        </li>
-                                    </ol>
-                                    <p><span style="font-family: avo;color: #000000">Đèn led Búp 40w thường được lựa
-                                            chọn để thay thế cho các loại đèn dây tóc hay đèn halogen truyền thống. Sản
-                                            phẩm này mang lại nguồn sáng ưu việt, hiệu suất hoạt động tốt và tiết kiệm
-                                            điện năng. Led Búp 40W của Kingled là sản phẩm bán chạy nhất thị trường và
-                                            được sử dụng rộng rãi trong không gian nội, ngoại thất rộng lớn cần nhiều
-                                            ánh sáng.</span></p>
-                                    <ol start="3">
-                                        <li>
-                                            <h3><span style="font-family: avo;color: #000000">Đèn led Búp 30w:</span>
-                                            </h3>
-                                        </li>
-                                    </ol>
-                                    <p><span style="font-family: avo;color: #000000">Đèn led Búp 30w là thiết bị không
-                                            thể thiếu trong hệ thống đèn chiếu sáng gia đình, các công trình F&amp;B hay
-                                            các không gian mở khác.</span></p>
-                                    <ol start="4">
-                                        <li>
-                                            <h3><span style="font-family: avo;color: #000000">Đèn led Búp 20w:</span>
-                                            </h3>
-                                        </li>
-                                    </ol>
-                                    <p><span style="font-family: avo;color: #000000">Đèn led Búp 20w là sản phẩm đèn led
-                                            Búp tiết kiệm năng lượng và phù hợp để sử dụng trong các không gian nhỏ như
-                                            căn hộ, phòng khách, phòng ngủ và phòng tắm.</span></p>
-                                    <h3><span style="font-family: avo;color: #000000">Đèn led Búp 15w:</span></h3>
-                                    <p><span style="font-family: avo;color: #000000"> là sản phẩm đèn Búp phổ biến được
-                                            sử dụng rộng rãi trong chiếu sáng và trang trí nội &#8211; ngoại thất, với
-                                            chỉ số quang thông 1267/1497 Lm và hai màu ánh sáng trắng và vàng. Sản phẩm
-                                            này có giá thành cực kỳ hợp lý, chỉ 85.000 đồng, với chất lượng cao và tuổi
-                                            thọ dài.</span></p>
-                                    <h3><span style="font-family: avo;color: #000000">Đèn led Búp 9w:</span></h3>
-                                    <p><span style="font-family: avo;color: #000000">Mang lại cho bạn một trải nghiệm
-                                            ánh sáng mới lạ, với khả năng thay đổi màu sắc theo tâm trạng, sự kiện hoặc
-                                            sở thích. Đèn led Búp 9w Kingled tích hợp ba màu ánh sáng khác nhau: ánh
-                                            sáng vàng (3000K), ánh sáng trung tính (4000k) và ánh sáng trắng (6500k).
-                                            Đèn sẽ chuyển đổi màu ánh sáng ngay sau khi bật hoặc tắt công tắc
-                                            đèn.</span></p>
-                                    <p><span style="font-family: avo;color: #000000">Nếu bạn đang tìm kiếm sản phẩm đèn
-                                            led nhỏ hơn, thì Đèn led Búp 3w của Kingled sẽ là lựa chọn hoàn hảo cho
-                                            những không gian sân vườn nhỏ. Sản phẩm này có khả năng tạo điểm nhấn cho
-                                            không gian và mang lại sự ấm áp.</span></p>
-                                    <p><span style="font-family: avo;color: #000000">Bên cạnh đó, Kingled hỗ trợ giao
-                                            hàng toàn quốc và có chính sách bảo hành điện tử hoặc tại nhà, đổi mới 100%
-                                            trong vòng 2 năm. Các sản phẩm <strong>đèn led tròn Kingled</strong> sở hữu
-                                            công nghệ sản xuất cao cấp, đảm bảo chất lượng hàng đầu và mang lại giải
-                                            pháp chiếu sáng tốt nhất cho khách hàng.</span></p>
-                                    <p><span style="font-family: avo;color: #000000">Xin chào, hiện nay sản phẩm <a
-                                                style="color: #000000" href="https://kingledvietnam.com/"><strong>đèn
-                                                    LED Kingled</strong></a> đã được phân phối trên phạm vi toàn quốc
-                                            thông qua hệ thống đại lý tại 63 tỉnh thành. Nếu quý khách hàng có nhu cầu
-                                            mua đèn LED xin vui lòng tham khảo và tìm địa chỉ gần nhất của chúng tôi.
-                                            Chúng tôi cam kết cung cấp sản phẩm chất lượng và dịch vụ tốt nhất cho quý
-                                            khách hàng.</span></p>
+                                {!! $category->description !!}    
+                                
                                 </div>
                             </div><!-- shop container -->
                         </div>
@@ -1896,8 +1727,5 @@ var wc_password_strength_meter_params = {"min_password_strength":"3","stop_check
 
         </body>
 
-        </html>
-
-        <!-- Page cached by LiteSpeed Cache 6.5.1 on 2024-11-06 22:41:15 -->
     </div>
 </div>

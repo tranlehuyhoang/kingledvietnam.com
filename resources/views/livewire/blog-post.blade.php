@@ -6,23 +6,7 @@
 
 
         <head>
-            <meta charset="UTF-8" />
-            <meta name="viewport"
-                content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-            <meta name="keywords"
-                content="đèn kingled, đèn kingled việt nam, đèn led kingled chính hãng, đèn led KingLED, đèn led KingLED vietnam, KingLED việt nam, cửa hàng đèn led KingLED, bóng đèn led KingLED tại hà nội, đại lý đèn led KingLED, mua đèn led KingLED, den kingled, den kingled viet nam, den led kingled" />
-            <meta name="robots" content="index, follow" />
-            <meta name="author" content="kingledvietnam" />
-            <meta name="copyright" content="kingledvietnam" />
-            <meta name='revisit-after' content='1 days' />
-            <meta name="geo.placename" content="Hanoi, Hoàn Kiếm, Hanoi, Vietnam" />
-            <meta name="geo.region" content="VN-Hanoi" />
-            <meta name="distribution" content="global" />
-            <meta name='dmca-site-verification'
-                content='RkcxbFJweEs3U3lkNUEydnVaVEhhZ3lieXZYU3VSelM0eEYxUjZDR2U3dz01' />
-            <link rel="profile" href="https://gmpg.org/xfn/11" />
-            <link rel="pingback" href="https://kingledvietnam.com/xmlrpc.php" />
-
+            <title>{{ $post->title }} | {{ $settings->web_name}}</title>
             <script>
                 (function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);
             </script>
@@ -33,32 +17,7 @@
                     top: 2px;
                 }
             </style>
-            <meta name='robots'
-                content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <!-- This site is optimized with the Yoast SEO Premium plugin v23.4 (Yoast SEO v23.4) - https://yoast.com/wordpress/plugins/seo/ -->
             <title>{{ $post->title }} | {{ $settings->web_name}}</title>
-            <meta name="description"
-                content="Thông báo lịch nghỉ tết 2024 của cty CP Thiết bị điện và Chiếu sáng Vinalight để quý khách hàng nắm bắt được thời gian nghỉ và thời gian hoạt động trở lại." />
-            <link rel="canonical"
-                href="https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/" />
-            <meta property="og:locale" content="vi_VN" />
-            <meta property="og:type" content="article" />
-            <meta property="og:title" content="{{ $post->title }} | {{ $settings->web_name}}" />
-            <meta property="og:description"
-                content="Thông báo lịch nghỉ tết 2024 của cty CP Thiết bị điện và Chiếu sáng Vinalight để quý khách hàng nắm bắt được thời gian nghỉ và thời gian hoạt động trở lại." />
-            <meta property="og:url"
-                content="https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/" />
-            <meta property="og:site_name" content="Đèn LED KingLED" />
-            <meta property="article:publisher" content="https://www.facebook.com/kingled.info/" />
-            <meta property="article:published_time" content="2023-12-29T08:17:35+00:00" />
-            <meta property="og:image" content="/assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024.jpg" />
-            <meta name="author" content="@dmin" />
-            <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:label1" content="Được viết bởi" />
-            <meta name="twitter:data1" content="@dmin" />
-            <meta name="twitter:label2" content="Ước tính thời gian đọc" />
-            <meta name="twitter:data2" content="2 phút" />
             <script type="application/ld+json" class="yoast-schema-graph">
                 {"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#article","isPartOf":{"@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/"},"author":{"name":"@dmin","@id":"https://kingledvietnam.com/#/schema/person/4cdc3f880851195b4efcf53ae44b2deb"},"headline":"{{ $post->title }} | {{ $settings->web_name}}","datePublished":"2023-12-29T08:17:35+00:00","dateModified":"2023-12-29T08:17:35+00:00","mainEntityOfPage":{"@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/"},"wordCount":265,"commentCount":0,"publisher":{"@id":"https://kingledvietnam.com/#organization"},"image":{"@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#primaryimage"},"thumbnailUrl":"/assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024.jpg","articleSection":["Tin Tức"],"inLanguage":"vi","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#respond"]}]},{"@type":"WebPage","@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/","url":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/","name":"{{ $post->title }} | {{ $settings->web_name}}","isPartOf":{"@id":"https://kingledvietnam.com/#website"},"primaryImageOfPage":{"@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#primaryimage"},"image":{"@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#primaryimage"},"thumbnailUrl":"/assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024.jpg","datePublished":"2023-12-29T08:17:35+00:00","dateModified":"2023-12-29T08:17:35+00:00","description":"Thông báo lịch nghỉ tết 2024 của cty CP Thiết bị điện và Chiếu sáng Vinalight để quý khách hàng nắm bắt được thời gian nghỉ và thời gian hoạt động trở lại.","breadcrumb":{"@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#breadcrumb"},"inLanguage":"vi","potentialAction":[{"@type":"ReadAction","target":["https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/"]}]},{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#primaryimage","url":"/assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024.jpg","contentUrl":"/assets/wp-content/uploads/2023/12/lich-ngi-tet-duong-2024.jpg","width":1000,"height":1000,"caption":"lich ngi tet duong"},{"@type":"BreadcrumbList","@id":"https://kingledvietnam.com/kingledvietnam-thong-bao-lich-nghi-tet-duong-2024/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://kingledvietnam.com/"},{"@type":"ListItem","position":2,"name":"{{ $post->title }} | {{ $settings->web_name}}"}]},{"@type":"WebSite","@id":"https://kingledvietnam.com/#website","url":"https://kingledvietnam.com/","name":"Đèn LED KingLED","description":"Nhà Phân Phối Đèn KingLED Việt Nam 2024","publisher":{"@id":"https://kingledvietnam.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://kingledvietnam.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"vi"},{"@type":"Organization","@id":"https://kingledvietnam.com/#organization","name":"Công ty thiết bị điện và chiếu sáng Vinalight","url":"https://kingledvietnam.com/","logo":{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/#/schema/logo/image/","url":"/assets/wp-content/uploads/2023/10/logo.jpg","contentUrl":"/assets/wp-content/uploads/2023/10/logo.jpg","width":708,"height":484,"caption":"Công ty thiết bị điện và chiếu sáng Vinalight"},"image":{"@id":"https://kingledvietnam.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/kingled.info/","https://profile.hatena.ne.jp/denkingled/"]},{"@type":"Person","@id":"https://kingledvietnam.com/#/schema/person/4cdc3f880851195b4efcf53ae44b2deb","name":"@dmin","image":{"@type":"ImageObject","inLanguage":"vi","@id":"https://kingledvietnam.com/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/4b7e02ce66abbdcaa46818d9845fde43?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/4b7e02ce66abbdcaa46818d9845fde43?s=96&d=mm&r=g","caption":"@dmin"}}]}
             </script>

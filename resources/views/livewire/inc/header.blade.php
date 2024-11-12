@@ -274,7 +274,7 @@
                                                                 <div class="icon">
                                                                     <div class="icon-inner">
                                                                         <img width="100" height="100"
-                                                                             src="{{ Storage::url($category->image) }}"
+                                                                             src="{{ Storage::url($category->icon) }}"
                                                                              class="attachment-medium size-medium"
                                                                              alt="{{ $category->name }}"
                                                                              decoding="async" />
