@@ -9,6 +9,7 @@ use App\Models\Subcategory as SubcategoryModel; // Assuming Subcategory is a sep
 class Subcategory extends Component
 {
     public $slug;
+    public $subcategory;
 
     public function mount($slug)
     {
@@ -18,9 +19,9 @@ class Subcategory extends Component
     public function render()
     {
         // Retrieve the subcategory by slug and fetch its products
-        $subcategory = SubcategoryModel::where('slug', $this->slug)->first();
+        $this->subcategory = SubcategoryModel::where('slug', $this->slug)->first();
         
-        $products = $subcategory ? $subcategory->products : collect();
+        $products = $this->subcategory ? $this->subcategory->products : collect();
 
         return view('livewire.subcategory', ['products' => $products]);
     }

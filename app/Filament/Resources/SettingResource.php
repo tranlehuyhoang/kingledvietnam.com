@@ -102,6 +102,7 @@ class SettingResource extends Resource
                 Forms\Components\FileUpload::make('web_icon')
                     ->label('Icon Web')
                     ->placeholder('Upload  icon'),
+           
                 Forms\Components\FileUpload::make('banner_web')
                     ->label('Banner Web')
                     ->placeholder('Upload Banner Web'),

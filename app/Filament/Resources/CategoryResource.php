@@ -95,8 +95,8 @@ class CategoryResource extends Resource
                     ->label('Tên Danh Mục') // Đổi nhãn sang tiếng Việt
                     ->searchable(),
 
-                ImageColumn::make('banner')
-                    ->label('Banner') // Đổi nhãn sang tiếng Việt
+                ImageColumn::make('icon')
+                    ->label('Ảnh') // Đổi nhãn sang tiếng Việt
                     ->circular(),
 
                 TextColumn::make('slug')
@@ -109,10 +109,7 @@ class CategoryResource extends Resource
                         return $record->product_cat()->count();
                     })
                     ->sortable(),
-                    TextColumn::make('description')
-                    ->label('Mô tả') // Đổi nhãn sang tiếng Việt
-                    ->searchable(),
-
+       
                 TextColumn::make('created_at')
                     ->label('Ngày Tạo') // Đổi nhãn sang tiếng Việt
                     ->dateTime()

@@ -34,11 +34,6 @@ class SlideResource extends Resource
                         ->label('Hình Ảnh') // Đổi nhãn sang tiếng Việt
                         ->helperText('Tải lên hình ảnh sản phẩm hoặc tài liệu liên quan. Chọn một hình ảnh có định dạng hợp lệ (jpg, png, gif).'), // Mô tả dễ hiểu
         
-                    Forms\Components\TextInput::make('link') // Thêm trường link
-                        ->required() // Nếu cần, có thể bỏ đi nếu không bắt buộc
-                        ->label('Liên Kết') // Đổi nhãn sang tiếng Việt
-                        ->helperText('Nhập liên kết đến sản phẩm hoặc trang liên quan.') // Mô tả dễ hiểu
-                        ->url(), // Kiểm tra định dạng URL
                 ])
         ]);
     }
