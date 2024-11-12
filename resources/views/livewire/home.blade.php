@@ -1013,7 +1013,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 
                                     <div id="text-4102390985" class="text">
 
-                                        <h1><span style="color: #008000;"><strong>Danh mục <a style="color: #008000;"
+                                        <h1><span style="color: #ff3131;"><strong>Danh mục <a style="color: #ff3131;"
                                                         href="https://kingledvietnam.com/">Sản phẩm</a></strong></span>
                                         </h1>
 

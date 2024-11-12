@@ -95,7 +95,7 @@
                                         action="/tim-kiem">
                                         <div class="flex-row relative">
                                             <div class="flex-col search-form-categories">
-                                                <select class="search_categories resize-select mb-0" name="product_cat">
+                                                <select class="search_categories resize-select mb-0" name="product_cat" style="color: #ff3131">
                                                     <option value="" selected='selected'>Tất cả</option>
                                                     @foreach ($categories as $category)
                                                             <option value="{{ $category->slug }}">{{ strtoupper($category->name) }}</option>

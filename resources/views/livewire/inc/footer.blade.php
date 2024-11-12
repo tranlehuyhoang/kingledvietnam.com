@@ -28,8 +28,18 @@
                     <div class="thong-tin-a">
                         <p><b>Thông Tin Liên Hệ</b></p>
                         <ul>
-
-                            <li><a><img style="width: 19px; float: left; margin-right: 7px; margin-left: -11px;" " src="
+                            <li><a> <img style="width: 19px; float: left; margin-right: 7px; margin-left: -11px;" src="/assets/wp-content/uploads/2019/06/home_icon.png">
+                                Văn phòng: Tầng 3, Số 23, Đường Yumin, Khu Yumin, TT. Xiaolan, Tp Trung Sơn, Quảng Đông, Trung Quốc
+                            </a></li>
+                            <li><a> <img style="width: 19px; float: left; margin-right: 7px; margin-left: -11px;" src="/assets/wp-content/uploads/2019/06/home_icon.png">
+                                Nhà máy 1: Số 26, Đường Guangan, Khu Lianfeng, TT. Xiaolan, Tp Trung Sơn, Quảng Đông, Trung Quốc <br>
+                            </a></li>
+                            <li><a> <img style="width: 19px; float: left; margin-right: 7px; margin-left: -11px;" src="/assets/wp-content/uploads/2019/06/home_icon.png">
+                                Nhà máy 2: Số 26, Đường Guangan, Khu Lianfeng, TT. Xiaolan, Tp Trung Sơn, Quảng Đông, Trung Quốc
+                                <br>
+                            </a></li>
+                          
+                            <li><a><img style="width: 19px; float: left; margin-right: 7px; margin-left: -11px;" src="
                                         /assets/wp-content/uploads/2019/06/icon-dia-chi.png" />
                                     {{$settings->address}}</a></li>
                             <li><a><img style="width: 19px; float: left; margin-right: 7px; margin-left: -11px;"
