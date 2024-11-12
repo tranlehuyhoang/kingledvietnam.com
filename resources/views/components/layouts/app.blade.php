@@ -89,6 +89,12 @@ li.html input {
     margin-right: 15px;
     padding: 4px 10px 4px 15px;
 }
+span.widget-title.shop-sidebar, span.widget-title {
+    background: #737373;
+    color: white;
+    padding: 14px 20px;
+    display: block;
+}
 </style>
 
 </html>
