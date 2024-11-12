@@ -1090,20 +1090,7 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
                                                 <div class="is-divider small"></div>
 
                                                 <div class="product-short-description">
-                                                    <p><span style="font-family: avo; color: #000000;"><strong>Mã SP
-                                                                :</strong> DDLS-15SS-T140-ĐM</span></p>
-                                                    <p><span style="font-family: avo; color: #000000;"><strong>Công Suất
-                                                                :</strong> 15w</span></p>
-                                                    <p><span style="font-family: avo; color: #000000;"><strong>Nguồn
-                                                                Điện :</strong> 220V/50Hz</span></p>
-                                                    <p><span style="font-family: avo; color: #000000;"><strong>Ánh Sáng
-                                                                :</strong> 3 màu</span></p>
-                                                    <p><span style="font-family: avo; color: #000000;"><strong>Nhiệt Độ
-                                                                Màu :</strong> 6000K, 3000K, 4000K</span></p>
-                                                    <p><span style="font-family: avo; color: #000000;"><strong>Lỗ Khoét
-                                                                :</strong> Ø110mm</span></p>
-                                                    <p><span style="font-family: avo; color: #000000;"><strong>Chip LED
-                                                                :</strong> SAMSUNG2835</span></p>
+                                                   {!! $product->info !!}
                                                 </div>
 
 
@@ -1122,7 +1109,7 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
 
 
                                                     <span class="sku_wrapper">Mã: <span
-                                                            class="sku">DDLS-15SS-T140-ĐM</span></span>
+                                                            class="sku">{{ $product->code }}</span></span>
 
                                                     <span class="posted_in">
                                                         Danh mục:
@@ -1179,18 +1166,7 @@ var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1
                                                         id="tab-additional_information" role="tabpanel"
                                                         aria-labelledby="tab-title-additional_information">
 
-
-                                                        <table class="woocommerce-product-attributes shop_attributes"
-                                                            aria-label="Chi tiết sản phẩm">
-                                                            <tr
-                                                                class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_m%c3%a0u-%c3%a1nh-s%c3%a1ng">
-                                                                <th class="woocommerce-product-attributes-item__label"
-                                                                    scope="row">Màu ánh sáng</th>
-                                                                <td class="woocommerce-product-attributes-item__value">
-                                                                    <p>Trắng, Vàng, Trung tính</p>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
+                                                        {!! $product->info_bonus !!}
                                                     </div>
                                                     <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--reviews panel entry-content "
                                                         id="tab-reviews" role="tabpanel"

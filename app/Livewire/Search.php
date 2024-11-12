@@ -10,12 +10,13 @@ use App\Models\Category;
 class Search extends Component
 {
     public $products; // Define the public property for products
-
-    public function mount(Request $request)
+    public $search;
+    public function mount(Request $request): void
     {
         // Get query parameters
         $categorySlug = $request->query('product_cat');
         $searchTerm = $request->query('s');
+        $this->search = $searchTerm;
 
         // Start query builder
         $query = Product::query();

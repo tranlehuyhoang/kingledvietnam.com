@@ -1,9 +1,8 @@
 <div>
     <div>
-
-        <!DOCTYPE html>
-        <html lang="vi" class="loading-site no-js">
-
+        @php
+        $settings = App\Models\Setting::first(); // Truy vấn model Settings
+        @endphp
         <head>
 
             <script>
@@ -32,11 +31,11 @@
             <link rel='prefetch'
                 href='/assets/wp-content/themes/flatsome/assets/js/woocommerce.js?ver=dd6035ce106022a74757' />
             <link rel="alternate" type="application/rss+xml" title="Dòng thông tin Đèn LED KingLED &raquo;"
-                href="https://kingledvietnam.com/feed/" />
+                href="/feed/" />
             <link rel="alternate" type="application/rss+xml" title="Đèn LED KingLED &raquo; Dòng bình luận"
-                href="https://kingledvietnam.com/comments/feed/" />
+                href="/comments/feed/" />
             <link rel="alternate" type="application/rss+xml" title="Nguồn tin Đèn LED KingLED &raquo; Sản phẩm"
-                href="https://kingledvietnam.com/cua-hang/feed/" />
+                href="/cua-hang/feed/" />
             <script type="text/javascript">
                 /* <![CDATA[ */
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/kingledvietnam.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=c22ab06377899eb7bf167f0522305700"}};
@@ -942,12 +941,12 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                 <div class="shop-page-title category-page-title page-title ">
                     <div class="page-title-inner flex-row  medium-flex-wrap container">
                         <div class="flex-col flex-grow medium-text-center">
-                            <h1 class="shop-page-title is-xlarge">Kết quả tìm kiếm: &ldquo;&rdquo;</h1>
+                            <h1 class="shop-page-title is-xlarge">Kết quả tìm kiếm: &ldquo;{{ $search }}&rdquo;</h1>
                             <div class="is-large">
                                 <nav class="woocommerce-breadcrumb breadcrumbs uppercase"><a
-                                        href="https://kingledvietnam.com">Trang chủ</a> <span
-                                        class="divider">&#47;</span> <a href="https://kingledvietnam.com/cua-hang/">Cửa
-                                        hàng</a> <span class="divider">&#47;</span> Kết quả tìm kiếm cho &ldquo;&rdquo;
+                                        href="">Trang chủ</a> <span
+                                        class="divider">&#47;</span> <a href="/cua-hang/">Cửa
+                                        hàng</a> <span class="divider">&#47;</span> Kết quả tìm kiếm cho &ldquo;{{ $search }}&rdquo;
                                 </nav>
                             </div>
                             <div class="category-filtering category-filter-row show-for-medium">
@@ -962,7 +961,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                         </div>
                         <div class="flex-col medium-text-center">
                             <p class="woocommerce-result-count hide-for-medium">
-                                Hiển thị 1&ndash;24 của 406 kết quả</p>
+                                Hiển thị {{ $products->count() }} kết quả</p>
                             <form class="woocommerce-ordering" method="get">
                                 <select name="orderby" class="orderby" aria-label="Đơn hàng của cửa hàng">
                                     <option value="relevance" selected='selected'>Độ liên quan</option>
@@ -1048,26 +1047,26 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                         <ul class="page-numbers nav-pagination links text-center">
                                             <li><span aria-current="page" class="page-number current">1</span></li>
                                             <li><a class="page-number"
-                                                    href="https://kingledvietnam.com/page/2/?product_cat&#038;s&#038;post_type=product">2</a>
+                                                    href="/page/2/?product_cat&#038;s&#038;post_type=product">2</a>
                                             </li>
                                             <li><a class="page-number"
-                                                    href="https://kingledvietnam.com/page/3/?product_cat&#038;s&#038;post_type=product">3</a>
+                                                    href="/page/3/?product_cat&#038;s&#038;post_type=product">3</a>
                                             </li>
                                             <li><a class="page-number"
-                                                    href="https://kingledvietnam.com/page/4/?product_cat&#038;s&#038;post_type=product">4</a>
+                                                    href="/page/4/?product_cat&#038;s&#038;post_type=product">4</a>
                                             </li>
                                             <li><span class="page-number dots">&hellip;</span></li>
                                             <li><a class="page-number"
-                                                    href="https://kingledvietnam.com/page/15/?product_cat&#038;s&#038;post_type=product">15</a>
+                                                    href="/page/15/?product_cat&#038;s&#038;post_type=product">15</a>
                                             </li>
                                             <li><a class="page-number"
-                                                    href="https://kingledvietnam.com/page/16/?product_cat&#038;s&#038;post_type=product">16</a>
+                                                    href="/page/16/?product_cat&#038;s&#038;post_type=product">16</a>
                                             </li>
                                             <li><a class="page-number"
-                                                    href="https://kingledvietnam.com/page/17/?product_cat&#038;s&#038;post_type=product">17</a>
+                                                    href="/page/17/?product_cat&#038;s&#038;post_type=product">17</a>
                                             </li>
                                             <li><a aria-label="Tiếp theo" class="next page-number"
-                                                    href="https://kingledvietnam.com/page/2/?product_cat&#038;s&#038;post_type=product"><i
+                                                    href="/page/2/?product_cat&#038;s&#038;post_type=product"><i
                                                         class="icon-angle-right"></i></a></li>
                                         </ul>
                                     </nav>
@@ -1130,7 +1129,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
                                         value="Đăng nhập">Đăng nhập</button>
                                 </p>
                                 <p class="woocommerce-LostPassword lost_password">
-                                    <a href="https://kingledvietnam.com/tai-khoan/lost-password/">Quên mật khẩu?</a>
+                                    <a href="/tai-khoan/lost-password/">Quên mật khẩu?</a>
                                 </p>
 
 
@@ -1700,7 +1699,6 @@ var wc_password_strength_meter_params = {"min_password_strength":"3","stop_check
 
         </body>
 
-        </html>
 
         <!-- Page uncached by LiteSpeed Cache 6.5.1 on 2024-11-09 03:42:37 -->
     </div>
