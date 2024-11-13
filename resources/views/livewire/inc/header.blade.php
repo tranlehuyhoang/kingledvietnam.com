@@ -339,104 +339,36 @@
                             <div class="header-search-form-wrapper">
                                 <div class="searchform-wrapper ux-search-box relative is-normal">
                                     <form role="search" method="get" class="searchform"
-                                        action="https://kingledvietnam.com/">
-                                        <div class="flex-row relative">
-                                            <div class="flex-col search-form-categories">
-                                                <select class="search_categories resize-select mb-0"
-                                                    name="product_cat">
-                                                    <option value="" selected='selected'>Tất cả</option>
-                                                    <option value="den-am-bac-cau-thang">ĐÈN ÂM BẬC CẦU
-                                                        THANG
-                                                    </option>
-                                                    <option value="den-cot-san-vuon">ĐÈN CỘT SÂN VƯỜN
-                                                    </option>
-                                                    <option value="den-exit-chi-huong">ĐÈN EXIT CHỈ
-                                                        HƯỚNG
-                                                    </option>
-                                                    <option value="den-khan-cap-kingled">ĐÈN KHẨN CẤP
-                                                        KINGLED
-                                                    </option>
-                                                    <option value="den-led-am-tran-kingeco">ĐÈN LED ÂM
-                                                        TRẦN
-                                                        KINGECO</option>
-                                                    <option value="den-led-am-tran-kingled">ĐÈN LED ÂM
-                                                        TRẦN
-                                                        KINGLED</option>
-                                                    <option value="den-led-bup-kingled">ĐÈN LED BÚP
-                                                        KINGLED
-                                                    </option>
-                                                    <option value="den-led-day-kingled">ĐÈN LED DÂY
-                                                        KINGLED
-                                                    </option>
-                                                    <option value="den-led-ong-bo-kingled">ĐÈN LED ỐNG
-                                                        BƠ
-                                                        KINGLED</option>
-                                                    <option value="den-led-op-tran-kingled">ĐÈN LED ỐP
-                                                        TRẦN
-                                                        KINGLED</option>
-                                                    <option value="den-led-panel-kingled">ĐÈN LED PANEL
-                                                        KINGLED
-                                                    </option>
-                                                    <option value="den-led-roi-ray-kingled">ĐÈN LED RỌI
-                                                        RAY
-                                                        KINGLED</option>
-                                                    <option value="den-led-spot-light">ĐÈN LED SPOT
-                                                        LIGHT
-                                                    </option>
-                                                    <option value="den-led-tuyp-kingled">ĐÈN LED TUÝP
-                                                        KINGLED
-                                                    </option>
-                                                    <option value="den-nha-xuong">ĐÈN NHÀ XƯỞNG</option>
-                                                    <option value="den-pha-led-kingled">ĐÈN PHA LED
-                                                        KINGLED
-                                                    </option>
-                                                    <option value="den-ray-nam-cham">ĐÈN RAY NAM CHÂM
-                                                    </option>
-                                                    <option value="den-soi-tranh-kingled">ĐÈN SOI TRANH
-                                                        KINGLED
-                                                    </option>
-                                                    <option value="den-tha-trang-tri-kingled">ĐÈN THẢ
-                                                        TRANG TRÍ
-                                                        KINGLED</option>
-                                                    <option value="den-tuong-trang-tri">ĐÈN TƯỜNG TRANG
-                                                        TRÍ
-                                                    </option>
-                                                    <option value="phu-kien-den-led-day">PHỤ KIỆN ĐÈN
-                                                        LED DÂY
-                                                    </option>
-                                                    <option value="phu-kien-den-ray-nam-cham">PHỤ KIỆN
-                                                        ĐÈN RAY
-                                                        NAM CHÂM</option>
-                                                    <option value="quat-suoi-dieu-hoa">QUẠT SƯỞI ĐIỀU
-                                                        HÒA
-                                                    </option>
-                                                    <option value="san-pham-moi-ra-mat">SẢN PHẨM MỚI RA
-                                                        MẮT
-                                                    </option>
-                                                    <option value="thanh-ray-nam-cham-mong">THANH RAY
-                                                        NAM CHÂM
-                                                        MỎNG</option>
-                                                </select>
-                                            </div>
-                                            <div class="flex-col flex-grow">
-                                                <label class="screen-reader-text"
-                                                    for="woocommerce-product-search-field-1">Tìm
-                                                    kiếm:</label>
-                                                <input type="search"
-                                                    id="woocommerce-product-search-field-1"
-                                                    class="search-field mb-0"
-                                                    placeholder="Tìm kiếm&hellip;" value="" name="s" />
-                                                <input type="hidden" name="post_type" value="product" />
-                                            </div>
-                                            <div class="flex-col">
-                                                <button type="submit" value="Tìm kiếm"
-                                                    class="ux-search-submit submit-button secondary button  icon mb-0"
-                                                    aria-label="Gửi">
-                                                    <i class="icon-search"></i> </button>
-                                            </div>
+                                    action="/tim-kiem">
+                                    <div class="flex-row relative">
+                                        <div class="flex-col search-form-categories">
+                                            <select class="search_categories resize-select mb-0" name="product_cat" style="color: #ff3131">
+                                                <option value="" selected='selected'>Tất cả</option>
+                                                @foreach ($categories as $category)
+                                                        <option value="{{ $category->slug }}">{{ strtoupper($category->name) }}</option>
+                                                @endforeach
+                                            </select>
                                         </div>
-                                        <div class="live-search-results text-left z-top"></div>
-                                    </form>
+                                        
+                                        <div class="flex-col flex-grow">
+                                            <label class="screen-reader-text"
+                                                for="woocommerce-product-search-field-0">Tìm
+                                                kiếm:</label>
+                                            <input type="search"
+                                                id="woocommerce-product-search-field-0"
+                                                class="search-field mb-0"
+                                                placeholder="Tìm kiếm&hellip;" value="" name="s" />
+                                            <input type="hidden" name="post_type" value="product" />
+                                        </div>
+                                        <div class="flex-col">
+                                            <button type="submit" value="Tìm kiếm"
+                                                class="ux-search-submit submit-button secondary button  icon mb-0"
+                                                aria-label="Gửi">
+                                                <i class="icon-search"></i> </button>
+                                        </div>
+                                    </div>
+                                    <div class="live-search-results text-left z-top"></div>
+                                </form>
                                 </div>
                             </div>
                         </li>
